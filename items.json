@@ -1,0 +1,7182 @@
+[
+  {
+    "ITEM": "???'s Only Friend",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Contact DMG,Familiar,Fly",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "<3",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room,Unique",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "120 Volt",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Battery Beggar,Item Room",
+    "DESCRIPTION": "Aura/ Circle,Laser/ Beams",
+    "COLORS": "Blue,Brown/ Beige,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "1UP",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Number of Lives",
+    "COLORS": "Green,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "20/20",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Tears",
+    "COLORS": "Black,Transparent",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "2Spooky",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Aura/ Circle,Status Effect",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "3 Dollar Bill",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Many Stats,Multi Trait,Status Effect,Tears",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "4.5 Volt",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Battery Beggar,Shop",
+    "DESCRIPTION": "Enemies,Item Charge",
+    "COLORS": "Black,Pink,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "7 Seals",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Devil Room",
+    "DESCRIPTION": "Contact DMG,Creep,Familiar,Fly",
+    "COLORS": "Brown/ Beige,Red,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "8 Inch Nails",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Knockback,Tears",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "9 Volt",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Battery Beggar,Crane Game,Shop",
+    "DESCRIPTION": "Item Charge",
+    "COLORS": "Black,Brown/ Beige,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "A Bar of Soap",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room",
+    "DESCRIPTION": "Shot Speed Stat,Tear Stat",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "A Dollar",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Coins",
+    "COLORS": "Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "A Lump of Coal",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "DMG Stat,Tears",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "A Pony",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Contact DMG,Dash,Flight,Invincibility,Speed Stat",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "A Pound of Flesh",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Devil Room",
+    "DESCRIPTION": "Items,Pickups",
+    "COLORS": "Black,Red,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "A Quarter",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Golden Chest,Unique",
+    "DESCRIPTION": "Coins",
+    "COLORS": "Gray",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "A Snack",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Abaddon",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Black Hearts,DMG Stat,HP Stat,Speed Stat,Status Effect,Tears",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Abel",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Character",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Abyss",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Familiar,Fly,Items",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Acid Baby",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Enemies,Familiar,Pills,Status Effect",
+    "COLORS": "Brown/ Beige,Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Act of Contrition",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Eternal Heart,Room Chance,Tear Stat",
+    "COLORS": "Brown/ Beige,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Adrenaline",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Item Room",
+    "DESCRIPTION": "DMG Stat,HP Stat",
+    "COLORS": "Gray,Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Akeldama",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Pink,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Alabaster Box",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Items,Soul Hearts",
+    "COLORS": "White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Almond Milk",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Knockback,Tear Stat,Tears",
+    "COLORS": "Blue,Brown/ Beige,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Analog Stick",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Tear Stat,Tears",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Anarchist Cookbook",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Library,Unique",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Anemic",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Creep,Range Stat,When Damaged",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Angelic Prism",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Orbital,Tears",
+    "COLORS": "Green,Red,White,Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Angry Fly",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Contact DMG,Enemies,Familiar,Fly,Orbital",
+    "COLORS": "Red,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Anima Sola",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Enemies,Status Effect",
+    "COLORS": "Black,Orange",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Ankh",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Character,DMG Stat,Number of Lives,Soul Hearts,Speed Stat",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Anti-Gravity",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tear Stat,Tears",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Apple!",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Tear Stat,Tears",
+    "COLORS": "Gray,Green,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Aquarius",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Aries",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Negates DMG,Speed Stat",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Astral Projection",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Flight,Negates DMG,When Damaged",
+    "COLORS": "Pink,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Athame",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room",
+    "DESCRIPTION": "Aura/ Circle,Enemies,Laser/ Beams",
+    "COLORS": "Gray,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Azazel's Rage",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "BackStabber",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Bag of Crafting",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Items,Melee,Pickups",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Ball of Bandages",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Unique",
+    "DESCRIPTION": "Contact DMG,Enemies,Familiar,Orbital,Red Hearts,Status Effect,Tears",
+    "COLORS": "Pink",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Ball of Tar",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep,Status Effect,Tears",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Battery Pack",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Battery Beggar,Shop",
+    "DESCRIPTION": "Batteries,Item Charge",
+    "COLORS": "Black,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "BBF",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Bombs/ Explodes,Familiar,Fly",
+    "COLORS": "Black,Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Belly Button",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Trinkets",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Berserk!",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Invincibility,Melee,Speed Stat,Tear Stat",
+    "COLORS": "Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Best Bud",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Fly,Orbital,When Damaged",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Best Friend",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Enemies,Familiar",
+    "COLORS": "Pink,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Betrayal",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Item Room",
+    "DESCRIPTION": "Enemies",
+    "COLORS": "Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "BFFS!",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop,Ultra Secret Room",
+    "DESCRIPTION": "Familiar",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Big Chubby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Big Fan",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Contact DMG,Familiar,Fly,Orbital",
+    "COLORS": "Brown/ Beige,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Binge Eater",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Items,Many Stats",
+    "COLORS": "Brown/ Beige,Gray,Green,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Binky",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game,Golden Chest",
+    "DESCRIPTION": "Size,Soul Hearts,Tear Stat",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Bird Cage",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,When Damaged",
+    "COLORS": "Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Bird's Eye",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Fire,Tears",
+    "COLORS": "Green,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Birthright",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Character,Multi Trait",
+    "COLORS": "Black,Brown/ Beige,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Black Candle",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Shop",
+    "DESCRIPTION": "Black Hearts,Curses,Room Chance",
+    "COLORS": "Black",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Black Hole",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Enemies,Pickups,Rocks,Throwable",
+    "COLORS": "Black,Pink,Purple",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Black Lotus",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Black Hearts,Heal,HP Stat,Soul Hearts",
+    "COLORS": "Black,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Black Powder",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Devil Room",
+    "DESCRIPTION": "Creep",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Blank Card",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Secret Room,Shop",
+    "DESCRIPTION": "Cards,Multi Trait",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Blanket",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Boss,Heal,Negates DMG,Soul Hearts",
+    "COLORS": "Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Blood Bag",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Ultra Secret Room,Unique",
+    "DESCRIPTION": "Heal,HP Stat,Speed Stat",
+    "COLORS": "Red,Transparent",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Blood Bombs",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Bombs/ Explodes,Creep,Heal,HP Stat,Self Damage",
+    "COLORS": "Red,Transparent",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Blood Clot",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Ultra Secret Room,Unique",
+    "DESCRIPTION": "DMG Stat,Range Stat,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Blood Oath",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room",
+    "DESCRIPTION": "DMG Stat,Self Damage,Speed Stat",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Blood of the Martyr",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room,Wooden Chest",
+    "DESCRIPTION": "DMG Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Blood Puppy",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Item Room,Red Chest,Ultra Secret Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Red Hearts",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Blood Rights",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Item Room",
+    "DESCRIPTION": "Mass Damage,Self Damage",
+    "COLORS": "Brown/ Beige,Gray,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Bloodshot Eye",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Orbital,Tears",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Bloody Gust",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Speed Stat,Tear Stat,When Damaged",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Bloody Lust",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,When Damaged",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Blue Cap",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room",
+    "DESCRIPTION": "Heal,HP Stat,Shot Speed Stat,Tear Stat",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Blue Map",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Shop",
+    "DESCRIPTION": "Map",
+    "COLORS": "Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Bob's Brain",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Rotten Beggar",
+    "DESCRIPTION": "Bombs/ Explodes,Familiar,Status Effect",
+    "COLORS": "Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Bob's Curse",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room,Red Chest,Rotten Beggar,Unique",
+    "DESCRIPTION": "Bombs/ Explodes,Status Effect",
+    "COLORS": "Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Bob's Rotten Head",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Rotten Beggar,Unique",
+    "DESCRIPTION": "Bombs/ Explodes,Status Effect,Throwable",
+    "COLORS": "Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Bobby-Bomb",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Enemies",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Bogo Bombs",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Gray,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Boiled Baby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Bomb Bag",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Familiar",
+    "COLORS": "Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Bomber Boy",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Bone Spurs",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Enemies,Familiar",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Book of Revelations",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room,Item Room,Library",
+    "DESCRIPTION": "Boss,Room Chance,Soul Hearts",
+    "COLORS": "Purple,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Book of Secrets",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Library,Secret Room",
+    "DESCRIPTION": "Map,Multi Trait",
+    "COLORS": "Black,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Book of Shadows",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Library",
+    "DESCRIPTION": "Invincibility",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Book of the Dead",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Item Room,Library",
+    "DESCRIPTION": "Familiar,Orbital",
+    "COLORS": "Black,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Book of Virtues",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room,Library",
+    "DESCRIPTION": "Contact DMG,Familiar,Items,Multi Trait,Orbital,Room Chance,Tears",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Boom!",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Boomerang",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Pickups,Status Effect,Throwable",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Booster Pack",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game,Shop",
+    "DESCRIPTION": "Cards",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Bot Fly",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Crane Game,Item Room,Key Beggar",
+    "DESCRIPTION": "Familiar,Fly,Orbital,Tears",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Box",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Boss Room",
+    "DESCRIPTION": "Pickups,Trinkets",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Box of Friends",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Familiar",
+    "COLORS": "Black,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Box of Spiders",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Spiders",
+    "COLORS": "Gray,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Bozo",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Enemies,Poop,Soul Hearts,Status Effect,When Damaged",
+    "COLORS": "Blue,Red,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Breakfast",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Boss Room",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Breath of Life",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Contact DMG,Invincibility,Laser/ Beams,Self Damage",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Brimstone",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Laser/ Beams,Tear Stat,Tears",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Brimstone Bombs",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Devil Room",
+    "DESCRIPTION": "Bombs/ Explodes,Laser/ Beams",
+    "COLORS": "Black,Gray,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Brittle Bones",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bone Hearts,HP Stat,Tear Stat,When Damaged",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Broken Glass Cannon",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Items",
+    "COLORS": "Transparent,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Broken Modem",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Enemies,Pickups,Status Effect",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Broken Shovel (1)",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Boss,Rooms/ Environment",
+    "COLORS": "Brown/ Beige,Purple",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Broken Shovel (2)",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Boss,Rooms/ Environment",
+    "COLORS": "Brown/ Beige,Purple",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Broken Watch",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Enemies,Status Effect",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Brother Bobby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room,Item Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Brown Nugget",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Familiar,Fly,Poop,Tears",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Bucket of Lard",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Unique",
+    "DESCRIPTION": "HP Stat,Speed Stat",
+    "COLORS": "Gray,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Buddy in a Box",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Crane Game,Shop",
+    "DESCRIPTION": "Familiar,Multi Trait,Tears",
+    "COLORS": "Black,Brown/ Beige,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Bum Friend",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Beggar,Item Room",
+    "DESCRIPTION": "Batteries,Coins,Familiar,Items,Pickups",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Bumbo",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Beggar,Item Room",
+    "DESCRIPTION": "Coins,Contact DMG,Familiar,Items,Pickups,Tears",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Bursting Sack",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Enemies,Spiders",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Butt Bombs",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Mass Damage,Poop,Status Effect",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Butter Bean",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Beggar,Item Room",
+    "DESCRIPTION": "Farts,Knockback,Reflection",
+    "COLORS": "White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "C Section",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Pink,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Caffeine Pill",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Demon Beggar",
+    "DESCRIPTION": "Pills,Size,Speed Stat",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Cain's Other Eye",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Gray,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Cambion Conception",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Familiar,When Damaged",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Camo Undies",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Aura/ Circle,DMG Stat,Speed Stat,Status Effect,Tear Stat",
+    "COLORS": "Pink,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Cancer",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Negates DMG,Soul Hearts,When Damaged",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Candy Heart",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Many Stats,Red Hearts",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Capricorn",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Coins,Keys/ Doors,Many Stats",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Car Battery",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Battery Beggar,Shop",
+    "DESCRIPTION": "Item Charge",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Card Reading",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Teleportation",
+    "COLORS": "Blue,Red,White,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Cat-O-Nine-Tails",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room",
+    "DESCRIPTION": "DMG Stat,Shot Speed Stat",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Celtic Cross",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Invincibility,When Damaged",
+    "COLORS": "Black",
+    "UNLOCK": "Character",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Censer",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Aura/ Circle,Enemies,Status Effect",
+    "COLORS": "Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Ceremonial Robes",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Demon Beggar,Devil Room",
+    "DESCRIPTION": "Black Hearts,DMG Stat",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Champion Belt",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Shop,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Enemies",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Chaos",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room,Shop",
+    "DESCRIPTION": "Items,Pickups",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Charged Baby",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Battery Beggar,Shop",
+    "DESCRIPTION": "Batteries,Familiar,Item Charge,Status Effect",
+    "COLORS": "Gray,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Charm of the Vampire",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Enemies,Heal",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Chemical Peel",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Tears",
+    "COLORS": "Brown/ Beige,Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Chocolate Milk",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Brown/ Beige,Transparent",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Circle of Protection",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Aura/ Circle,Contact DMG,Reflection",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Clear Rune",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Secret Room",
+    "DESCRIPTION": "Multi Trait,Runes",
+    "COLORS": "White",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Clicker",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Character,Items,Many Stats",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Compost",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Rotten Beggar,Shop",
+    "DESCRIPTION": "Fly,Pickups,Spiders",
+    "COLORS": "Brown/ Beige,Gray,Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Compound Fracture",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Range Stat,Tears",
+    "COLORS": "Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Cone Head",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Negates DMG,Soul Hearts",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Consolation Prize",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game,Golden Chest",
+    "DESCRIPTION": "Bombs/ Explodes,Coins,Keys/ Doors,Many Stats",
+    "COLORS": "Brown/ Beige,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Contagion",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Enemies,Status Effect",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Continuum",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Range Stat,Tears",
+    "COLORS": "Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Contract From Below",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Demon Beggar,Devil Room",
+    "DESCRIPTION": "Pickups",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Converter",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Black Hearts,HP Stat,Soul Hearts",
+    "COLORS": "Blue,Gray,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Coupon",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop,Unique",
+    "DESCRIPTION": "Items,Pickups",
+    "COLORS": "Green,Pink,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Crack Jacks",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Golden Chest",
+    "DESCRIPTION": "Heal,HP Stat,Trinkets",
+    "COLORS": "Brown/ Beige,Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Crack The Sky",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Laser/ Beams",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Cracked Orb",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Keys/ Doors,Map,Rocks,When Damaged",
+    "COLORS": "Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Cricket's Body",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Range Stat,Tear Stat,Tears",
+    "COLORS": "Brown/ Beige,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Cricket's Head",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "DMG Stat",
+    "COLORS": "Brown/ Beige,Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Crooked Penny",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Beggar,Item Room,Shop",
+    "DESCRIPTION": "Chests,Coins,Items,Pickups",
+    "COLORS": "Brown/ Beige,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Crown of Light",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "DMG Stat,Shot Speed Stat,Soul Hearts,Tears",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Crystal Ball",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Cards,Map,Room Chance,Runes,Soul Hearts",
+    "COLORS": "Purple,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Cube Baby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Status Effect",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Cube of Meat",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Ultra Secret Room,Unique",
+    "DESCRIPTION": "Contact DMG,Familiar,Orbital,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Cupid's Arrow",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Curse of The Tower",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Item Room,Red Chest",
+    "DESCRIPTION": "Bombs/ Explodes,When Damaged",
+    "COLORS": "Blue,Gray,Orange",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Cursed Eye",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Red Chest,Secret Room",
+    "DESCRIPTION": "Tears,Teleportation,When Damaged",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "D Infinity",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Enemies,Items,Many Stats,Multi Trait,Pickups,Rooms/ Environment",
+    "COLORS": "Pink,White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "D1",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Chests,Pickups",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "D10",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Enemies",
+    "COLORS": "Orange",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "D100",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Enemies,Items,Many Stats,Multi Trait,Pickups,Rooms/ Environment",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "D12",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Rocks",
+    "COLORS": "Blue",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "D20",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Chests,Pickups",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "D4",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Items",
+    "COLORS": "Green",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "D7",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Enemies,Rooms/ Environment",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "D8",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Many Stats",
+    "COLORS": "Black",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Dad's Key",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Key Beggar,Old Chest",
+    "DESCRIPTION": "Keys/ Doors",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Dad's Lost Coin",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Boss Room,Golden Chest,Old Chest",
+    "DESCRIPTION": "Coins,Luck Stat,Range Stat",
+    "COLORS": "Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Dad's Note",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Rooms/ Environment,Teleportation",
+    "COLORS": "White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Dad's Ring",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Old Chest,Secret Room",
+    "DESCRIPTION": "Aura/ Circle,Enemies,Status Effect",
+    "COLORS": "Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Daddy Longlegs",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Spiders",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Damocles",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room",
+    "DESCRIPTION": "Items,Self Damage",
+    "COLORS": "Brown/ Beige,Gray,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Dark Arts",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Aura/ Circle,Contact DMG,Invincibility,Melee,Speed Stat",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Dark Bum",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Demon Beggar,Devil Room,Item Room",
+    "DESCRIPTION": "Black Hearts,Cards,Familiar,Pills,Red Hearts,Runes,Spiders",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Dark Matter",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Devil Room",
+    "DESCRIPTION": "DMG Stat,Status Effect,Tears",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Dark Prince's Crown",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room",
+    "DESCRIPTION": "Range Stat,Shot Speed Stat,Tear Stat",
+    "COLORS": "Black",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Dataminer",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Items,Many Stats,Rooms/ Environment",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Dead Bird",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,When Damaged",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Dead Cat",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room,Red Chest,Unique",
+    "DESCRIPTION": "HP Stat,Number of Lives",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Dead Dove",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Flight,Tears",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Dead Eye",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Tears",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Dead Onion",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Rotten Beggar",
+    "DESCRIPTION": "Range Stat,Shot Speed Stat,Tears",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Dead Sea Scrolls",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Multi Trait",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Dead Tooth",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Aura/ Circle,Status Effect,Tears",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Death Certificate",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Items,Teleportation",
+    "COLORS": "Blue,Gray",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Death's List",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room",
+    "DESCRIPTION": "Enemies,Many Stats,Pickups",
+    "COLORS": "Black,Brown/ Beige,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Death's Touch",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Item Room",
+    "DESCRIPTION": "DMG Stat,Tear Stat,Tears",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Decap Attack",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Tears,Throwable",
+    "COLORS": "Blue,Pink",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Deck of Cards",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room,Shop",
+    "DESCRIPTION": "Cards",
+    "COLORS": "Brown/ Beige,Pink,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Deep Pockets",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Coins",
+    "COLORS": "Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Delirious",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Boss,Familiar",
+    "COLORS": "Pink,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Demon Baby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room,Item Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Black",
+    "UNLOCK": "Character",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Depression",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep,Familiar,Laser/ Beams",
+    "COLORS": "Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Dessert",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Boss Room",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Dinner",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Boss Room",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Diplopia",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Items,Pickups",
+    "COLORS": "Black,Gray,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Dirty Mind",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Familiar,Poop,Rocks",
+    "COLORS": "Brown/ Beige,Red",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Distant Admiration",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Contact DMG,Familiar,Fly,Orbital",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Divine Intervention",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Knockback,Reflection",
+    "COLORS": "White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Divorce Papers",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Old Chest",
+    "DESCRIPTION": "Bone Hearts,Tear Stat,Trinkets",
+    "COLORS": "Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Doctor's Remote",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Dog Tooth",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Rooms/ Environment,Speed Stat",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Dogma",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "DMG Stat,Flight,HP Stat,Negates DMG,Speed Stat",
+    "COLORS": "Blue",
+    "UNLOCK": "None",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Dr. Fetus",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Tear Stat,Tears",
+    "COLORS": "Pink,Transparent",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Dream Catcher",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Boss,Items,Soul Hearts",
+    "COLORS": "Black,Blue,Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Dry Baby",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Unique",
+    "DESCRIPTION": "Familiar,Mass Damage",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Duality",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Devil Room",
+    "DESCRIPTION": "Room Chance",
+    "COLORS": "Black,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Dull Razor",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Self Damage",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "E. Coli",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Poop",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Echo Chamber",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room,Ultra Secret Room",
+    "DESCRIPTION": "Cards,Pills,Runes",
+    "COLORS": "Brown/ Beige,Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Eden's Blessing",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Items,Tear Stat",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Eden's Soul",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Items",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Empty Heart",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Item Room",
+    "DESCRIPTION": "HP Stat",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Empty Vessel",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Devil Room",
+    "DESCRIPTION": "Black Hearts,Flight,Invincibility",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Epic Fetus",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Bombs/ Explodes,Tears",
+    "COLORS": "Black,Pink,Transparent",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Epiphora",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tear Stat,Tears",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Eraser",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Enemies,Throwable",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Esau Jr",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Secret Room,Ultra Secret Room",
+    "DESCRIPTION": "Black Hearts,Character,DMG Stat,Flight,Items",
+    "COLORS": "Black,Red,Transparent",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Eternal D6",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room,Secret Room",
+    "DESCRIPTION": "Items",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Eucharist",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Room Chance",
+    "COLORS": "White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Euthanasia",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Demon Beggar,Item Room",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Eve's Mascara",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Shot Speed Stat,Tear Stat",
+    "COLORS": "Black",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Everything Jar",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Multi Trait,Pickups,Poop",
+    "COLORS": "Purple,Transparent",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Evil Charm",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Creep,Fire,Luck Stat,Status Effect",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Evil Eye",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Experimental Treatment",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Demon Beggar,Item Room",
+    "DESCRIPTION": "Many Stats",
+    "COLORS": "Gray,Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Explosivo",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Tears",
+    "COLORS": "Black,Orange",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Eye Drops",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room",
+    "DESCRIPTION": "Tear Stat",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Eye of Belial",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Range Stat,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Eye of Greed",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Coins,Status Effect,Tears",
+    "COLORS": "Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Eye of the Occult",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Range Stat,Shot Speed Stat,Tears",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Eye Sore",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Pink,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "False PHD",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room,Red Chest,Ultra Secret Room",
+    "DESCRIPTION": "Black Hearts,DMG Stat,Pills",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Fanny pack",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Shop",
+    "DESCRIPTION": "Pickups,When Damaged",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Farting Baby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Farts,Knockback,Status Effect",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Fast Bombs",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Black,Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Fate",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Golden Chest",
+    "DESCRIPTION": "Eternal Heart,Flight",
+    "COLORS": "Blue",
+    "UNLOCK": "Character",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Fate's Reward",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Blue",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Finger!",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Familiar,Laser/ Beams",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Fire Mind",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Fire,Status Effect,Tears",
+    "COLORS": "Black,Orange",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Flat Stone",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Blue,Gray",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Flip",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Curse Room,Secret Room,Ultra Secret Room",
+    "DESCRIPTION": "Items",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "FLUSH!",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Boss,Enemies,Poop,Rooms/ Environment",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Forever Alone",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar,Unique",
+    "DESCRIPTION": "Contact DMG,Familiar,Fly,Orbital",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Forget Me Now",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Demon Beggar,Devil Room,Item Room,Secret Room",
+    "DESCRIPTION": "Rooms/ Environment",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Fortune Cookie",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Cards,Runes,Soul Hearts,Trinkets",
+    "COLORS": "Brown/ Beige,Gray,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Free Lemonade",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep",
+    "COLORS": "Transparent,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Freezer Baby",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Status Effect,Tears",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Friend Finder",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Enemies,Familiar",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Friend Zone",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Contact DMG,Familiar,Fly,Orbital",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Friendly Ball",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Enemies,Throwable",
+    "COLORS": "Blue,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Fruit Cake",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Multi Trait,Status Effect,Tears",
+    "COLORS": "Brown/ Beige,Green,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Fruity Plum",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Crane Game,Item Room,Key Beggar",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Purple,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "GB Bug",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Enemies,Familiar,Pickups,Trinkets",
+    "COLORS": "Green,Red,White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Gello",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Tears",
+    "COLORS": "Pink,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Gemini",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Genesis",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Items,Many Stats,Rooms/ Environment,Teleportation",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Ghost Baby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room,Item Room,Unique",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Ghost Bombs",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Familiar",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Ghost Pepper",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Fire,Tears",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Giant Cell",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Familiar,Tears,When Damaged",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Gimpy",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Demon Beggar,Devil Room,Item Room",
+    "DESCRIPTION": "Enemies,Red Hearts,Soul Hearts,When Damaged",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Glass Cannon",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Creep,Range Stat,Tears,When Damaged",
+    "COLORS": "Transparent,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Glass Eye",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game,Golden Chest",
+    "DESCRIPTION": "DMG Stat,Luck Stat",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Glaucoma",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Glitched Crown",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Items",
+    "COLORS": "Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Glitter Bombs",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Pickups,Status Effect",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Glowing Hourglass",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room,Shop",
+    "DESCRIPTION": "Rooms/ Environment",
+    "COLORS": "Blue,Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Glyph of Balance",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Pickups,Soul Hearts",
+    "COLORS": "Blue",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Gnawed Leaf",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Invincibility",
+    "COLORS": "Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Goat Head",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room",
+    "DESCRIPTION": "Room Chance",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "God's Flesh",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Size,Status Effect,Tears",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Godhead",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Aura/ Circle,DMG Stat,Shot Speed Stat,Tear Stat,Tears",
+    "COLORS": "Black,Blue,Red,White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Golden Razor",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Coins,DMG Stat",
+    "COLORS": "Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Greed's Gullet",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Coins,HP Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Growth Hormones",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Demon Beggar",
+    "DESCRIPTION": "DMG Stat,Speed Stat",
+    "COLORS": "Gray,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Guardian Angel",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Baby Shop",
+    "DESCRIPTION": "Contact DMG,Familiar,Orbital",
+    "COLORS": "Pink,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Guppy's Collar",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Curse Room,Devil Room,Red Chest",
+    "DESCRIPTION": "Number of Lives",
+    "COLORS": "Pink,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Guppy's Eye",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room,Red Chest",
+    "DESCRIPTION": "Chests,Fire,Pickups,Sacks",
+    "COLORS": "Orange",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Guppy's Hairball",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room",
+    "DESCRIPTION": "Contact DMG,Familiar",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Guppy's Head",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Curse Room,Devil Room,Red Chest",
+    "DESCRIPTION": "Fly",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Guppy's Paw",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Curse Room,Devil Room,Red Chest",
+    "DESCRIPTION": "HP Stat,Soul Hearts",
+    "COLORS": "Black,Gray,Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Guppy's Tail",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room,Red Chest",
+    "DESCRIPTION": "Chests",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Habit",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Shop",
+    "DESCRIPTION": "Item Charge,When Damaged",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Haemolacria",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Many Stats,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Hallowed Ground",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Aura/ Circle,DMG Stat,Familiar,Negates DMG,Poop,Tear Stat,Tears,When Damaged",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Halo of Flies",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Fly,Orbital",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Harlequin Baby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Pink,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Head of Krampus",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "Black,Gray,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Head of the Keeper",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Coins,Tears",
+    "COLORS": "Gray,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Headless Baby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room,Item Room",
+    "DESCRIPTION": "Creep,Familiar",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Heartbreak",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Broken Hearts,DMG Stat",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Hemoptysis",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Knockback,Reflection,Status Effect,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Hive Mind",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Fly,Spiders",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Hold",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Poop,Throwable",
+    "COLORS": "Orange,Transparent",
+    "UNLOCK": "None",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Holy Grail",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Flight,Heal,HP Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Holy Light!",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "Black,Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Holy Mantle",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Negates DMG",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Holy Water",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Creep,Familiar,Status Effect",
+    "COLORS": "Blue,Transparent",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Host Hat",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Familiar,Negates DMG,Tears",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Hot Bombs",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Contact DMG,Fire",
+    "COLORS": "Black,Orange",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "How To Jump",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Library",
+    "DESCRIPTION": "Dash",
+    "COLORS": "Blue,Brown/ Beige,Gray,Orange,Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Humbleing Bundle",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Pickups",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Hungry Soul",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Bombs/ Explodes,Contact DMG,Enemies,Familiar",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Hushy",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Tears",
+    "COLORS": "Blue",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Hypercoagulation",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Red Hearts,When Damaged",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "IBS",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Poop,Throwable",
+    "COLORS": "Pink",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Immaculate Conception",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Familiar,Heal,Soul Hearts",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Immaculate Heart",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Heal,HP Stat,Orbital,Tears",
+    "COLORS": "Orange,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Incubus",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Infamy",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Negates DMG",
+    "COLORS": "Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Infestation",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Fly,When Damaged",
+    "COLORS": "Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Infestation 2",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Enemies,Spiders",
+    "COLORS": "Orange",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Inner Child",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room,Unique",
+    "DESCRIPTION": "Bombs/ Explodes,Number of Lives,Size,Speed Stat",
+    "COLORS": "Pink",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Ipecac",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,DMG Stat,Status Effect,Tear Stat,Tears",
+    "COLORS": "Purple,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Iron Bar",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Status Effect,Tears",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Isaac's Heart",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Contact DMG,Creep,Familiar,Knockback,Negates DMG,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Isaac's Tears",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Blue,Transparent",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Isaac's Tomb",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Chests",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "It Hurts",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep,Tear Stat,Tears,When Damaged",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "IV Bag",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Ultra Secret Room,Unique",
+    "DESCRIPTION": "Coins,Self Damage",
+    "COLORS": "Red,Transparent",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Jacob's Ladder",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Battery Beggar,Crane Game,Item Room",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "Blue,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Jar of Flies",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Enemies,Fly",
+    "COLORS": "Black,Transparent",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Jar of Wisps",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Orbital,Tears",
+    "COLORS": "Blue,Brown/ Beige,Transparent,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Jaw Bone",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Pickups",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Jesus Juice",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Boss Room",
+    "DESCRIPTION": "DMG Stat,Range Stat",
+    "COLORS": "Purple,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Judas' Shadow",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room",
+    "DESCRIPTION": "Black Hearts,Character,DMG Stat,Number of Lives,Speed Stat",
+    "COLORS": "Black",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Juicy Sack",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Creep,Familiar,Spiders",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Jumper Cables",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Battery Beggar,Shop",
+    "DESCRIPTION": "Enemies,Item Charge",
+    "COLORS": "Black,Gray,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Jupiter",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "Farts,HP Stat,Speed Stat,Status Effect",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Kamikaze",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Bombs/ Explodes,Self Damage",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Keeper's Box",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Secret Room,Shop,Wooden Chest",
+    "DESCRIPTION": "Items,Pickups",
+    "COLORS": "Brown/ Beige,Orange",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Keeper's Kin",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Rocks,Spiders",
+    "COLORS": "Blue,Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Keeper's Sack",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room,Shop",
+    "DESCRIPTION": "Coins,DMG Stat,Keys/ Doors,Range Stat,Speed Stat",
+    "COLORS": "Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Key Bum",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar,Secret Room",
+    "DESCRIPTION": "Chests,Familiar,Keys/ Doors",
+    "COLORS": "Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Key Piece 1",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Eternal Heart,Familiar,Keys/ Doors,Room Chance",
+    "COLORS": "Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Key Piece 2",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Eternal Heart,Familiar,Keys/ Doors,Room Chance",
+    "COLORS": "Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Kidney Bean",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Farts,Status Effect",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Kidney Stone",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tear Stat,Tears",
+    "COLORS": "Brown/ Beige,Red",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "King Baby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Shop",
+    "DESCRIPTION": "Familiar",
+    "COLORS": "Blue,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Knife Piece 1",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Contact DMG,Familiar,Keys/ Doors",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Knife Piece 2",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Contact DMG,Familiar,Keys/ Doors",
+    "COLORS": "Gray",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Knockout Drops",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Knockback,Status Effect,Tears",
+    "COLORS": "Black,Red,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Lachryphagy",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Large Zit",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep,Status Effect,Tears",
+    "COLORS": "Pink,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Larynx",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Aura/ Circle,Mass Damage",
+    "COLORS": "Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Latch Key",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Golden Chest,Key Beggar",
+    "DESCRIPTION": "Keys/ Doors,Luck Stat,Soul Hearts",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Lazarus' Rags",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Character,Creep,Many Stats,Number of Lives",
+    "COLORS": "Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Lead Pencil",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Golden Chest,Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Pink,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Leech",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Unique",
+    "DESCRIPTION": "Contact DMG,Familiar,Heal",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Lemegeton",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Library",
+    "DESCRIPTION": "Contact DMG,Familiar,Items,Multi Trait,Orbital",
+    "COLORS": "Black,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Lemon Mishap",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep",
+    "COLORS": "Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Leo",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Rocks,Size",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Leprosy",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Orbital,When Damaged",
+    "COLORS": "Pink,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Libra",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Coins,Keys/ Doors,Many Stats",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Lil Abaddon",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room",
+    "DESCRIPTION": "Aura/ Circle,Familiar,Laser/ Beams",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Lil Brimstone",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room,Item Room",
+    "DESCRIPTION": "Familiar,Laser/ Beams,Tears",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Lil Chest",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Crane Game,Item Room,Wooden Chest",
+    "DESCRIPTION": "Familiar,Pickups,Trinkets",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Lil Delirium",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Baby Shop,Devil Room",
+    "DESCRIPTION": "Familiar,Multi Trait",
+    "COLORS": "Pink,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Lil Dumpy",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Farts,Knockback,Reflection",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Lil Gurdy",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar",
+    "COLORS": "Brown/ Beige,Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Lil Haunt",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Status Effect",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Lil Loki",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Lil Monstro",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Lil Portal",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Fly,Pickups,Rooms/ Environment,Teleportation",
+    "COLORS": "Black,Purple,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Lil Spewer",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Creep,Familiar,Pills",
+    "COLORS": "Pink",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Linger Bean",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Item Room",
+    "DESCRIPTION": "Farts,Tears",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Little Baggy",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Cards,Pills,Runes",
+    "COLORS": "Brown/ Beige,Purple,Transparent,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Little C.H.A.D",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Ultra Secret Room,Unique",
+    "DESCRIPTION": "Familiar,Red Hearts",
+    "COLORS": "Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Little Chubby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar",
+    "COLORS": "White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Little Gish",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Unique",
+    "DESCRIPTION": "Familiar,Status Effect,Tears",
+    "COLORS": "Black,Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Little Horn",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Demon Beggar,Devil Room",
+    "DESCRIPTION": "Contact DMG,Status Effect,Tears",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Little Steven",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Unique",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Black,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Lodestone",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Loki's Horns",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Lord of the Pit",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Flight,Speed Stat",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Lost Contact",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Shot Speed Stat,Tears",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Lost Fly",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Contact DMG,Enemies,Familiar,Fly,Rooms/ Environment",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Lost Soul",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Secret Room",
+    "DESCRIPTION": "Eternal Heart,Familiar,Items,Soul Hearts",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Lucky Foot",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Crane Game,Item Room",
+    "DESCRIPTION": "Luck Stat,Pills",
+    "COLORS": "Pink,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Luna",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "Rooms/ Environment,Soul Hearts,Tear Stat",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Lunch",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Boss Room,Unique",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Lusty Blood",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Enemies",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Maggy's Bow",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Pink",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Magic 8 Ball",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game,Golden Chest",
+    "DESCRIPTION": "Cards,Room Chance,Shot Speed Stat",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Magic Fingers",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Shop",
+    "DESCRIPTION": "Coins,Mass Damage",
+    "COLORS": "Brown/ Beige,Gray,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Magic Mushroom",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room,Unique",
+    "DESCRIPTION": "Heal,Many Stats,Size",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Magic Scab",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Ultra Secret Room",
+    "DESCRIPTION": "Heal,HP Stat,Luck Stat",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Magic Skin",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Curse Room,Red Chest,Shop",
+    "DESCRIPTION": "Broken Hearts,Items",
+    "COLORS": "Pink",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Magneto",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Chests,Pickups",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "MaMa Mega!",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Bomb Beggar,Shop",
+    "DESCRIPTION": "Bombs/ Explodes,Keys/ Doors,Mass Damage,Rocks",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Marbles",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game",
+    "DESCRIPTION": "Trinkets,When Damaged",
+    "COLORS": "Blue,Brown/ Beige,Green,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Marked",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Range Stat,Tear Stat,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Marrow",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Ultra Secret Room",
+    "DESCRIPTION": "Bone Hearts,Red Hearts",
+    "COLORS": "Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Mars",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "Contact DMG,Dash,Invincibility,Knockback,Speed Stat",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Match Book",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Golden Chest",
+    "DESCRIPTION": "Black Hearts,Bombs/ Explodes,Trinkets",
+    "COLORS": "Gray,Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Maw of The Void",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Aura/ Circle,Laser/ Beams,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Meat Cleaver",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Enemies,Mass Damage,Size",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "MEAT!",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Heal,HP Stat",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Mega Bean",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Enemies,Farts,Reflection,Status Effect",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Mega Blast",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Mega Mush",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Contact DMG,DMG Stat,Invincibility,Range Stat,Rocks,Size",
+    "COLORS": "White,Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Member Card",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Rooms/ Environment",
+    "COLORS": "Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Mercurius",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "Keys/ Doors,Speed Stat",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Metal Plate",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Reflection,Soul Hearts,Status Effect",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Metronome",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room,Wooden Chest",
+    "DESCRIPTION": "Multi Trait",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Midas Touch",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Coins,Contact DMG,Status Effect",
+    "COLORS": "Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Midnight Snack",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Boss Room,Golden Chest",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Brown/ Beige,Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Milk!",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Familiar,Tear Stat",
+    "COLORS": "Transparent,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Mine Crafter",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Orange,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Mini Mush",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Unique",
+    "DESCRIPTION": "Range Stat,Size,Speed Stat",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Missing No",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Items,Many Stats",
+    "COLORS": "Blue,Red,White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Missing Page 2",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Devil Room,Secret Room",
+    "DESCRIPTION": "Black Hearts,Mass Damage,When Damaged",
+    "COLORS": "Brown/ Beige,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Mitre",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Soul Hearts",
+    "COLORS": "White,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Mom's Bottle of Pills",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Beggar,Crane Game,Demon Beggar,Item Room,Mom's Chest,Old Chest,Shop",
+    "DESCRIPTION": "Pills",
+    "COLORS": "Blue,Red,White,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mom's Box",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Mom's Chest,Old Chest,Shop,Wooden Chest",
+    "DESCRIPTION": "Luck Stat,Trinkets",
+    "COLORS": "Black,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Mom's Bra",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Mom's Chest,Old Chest",
+    "DESCRIPTION": "Enemies,Status Effect",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mom's Bracelet",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Old Chest,Shop",
+    "DESCRIPTION": "Rocks,Throwable",
+    "COLORS": "Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Mom's Coin Purse",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Boss Room,Demon Beggar,Mom's Chest,Old Chest,Shop",
+    "DESCRIPTION": "Pills",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Mom's Contacts",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Mom's Chest,Old Chest,Ultra Secret Room",
+    "DESCRIPTION": "Range Stat,Status Effect,Tears",
+    "COLORS": "Pink,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mom's Eye",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Mom's Chest,Old Chest",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Black,Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mom's Eyeshadow",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Mom's Chest,Old Chest",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "Blue,Gray,Orange",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Mom's Heels",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Mom's Chest,Old Chest,Ultra Secret Room",
+    "DESCRIPTION": "Contact DMG,Range Stat",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mom's Key",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Key Beggar,Mom's Chest,Old Chest,Shop",
+    "DESCRIPTION": "Chests,Keys/ Doors",
+    "COLORS": "Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Mom's Knife",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Item Room,Mom's Chest,Old Chest",
+    "DESCRIPTION": "Melee,Tears",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mom's Lipstick",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Mom's Chest,Old Chest,Ultra Secret Room",
+    "DESCRIPTION": "Black Hearts,Bone Hearts,Eternal Heart,Range Stat,Red Hearts,Rotten Hearts,Soul Hearts",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mom's Pad",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Mom's Chest,Old Chest",
+    "DESCRIPTION": "Enemies,Fly,Status Effect",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mom's Pearls",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Golden Chest,Mom's Chest,Old Chest",
+    "DESCRIPTION": "Luck Stat,Range Stat,Soul Hearts",
+    "COLORS": "Gray,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Mom's Perfume",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Mom's Chest,Old Chest",
+    "DESCRIPTION": "Status Effect,Tear Stat,Tears",
+    "COLORS": "Brown/ Beige,White,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Mom's Purse",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Mom's Chest,Old Chest,Shop",
+    "DESCRIPTION": "Trinkets",
+    "COLORS": "Pink,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Mom's Razor",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Mom's Chest,Old Chest",
+    "DESCRIPTION": "Contact DMG,Orbital,Status Effect",
+    "COLORS": "Gray,Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Mom's Ring",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Golden Chest,Mom's Chest,Old Chest",
+    "DESCRIPTION": "DMG Stat,Runes",
+    "COLORS": "Purple,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Mom's Shovel",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Rooms/ Environment",
+    "COLORS": "Brown/ Beige,Purple",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Mom's Underwear",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Golden Chest,Mom's Chest,Old Chest",
+    "DESCRIPTION": "Fly,Range Stat",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mom's Wig",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Mom's Chest,Old Chest",
+    "DESCRIPTION": "Heal,Spiders,Tears",
+    "COLORS": "Orange",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Money = Power",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Coins,DMG Stat",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mongo Baby",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Multi Trait,Tears",
+    "COLORS": "Blue,Gray,Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Monster Manual",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Item Room,Library",
+    "DESCRIPTION": "Familiar,Multi Trait",
+    "COLORS": "Blue,Brown/ Beige,Green,Pink,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Monstrance",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Aura/ Circle,Contact DMG",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Monstro's Lung",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tear Stat,Tears",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Monstro's Tooth",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Boss,Familiar",
+    "COLORS": "Red,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Montezuma's Revenge",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Laser/ Beams,Poop,Tears",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "More Options",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Items",
+    "COLORS": "Black,Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Moving Box",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Chests,Items,Pickups",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Mr. Boom",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Bomb Beggar,Item Room,Unique",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mr. Dolly",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game,Golden Chest",
+    "DESCRIPTION": "Black Hearts,Range Stat,Red Hearts,Soul Hearts,Tear Stat",
+    "COLORS": "Pink,Red,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Mr. ME!",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Key Beggar,Shop,Wooden Chest",
+    "DESCRIPTION": "Enemies,Familiar,Items,Keys/ Doors,Rooms/ Environment",
+    "COLORS": "Brown/ Beige,Gray,Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Mr. Mega",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room,Unique",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Gray",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Mucormycosis",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "Blue,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Multidimensional Baby",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Item Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Mutant Spider",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Spiders,Tear Stat,Tears",
+    "COLORS": "Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "My Little Unicorn",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Invincibility,Speed Stat",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "My Reflection",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Many Stats,Tears",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "My Shadow",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room",
+    "DESCRIPTION": "Contact DMG,Familiar",
+    "COLORS": "Black",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Mysterious Liquid",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep,Tears",
+    "COLORS": "Gray,Green,Transparent",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Mystery Egg",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Enemies,Familiar,When Damaged",
+    "COLORS": "Pink",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Mystery Gift",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Items",
+    "COLORS": "Green,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Mystery Sack",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Item Room,Secret Room",
+    "DESCRIPTION": "Familiar,Pickups",
+    "COLORS": "Purple",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Nancy Bombs",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Multi Trait",
+    "COLORS": "Pink,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Neptunus",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Night Light",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Aura/ Circle,Curses,Status Effect",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "No. 2",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Farts,Mass Damage,Poop,Status Effect,Tears",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Notched Axe",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Keys/ Doors,Melee,Rocks",
+    "COLORS": "Brown/ Beige,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Number One",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Range Stat,Tear Stat,Tears",
+    "COLORS": "Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Obsessed Fan",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Contact DMG,Familiar,Fly",
+    "COLORS": "Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Ocular Rift",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Enemies,Pickups,Tears",
+    "COLORS": "Red,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Odd Mushroom (Large)",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Many Stats",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Odd Mushroom (Thin)",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "DMG Stat,Speed Stat,Tear Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Old Bandage",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room",
+    "DESCRIPTION": "HP Stat,Red Hearts,When Damaged",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Options?",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Chests,Pickups,Rooms/ Environment",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Orphan Socks",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Golden Chest,Secret Room",
+    "DESCRIPTION": "Creep,Soul Hearts,Speed Stat",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Ouija Board",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Devil Room,Item Room",
+    "DESCRIPTION": "Tear Stat,Tears",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Pageant Boy",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room",
+    "DESCRIPTION": "Coins",
+    "COLORS": "Pink,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Pandora's Box",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Red Chest,Shop",
+    "DESCRIPTION": "Items,Multi Trait,Pickups",
+    "COLORS": "Blue",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Papa Fly",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Familiar,Fly,Tears",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Parasitoid",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep,Fly,Spiders,Tears",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Paschal Candle",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Tear Stat,When Damaged",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Pause",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Enemies,Status Effect",
+    "COLORS": "Black,Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Pay To Play",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Chests,Coins,Keys/ Doors",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Pentagram",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game,Curse Room,Demon Beggar,Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Room Chance",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "PhD",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Shop",
+    "DESCRIPTION": "Heal,Pills",
+    "COLORS": "Pink,White,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Piggy Bank",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room,Shop",
+    "DESCRIPTION": "Coins,When Damaged",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Pinking Shears",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Flight",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Pisces",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Knockback,Tear Stat,Tears",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "PJs",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Golden Chest",
+    "DESCRIPTION": "Heal,Soul Hearts",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Placebo",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Secret Room,Shop",
+    "DESCRIPTION": "Multi Trait,Pills",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Placenta",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Unique",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Purple,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Plan C",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Curse Room,Demon Beggar,Devil Room,Red Chest,Shop,Ultra Secret Room",
+    "DESCRIPTION": "Mass Damage,Self Damage",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Playdough Cookie",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Multi Trait,Status Effect,Tears",
+    "COLORS": "Brown/ Beige,Green,Purple,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Plum Flute",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Ultra Secret Room,Unique",
+    "DESCRIPTION": "Boss,Familiar",
+    "COLORS": "Brown/ Beige,Red,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Pluto",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "Size,Tear Stat",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Pointy Rib",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar",
+    "COLORS": "Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Poke Go",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Enemies,Familiar",
+    "COLORS": "Black,Blue,Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Polydactyly",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Cards,Pills,Runes",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Polyphemus",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Tear Stat,Tears",
+    "COLORS": "Black,Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Pop!",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Red,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Portable Slot",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Ultra Secret Room,Unique",
+    "DESCRIPTION": "Coins,Fly,Pickups",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Potato Peeler",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Demon Beggar,Shop",
+    "DESCRIPTION": "Creep,DMG Stat,HP Stat,Orbital,Range Stat,Self Damage",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Prayer Card",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Eternal Heart",
+    "COLORS": "Blue,White,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Proptosis",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Range Stat,Tears",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Psy Fly",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Familiar,Fly,Orbital",
+    "COLORS": "Black,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Punching Bag",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Enemies,Familiar",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Pupula Duplex",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Black,Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Purgatory",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Devil Room",
+    "DESCRIPTION": "Bombs/ Explodes,Familiar,Rooms/ Environment",
+    "COLORS": "Pink,White",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Purity",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Many Stats,When Damaged",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Pyro",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room,Secret Room",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Pyromaniac",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Heal",
+    "COLORS": "Orange,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Quints",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Enemies,Familiar,Multi Trait,Tears",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "R Key",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Rooms/ Environment",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Rainbow Baby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Multi Trait,Status Effect,Tears",
+    "COLORS": "Blue,Green,Purple,Red,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Raw Liver",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Razor Blade",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Curse Room,Demon Beggar,Item Room",
+    "DESCRIPTION": "DMG Stat,Self Damage",
+    "COLORS": "Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Recall",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Character,Throwable",
+    "COLORS": "Blue,White",
+    "UNLOCK": "None",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Red Candle",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop,Ultra Secret Room",
+    "DESCRIPTION": "Fire,Throwable",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Red Key",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Curse Room,Key Beggar,Mom's Chest,Red Chest,Secret Room,Ultra Secret Room",
+    "DESCRIPTION": "Keys/ Doors,Rooms/ Environment",
+    "COLORS": "Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Red Stew",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Heal",
+    "COLORS": "Brown/ Beige,Gray,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Redemption",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "DMG Stat,Rooms/ Environment,Soul Hearts",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Remote Detonator",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Bomb Beggar,Crane Game,Item Room,Shop,Ultra Secret Room",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Restock",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Shop",
+    "DESCRIPTION": "Items,Pickups",
+    "COLORS": "Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Revelation",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Flight,Laser/ Beams,Soul Hearts,Tears",
+    "COLORS": "Blue,White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Robo-Baby",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Crane Game,Item Room",
+    "DESCRIPTION": "Familiar,Laser/ Beams,Tears",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Robo-Baby 2.0",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Crane Game,Item Room",
+    "DESCRIPTION": "Familiar,Laser/ Beams,Tears",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Rock Bottom",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Many Stats",
+    "COLORS": "Blue,Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Rocket in a Jar",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Black,Transparent,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Roid Rage",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Demon Beggar,Item Room",
+    "DESCRIPTION": "Range Stat,Speed Stat",
+    "COLORS": "Gray,Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Rosary",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Items,Soul Hearts,Tear Stat",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Rotten Baby",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room,Item Room,Rotten Beggar,Unique",
+    "DESCRIPTION": "Familiar,Fly",
+    "COLORS": "Green,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Rotten Meat",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Boss Room,Rotten Beggar,Unique",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Brown/ Beige,Green,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Rotten Tomato",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Rotten Beggar,Ultra Secret Room",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "Green,Purple,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Rubber Cement",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Brown/ Beige,Orange",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Rune Bag",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Familiar,Runes",
+    "COLORS": "Pink,Purple",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Sack Head",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room,Shop",
+    "DESCRIPTION": "Pickups,Sacks",
+    "COLORS": "Blue,Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Sack of Pennies",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Coins,Familiar",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Character",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Sack of Sacks",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Familiar,Sacks",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Sacred Heart",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Ultra Secret Room",
+    "DESCRIPTION": "Heal,Many Stats,Tears",
+    "COLORS": "Orange,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Sacred Orb",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Secret Room",
+    "DESCRIPTION": "Items",
+    "COLORS": "Brown/ Beige,Transparent",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Sacrificial Altar",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Curse Room,Devil Room",
+    "DESCRIPTION": "Black Hearts,Coins,Familiar,Items",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Sacrificial Dagger",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Orbital",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Sad Bombs",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Tears",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Safety Pin",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room",
+    "DESCRIPTION": "Black Hearts,Range Stat,Shot Speed Stat",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Sagittarius",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Speed Stat,Tears",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Salvation",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Aura/ Circle,Laser/ Beams,When Damaged",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Samson's Chains",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Rocks",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Sanguine Bond",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Black Hearts,Coins,DMG Stat,Items,Rooms/ Environment",
+    "COLORS": "Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Satanic Bible",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Item Room,Library",
+    "DESCRIPTION": "Black Hearts,Items",
+    "COLORS": "Black,Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Saturnus",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "Aura/ Circle,Orbital,Tears",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Sausage",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Heal,Many Stats,Room Chance",
+    "COLORS": "Pink,Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Scapular",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Soul Hearts,When Damaged",
+    "COLORS": "Brown/ Beige,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Scatter Bombs",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes",
+    "COLORS": "Black,Transparent",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Schoolbag",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Golden Chest,Shop",
+    "DESCRIPTION": "Items",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Scissors",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Scorpio",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Screw",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game,Golden Chest",
+    "DESCRIPTION": "Shot Speed Stat,Tear Stat",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Seraphim",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Blue,Pink,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Serpent's Kiss",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Black Hearts,Contact DMG,Status Effect,Tears",
+    "COLORS": "Green",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Shade",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Curse Room,Devil Room",
+    "DESCRIPTION": "Contact DMG,Familiar",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Shard of Glass",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Red Hearts,Self Damage,Tears,When Damaged",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Sharp Key",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Chests,Enemies,Keys/ Doors,Throwable",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Sharp Plug",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Battery Beggar,Shop",
+    "DESCRIPTION": "Item Charge,Self Damage",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Sharp Straw",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Mass Damage,Red Hearts",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Shoop Da Whoop!",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room,Ultra Secret Room,Unique",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Sinus Infection",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Sissy Long Legs",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Spiders,Status Effect",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Sister Maggy",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Skatole",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Enemies,Fly,Poop",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Skeleton Key",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Secret Room",
+    "DESCRIPTION": "Keys/ Doors",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Slipped Rib",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Orbital,Reflection",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Smart Fly",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Contact DMG,Familiar,Fly,Orbital,When Damaged",
+    "COLORS": "White,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "SMB Super Fan",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Heal,Many Stats",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Smelter",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Trinkets",
+    "COLORS": "Gray,Orange,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Sol",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "Boss,Curses,DMG Stat,Heal,Item Charge,Luck Stat,Map",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Soul Locket",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Many Stats,Soul Hearts",
+    "COLORS": "Blue",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Soy Milk",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Knockback,Tear Stat,Tears",
+    "COLORS": "Transparent,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Spear of Destiny",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Status Effect",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Speed Ball",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Demon Beggar,Item Room",
+    "DESCRIPTION": "Shot Speed Stat,Speed Stat",
+    "COLORS": "Gray,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Spelunker Hat",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Map,Negates DMG",
+    "COLORS": "Brown/ Beige,Gray,Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Spider Bite",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Spiders,Status Effect,Tears",
+    "COLORS": "Black,Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Spider Butt",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Mass Damage,Spiders,Status Effect",
+    "COLORS": "Black,Brown/ Beige,Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Spider Mod",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Crane Game,Shop",
+    "DESCRIPTION": "Batteries,Enemies,Familiar,Spiders,Status Effect",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Spiderbaby",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Spiders,When Damaged",
+    "COLORS": "Blue,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Spin to Win",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Orbital,Speed Stat",
+    "COLORS": "Blue,Gray,Orange,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Spindown Dice",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room,Secret Room",
+    "DESCRIPTION": "Items",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Spirit of the Night",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Flight,Tears",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Spirit Shackles",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Flight,Number of Lives,Soul Hearts",
+    "COLORS": "Blue",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Spirit Sword",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Melee,Tears",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Spoon Bender",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Sprinkler",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Gray,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Squeezy",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game,Golden Chest",
+    "DESCRIPTION": "Soul Hearts,Tear Stat",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Stapler",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Golden Chest",
+    "DESCRIPTION": "DMG Stat",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Star of Bethlehem",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Aura/ Circle,Boss,DMG Stat,Negates DMG,Tear Stat,Tears",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Starter Deck",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Cards,Pills,Runes",
+    "COLORS": "Brown/ Beige,Orange,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Steam Sale",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop,Unique",
+    "DESCRIPTION": "Items,Pickups",
+    "COLORS": "Pink,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Stem Cells",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Heal,HP Stat,Shot Speed Stat",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Steven",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "DMG Stat",
+    "COLORS": "Black,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "StickyBombs",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Bomb Beggar,Item Room",
+    "DESCRIPTION": "Bombs/ Explodes,Creep,Spiders",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Stigmata",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room,Wooden Chest",
+    "DESCRIPTION": "DMG Stat,Heal,HP Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Stitches",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Teleportation",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Stop Watch",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Enemies,Speed Stat,Status Effect",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Strange Attractor",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Enemies,Pickups,Tears",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Strawman",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Character",
+    "COLORS": "Gray",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Stye",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room",
+    "DESCRIPTION": "DMG Stat,Range Stat,Shot Speed Stat,Tears",
+    "COLORS": "Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Succubus",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room",
+    "DESCRIPTION": "Aura/ Circle,DMG Stat,Enemies,Familiar",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Sulfur",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Laser/ Beams,Tear Stat,Tears",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Sulfuric Acid",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "DMG Stat,Rocks,Tears",
+    "COLORS": "Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Sumptorium",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Familiar,Self Damage,Tears",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Super Bandage",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Item Room",
+    "DESCRIPTION": "Heal,HP Stat,Soul Hearts",
+    "COLORS": "Pink",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Suplex!",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Aura/ Circle,Dash,Invincibility,Melee,Rocks",
+    "COLORS": "Black,Orange",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Supper",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Boss Room",
+    "DESCRIPTION": "Heal,HP Stat",
+    "COLORS": "Brown/ Beige,Gray,Pink",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Sworn Protector",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Baby Shop",
+    "DESCRIPTION": "Eternal Heart,Familiar,Orbital",
+    "COLORS": "Pink,White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Synthoil",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Demon Beggar",
+    "DESCRIPTION": "DMG Stat,Range Stat",
+    "COLORS": "Gray,Transparent",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Tammy's Head",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Tarot Cloth",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Curse Room,Shop",
+    "DESCRIPTION": "Cards",
+    "COLORS": "Gray,Purple",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Taurus",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Invincibility,Speed Stat",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Tear Detonator",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Tech X",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "Gray,Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Tech.5",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Challenge",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Technology",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "Gray,Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Technology 2",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Laser/ Beams,Tear Stat,Tears",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Technology Zero",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "Gray,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Telekinesis",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Aura/ Circle,Reflection",
+    "COLORS": "Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Telepathy for Dummies",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Library",
+    "DESCRIPTION": "Range Stat,Tears",
+    "COLORS": "Black,Blue,White,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Teleport",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Teleportation",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Teleport 2.0",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Teleportation",
+    "COLORS": "Black,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Terra",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "DMG Stat,Knockback,Rocks,Tears",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "The Battery",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Battery Beggar,Crane Game,Shop",
+    "DESCRIPTION": "Item Charge",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Bean",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Beggar,Item Room",
+    "DESCRIPTION": "Farts,Knockback,Status Effect",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Belt",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Golden Chest",
+    "DESCRIPTION": "Speed Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Bible",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room,Library,Shop",
+    "DESCRIPTION": "Boss,Flight",
+    "COLORS": "Brown/ Beige,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Black Bean",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Item Room",
+    "DESCRIPTION": "Farts,Knockback,Status Effect,When Damaged",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "The Body",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "HP Stat",
+    "COLORS": "Red,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "The Book of Belial",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Library",
+    "DESCRIPTION": "DMG Stat,Room Chance",
+    "COLORS": "Black,Gray,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Book of Sin",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Item Room,Library",
+    "DESCRIPTION": "Pickups",
+    "COLORS": "Black,Red,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Candle",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Fire,Throwable",
+    "COLORS": "Blue,Gray",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "The Common Cold",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Compass",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Crane Game,Shop",
+    "DESCRIPTION": "Map",
+    "COLORS": "Red,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The D6",
+    "QUALITY": 4,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Items",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Gamekid",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Contact DMG,Enemies,Heal,Invincibility,Status Effect",
+    "COLORS": "Gray,Green,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Guillotine",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,DMG Stat,Orbital,Tear Stat",
+    "COLORS": "Brown/ Beige,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "The Halo",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Heal,Many Stats",
+    "COLORS": "Yellow",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Hourglass",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Enemies,Status Effect",
+    "COLORS": "Brown/ Beige,Transparent,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Inner Eye",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tear Stat,Tears",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Intruder",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Familiar,Spiders,Status Effect,Tears,When Damaged",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "The Jar",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Red Hearts",
+    "COLORS": "Red,Transparent",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "The Ladder",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop,Wooden Chest",
+    "DESCRIPTION": "Rooms/ Environment",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Ludovico Technique",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Gray,Pink,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "The Mark",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Demon Beggar,Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Black Hearts,DMG Stat,Speed Stat",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Mind",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Map",
+    "COLORS": "White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "The Mulligan",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Fly,Tears",
+    "COLORS": "Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "The Nail",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Demon Beggar,Devil Room",
+    "DESCRIPTION": "Black Hearts,Contact DMG,DMG Stat,Rocks,Speed Stat",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Necronomicon",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Library,Secret Room",
+    "DESCRIPTION": "Mass Damage",
+    "COLORS": "Brown/ Beige,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Negative",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "DMG Stat,Keys/ Doors,Mass Damage,When Damaged",
+    "COLORS": "Black,Blue,Brown/ Beige,Green,Purple",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "The Pact",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Demon Beggar,Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Black Hearts,DMG Stat,Tear Stat",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Parasite",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Pink",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Peeper",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,DMG Stat,Familiar,Tears",
+    "COLORS": "Black,Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "The Polaroid",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Invincibility,Keys/ Doors,When Damaged",
+    "COLORS": "Blue,Brown/ Beige,Green,Pink,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "The Poop",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Unique",
+    "DESCRIPTION": "Knockback,Poop",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Relic",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Familiar,Soul Hearts",
+    "COLORS": "Blue",
+    "UNLOCK": "Character",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Sad Onion",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Tear Stat",
+    "COLORS": "Blue,Green,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Scooper",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep,DMG Stat,Familiar,Tears",
+    "COLORS": "Black,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "The Small Rock",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Unique",
+    "DESCRIPTION": "DMG Stat,Speed Stat,Tear Stat",
+    "COLORS": "Gray",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Soul",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Aura/ Circle,Reflection,Soul Hearts",
+    "COLORS": "Blue,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "The Stairway",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Rooms/ Environment",
+    "COLORS": "White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "The Swarm",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Key Beggar",
+    "DESCRIPTION": "Fly,Orbital",
+    "COLORS": "Black",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "The Virus",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Item Room,Ultra Secret Room,Unique",
+    "DESCRIPTION": "Contact DMG,Speed Stat,Status Effect",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Wafer",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room,Item Room",
+    "DESCRIPTION": "Negates DMG",
+    "COLORS": "Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "The Wiz",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Black,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "There's Options",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Items",
+    "COLORS": "Black,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Thunder Thighs",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "HP Stat,Rocks,Speed Stat",
+    "COLORS": "Gray,Yellow",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Tiny Planet",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Orbital,Range Stat,Tears",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Tinytoma",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room",
+    "DESCRIPTION": "Contact DMG,Orbital,Spiders",
+    "COLORS": "Black",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "TMTRAINER",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Items,Multi Trait",
+    "COLORS": "Blue,Pink",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Tooth and Nail",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Contact DMG,Invincibility",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Toothpicks",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Wooden Chest",
+    "DESCRIPTION": "Shot Speed Stat,Tear Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Torn Photo",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Golden Chest,Old Chest",
+    "DESCRIPTION": "Shot Speed Stat,Tear Stat",
+    "COLORS": "Gray,Orange,Pink,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Tough Love",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Tears",
+    "COLORS": "Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Toxic Shock",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Creep,Enemies,Status Effect",
+    "COLORS": "Black,Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Tractor Beam",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Item Room",
+    "DESCRIPTION": "Laser/ Beams,Range Stat,Shot Speed Stat,Tear Stat,Tears",
+    "COLORS": "Blue,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Transcendence",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Secret Room",
+    "DESCRIPTION": "Flight",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Treasure Map",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Beggar,Shop",
+    "DESCRIPTION": "Map",
+    "COLORS": "Black,Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Trinity Shield",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Familiar,Negates DMG",
+    "COLORS": "Blue,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Trisagion",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Laser/ Beams,Tears",
+    "COLORS": "White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Tropicamide",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room",
+    "DESCRIPTION": "Range Stat,Tears",
+    "COLORS": "Red,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Twisted Pair",
+    "QUALITY": 4,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Devil Room",
+    "DESCRIPTION": "Familiar,Tears",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Undefined",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Teleportation",
+    "COLORS": "Brown/ Beige,Red,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Unicorn Stump",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Invincibility,Speed Stat",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Uranus",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "Status Effect,Tears",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Urn of Souls",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Enemies,Fire",
+    "COLORS": "White,Yellow",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Vade Retro",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room",
+    "DESCRIPTION": "Bombs/ Explodes,Boss,Enemies,Familiar",
+    "COLORS": "Brown/ Beige,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Vanishing Twin",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Secret Room",
+    "DESCRIPTION": "Boss,Familiar",
+    "COLORS": "White",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Varicose Veins",
+    "QUALITY": 0,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Creep,Range Stat,Tears,When Damaged",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Vasculitis",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Enemies,Tears",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Vengeful Spirit",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Curse Room,Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Orbital,Tears,When Damaged",
+    "COLORS": "Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Ventricle Razor",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop",
+    "DESCRIPTION": "Teleportation",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Venus",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Planetarium",
+    "DESCRIPTION": "Heal,HP Stat,Status Effect",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Virgo",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Invincibility,Pills,When Damaged",
+    "COLORS": "Black,Blue",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Rebirth"
+  },
+  {
+    "ITEM": "Void",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Angel Room,Devil Room",
+    "DESCRIPTION": "Items,Many Stats",
+    "COLORS": "Black,Purple",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Voodoo Head",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Crane Game,Shop",
+    "DESCRIPTION": "Rooms/ Environment",
+    "COLORS": "Gray,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Wait What?",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Beggar,Item Room",
+    "DESCRIPTION": "Aura/ Circle,Farts,Knockback,Rocks",
+    "COLORS": "White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Wavy Cap",
+    "QUALITY": 0,
+    "TYPE": "Active",
+    "ITEM POOL": "Secret Room,Unique",
+    "DESCRIPTION": "Rooms/ Environment,Speed Stat,Tear Stat",
+    "COLORS": "Black",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "We Need To Go Deeper",
+    "QUALITY": 2,
+    "TYPE": "Active",
+    "ITEM POOL": "Devil Room,Secret Room",
+    "DESCRIPTION": "Rooms/ Environment",
+    "COLORS": "Brown/ Beige,Gray",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "White Pony",
+    "QUALITY": 3,
+    "TYPE": "Active",
+    "ITEM POOL": "Unique",
+    "DESCRIPTION": "Contact DMG,Dash,Flight,Invincibility,Laser/ Beams,Speed Stat",
+    "COLORS": "Red,White",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Wrath of the Lamb"
+  },
+  {
+    "ITEM": "Whore of Babylon",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Demon Beggar,Devil Room,Ultra Secret Room",
+    "DESCRIPTION": "DMG Stat,Speed Stat",
+    "COLORS": "Black,Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Wire Coat Hanger",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Crane Game,Golden Chest",
+    "DESCRIPTION": "Tear Stat",
+    "COLORS": "Black",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Wooden Nickel",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Shop,Wooden Chest",
+    "DESCRIPTION": "Coins",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Game Progression",
+    "RELEASE": "Afterbirth"
+  },
+  {
+    "ITEM": "Wooden Spoon",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Boss Room,Wooden Chest",
+    "DESCRIPTION": "Speed Stat",
+    "COLORS": "Brown/ Beige",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Worm Friend",
+    "QUALITY": 3,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Ultra Secret Room",
+    "DESCRIPTION": "Contact DMG,Familiar,Status Effect",
+    "COLORS": "Brown/ Beige,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "X-Ray Vision",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Keys/ Doors",
+    "COLORS": "Black,Pink,White",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "YO LISTEN!",
+    "QUALITY": 2,
+    "TYPE": "Passive",
+    "ITEM POOL": "Baby Shop,Item Room,Key Beggar",
+    "DESCRIPTION": "Familiar,Fly,Luck Stat,Rooms/ Environment",
+    "COLORS": "Black,Green",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Afterbirth+"
+  },
+  {
+    "ITEM": "Yuck Heart",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Rotten Beggar",
+    "DESCRIPTION": "Heal,Rotten Hearts",
+    "COLORS": "Green,Red",
+    "UNLOCK": "Character",
+    "RELEASE": "Repentance"
+  },
+  {
+    "ITEM": "Yum Heart",
+    "QUALITY": 1,
+    "TYPE": "Active",
+    "ITEM POOL": "Item Room,Ultra Secret Room,Unique",
+    "DESCRIPTION": "Heal",
+    "COLORS": "Red",
+    "UNLOCK": "Always Unlocked",
+    "RELEASE": "Flash"
+  },
+  {
+    "ITEM": "Zodiac",
+    "QUALITY": 1,
+    "TYPE": "Passive",
+    "ITEM POOL": "Item Room",
+    "DESCRIPTION": "Multi Trait",
+    "COLORS": "Black,White",
+    "UNLOCK": "Character",
+    "RELEASE": "Afterbirth"
+  }
+]

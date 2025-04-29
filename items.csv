@@ -1,0 +1,719 @@
+ITEM,QUALITY,TYPE,ITEM POOL,DESCRIPTION,COLORS,UNLOCK,RELEASE
+???'s Only Friend,1,Passive,"Baby Shop,Item Room,Key Beggar","Contact DMG,Familiar,Fly","Blue,White",Character,Rebirth
+<3,2,Passive,"Item Room,Ultra Secret Room,Unique","Heal,HP Stat",Red,Always Unlocked,Flash
+120 Volt,2,Passive,"Battery Beggar,Item Room","Aura/ Circle,Laser/ Beams","Blue,Brown/ Beige,White",Always Unlocked,Repentance
+1UP,2,Passive,Secret Room,Number of Lives,"Green,White",Always Unlocked,Flash
+20/20,4,Passive,Item Room,"DMG Stat,Tears","Black,Transparent",Always Unlocked,Rebirth
+2Spooky,1,Passive,"Devil Room,Ultra Secret Room","Aura/ Circle,Status Effect","Black,Red",Always Unlocked,Repentance
+3 Dollar Bill,2,Passive,Item Room,"Many Stats,Multi Trait,Status Effect,Tears",Pink,Always Unlocked,Wrath of the Lamb
+4.5 Volt,2,Passive,"Battery Beggar,Shop","Enemies,Item Charge","Black,Pink,Red",Always Unlocked,Repentance
+7 Seals,2,Passive,"Angel Room,Devil Room","Contact DMG,Creep,Familiar,Fly","Brown/ Beige,Red,White",Game Progression,Afterbirth+
+8 Inch Nails,3,Passive,Item Room,"DMG Stat,Knockback,Tears",Gray,Always Unlocked,Afterbirth
+9 Volt,2,Passive,"Battery Beggar,Crane Game,Shop",Item Charge,"Black,Brown/ Beige,Gray",Always Unlocked,Flash
+A Bar of Soap,3,Passive,Boss Room,"Shot Speed Stat,Tear Stat",White,Always Unlocked,Repentance
+A Dollar,3,Passive,Unique,Coins,Green,Always Unlocked,Flash
+A Lump of Coal,3,Passive,Unique,"DMG Stat,Tears",Black,Always Unlocked,Flash
+A Pony,2,Active,Unique,"Contact DMG,Dash,Flight,Invincibility,Speed Stat","Black,Red",Game Progression,Flash
+A Pound of Flesh,1,Passive,"Demon Beggar,Devil Room","Items,Pickups","Black,Red,Yellow",Character,Repentance
+A Quarter,0,Passive,"Devil Room,Golden Chest,Unique",Coins,Gray,Game Progression,Flash
+A Snack,1,Passive,Boss Room,"Heal,HP Stat",Brown/ Beige,Always Unlocked,Rebirth
+Abaddon,3,Passive,"Demon Beggar,Devil Room,Ultra Secret Room","Black Hearts,DMG Stat,HP Stat,Speed Stat,Status Effect,Tears","Black,Red",Character,Rebirth
+Abel,0,Passive,"Baby Shop,Item Room","Familiar,Tears",Brown/ Beige,Character,Wrath of the Lamb
+Abyss,4,Active,"Devil Room,Ultra Secret Room","Familiar,Fly,Items",Red,Character,Repentance
+Acid Baby,2,Passive,"Baby Shop,Item Room","Enemies,Familiar,Pills,Status Effect","Brown/ Beige,Pink",Always Unlocked,Afterbirth+
+Act of Contrition,3,Passive,Angel Room,"Eternal Heart,Room Chance,Tear Stat","Brown/ Beige,White",Always Unlocked,Repentance
+Adrenaline,1,Passive,"Demon Beggar,Item Room","DMG Stat,HP Stat","Gray,Pink",Always Unlocked,Afterbirth+
+Akeldama,1,Passive,Item Room,Tears,"Pink,Red",Character,Repentance
+Alabaster Box,1,Active,Shop,"Items,Soul Hearts","White,Yellow",Character,Repentance
+Almond Milk,1,Passive,Item Room,"DMG Stat,Knockback,Tear Stat,Tears","Blue,Brown/ Beige,White",Always Unlocked,Repentance
+Analog Stick,2,Passive,"Crane Game,Item Room","Tear Stat,Tears",Gray,Always Unlocked,Afterbirth+
+Anarchist Cookbook,0,Active,"Item Room,Library,Unique",Bombs/ Explodes,"Red,White",Always Unlocked,Flash
+Anemic,1,Passive,"Item Room,Ultra Secret Room","Creep,Range Stat,When Damaged",Red,Always Unlocked,Rebirth
+Angelic Prism,3,Passive,Angel Room,"Orbital,Tears","Green,Red,White,Yellow",Game Progression,Afterbirth+
+Angry Fly,1,Passive,"Baby Shop,Item Room,Ultra Secret Room","Contact DMG,Enemies,Familiar,Fly,Orbital","Red,White",Game Progression,Afterbirth+
+Anima Sola,2,Active,Item Room,"Enemies,Status Effect","Black,Orange",Character,Repentance
+Ankh,0,Passive,Item Room,"Character,DMG Stat,Number of Lives,Soul Hearts,Speed Stat",Gray,Always Unlocked,Wrath of the Lamb
+Anti-Gravity,1,Passive,Item Room,"Tear Stat,Tears",Blue,Always Unlocked,Rebirth
+Apple!,3,Passive,"Item Room,Ultra Secret Room","Tear Stat,Tears","Gray,Green,Red",Always Unlocked,Afterbirth+
+Aquarius,2,Passive,Item Room,Creep,"Black,Blue",Always Unlocked,Rebirth
+Aries,2,Passive,Item Room,"Contact DMG,Negates DMG,Speed Stat","Black,Blue",Always Unlocked,Rebirth
+Astral Projection,1,Passive,"Item Room,Secret Room","Flight,Negates DMG,When Damaged","Pink,White",Character,Repentance
+Athame,3,Passive,"Curse Room,Devil Room","Aura/ Circle,Enemies,Laser/ Beams","Gray,White",Character,Afterbirth
+Azazel's Rage,2,Passive,Devil Room,"Laser/ Beams,Tears","Black,Red",Character,Repentance
+BackStabber,3,Passive,"Devil Room,Item Room,Ultra Secret Room","Status Effect,Tears","Gray,Red",Always Unlocked,Afterbirth+
+Bag of Crafting,3,Active,Item Room,"Items,Melee,Pickups",Brown/ Beige,Character,Repentance
+Ball of Bandages,1,Passive,"Baby Shop,Unique","Contact DMG,Enemies,Familiar,Orbital,Red Hearts,Status Effect,Tears",Pink,Game Progression,Rebirth
+Ball of Tar,2,Passive,Item Room,"Creep,Status Effect,Tears",Black,Always Unlocked,Rebirth
+Battery Pack,0,Passive,"Battery Beggar,Shop","Batteries,Item Charge","Black,Yellow",Always Unlocked,Repentance
+BBF,0,Passive,"Baby Shop,Item Room,Key Beggar","Bombs/ Explodes,Familiar,Fly","Black,Red,White",Always Unlocked,Rebirth
+Belly Button,2,Passive,Item Room,Trinkets,Pink,Always Unlocked,Afterbirth+
+Berserk!,1,Active,"Devil Room,Ultra Secret Room","DMG Stat,Invincibility,Melee,Speed Stat,Tear Stat","Red,White",Character,Repentance
+Best Bud,0,Passive,"Baby Shop,Item Room","Contact DMG,Familiar,Fly,Orbital,When Damaged",White,Always Unlocked,Rebirth
+Best Friend,0,Active,"Crane Game,Item Room","Bombs/ Explodes,Enemies,Familiar","Pink,Purple",Always Unlocked,Wrath of the Lamb
+Betrayal,1,Passive,"Devil Room,Item Room",Enemies,"Red,White",Character,Afterbirth
+BFFS!,2,Passive,"Shop,Ultra Secret Room",Familiar,Red,Always Unlocked,Rebirth
+Big Chubby,1,Passive,"Baby Shop,Item Room","Contact DMG,Familiar",White,Always Unlocked,Afterbirth+
+Big Fan,1,Passive,"Baby Shop,Item Room,Key Beggar","Contact DMG,Familiar,Fly,Orbital","Brown/ Beige,White",Always Unlocked,Rebirth
+Binge Eater,4,Passive,Secret Room,"Items,Many Stats","Brown/ Beige,Gray,Green,White",Always Unlocked,Repentance
+Binky,3,Passive,"Boss Room,Crane Game,Golden Chest","Size,Soul Hearts,Tear Stat","Blue,White",Always Unlocked,Afterbirth
+Bird Cage,0,Passive,"Baby Shop,Item Room","Contact DMG,Familiar,When Damaged",Gray,Character,Repentance
+Bird's Eye,3,Passive,"Item Room,Ultra Secret Room","Fire,Tears","Green,Red",Always Unlocked,Repentance
+Birthright,3,Passive,Shop,"Character,Multi Trait","Black,Brown/ Beige,Red",Character,Repentance
+Black Candle,3,Passive,"Curse Room,Shop","Black Hearts,Curses,Room Chance",Black,Game Progression,Rebirth
+Black Hole,1,Active,Item Room,"Enemies,Pickups,Rocks,Throwable","Black,Pink,Purple",Game Progression,Afterbirth+
+Black Lotus,2,Passive,Secret Room,"Black Hearts,Heal,HP Stat,Soul Hearts","Black,Purple",Always Unlocked,Rebirth
+Black Powder,0,Passive,"Demon Beggar,Devil Room",Creep,Black,Always Unlocked,Afterbirth
+Blank Card,2,Active,"Secret Room,Shop","Cards,Multi Trait",White,Character,Rebirth
+Blanket,2,Passive,Shop,"Boss,Heal,Negates DMG,Soul Hearts",Blue,Game Progression,Afterbirth+
+Blood Bag,2,Passive,"Ultra Secret Room,Unique","Heal,HP Stat,Speed Stat","Red,Transparent",Game Progression,Flash
+Blood Bombs,2,Passive,"Bomb Beggar,Item Room,Ultra Secret Room","Bombs/ Explodes,Creep,Heal,HP Stat,Self Damage","Red,Transparent",Always Unlocked,Repentance
+Blood Clot,2,Passive,"Boss Room,Ultra Secret Room,Unique","DMG Stat,Range Stat,Tears",Red,Always Unlocked,Rebirth
+Blood Oath,1,Passive,"Curse Room,Devil Room","DMG Stat,Self Damage,Speed Stat","Gray,Red",Always Unlocked,Repentance
+Blood of the Martyr,3,Passive,"Angel Room,Item Room,Wooden Chest",DMG Stat,Brown/ Beige,Always Unlocked,Flash
+Blood Puppy,1,Passive,"Curse Room,Item Room,Red Chest,Ultra Secret Room","Contact DMG,Familiar,Red Hearts",Red,Character,Repentance
+Blood Rights,0,Active,"Devil Room,Item Room","Mass Damage,Self Damage","Brown/ Beige,Gray,Red",Character,Wrath of the Lamb
+Bloodshot Eye,1,Passive,"Baby Shop,Item Room","Contact DMG,Familiar,Orbital,Tears",Pink,Always Unlocked,Afterbirth+
+Bloody Gust,2,Passive,"Devil Room,Item Room,Ultra Secret Room","Speed Stat,Tear Stat,When Damaged",Red,Character,Repentance
+Bloody Lust,2,Passive,"Devil Room,Item Room,Ultra Secret Room","DMG Stat,When Damaged",Red,Character,Wrath of the Lamb
+Blue Cap,3,Passive,Boss Room,"Heal,HP Stat,Shot Speed Stat,Tear Stat","Blue,White",Always Unlocked,Rebirth
+Blue Map,1,Passive,"Beggar,Shop",Map,Blue,Game Progression,Rebirth
+Bob's Brain,0,Passive,"Baby Shop,Item Room,Rotten Beggar","Bombs/ Explodes,Familiar,Status Effect",Green,Always Unlocked,Rebirth
+Bob's Curse,1,Passive,"Bomb Beggar,Item Room,Red Chest,Rotten Beggar,Unique","Bombs/ Explodes,Status Effect",Green,Always Unlocked,Wrath of the Lamb
+Bob's Rotten Head,1,Active,"Item Room,Rotten Beggar,Unique","Bombs/ Explodes,Status Effect,Throwable",Green,Always Unlocked,Flash
+Bobby-Bomb,1,Passive,"Bomb Beggar,Item Room","Bombs/ Explodes,Enemies","Black,Gray",Always Unlocked,Flash
+Bogo Bombs,1,Passive,Shop,Bombs/ Explodes,"Gray,Purple",Always Unlocked,Rebirth
+Boiled Baby,1,Passive,"Baby Shop,Item Room,Ultra Secret Room","Familiar,Tears",Red,Always Unlocked,Repentance
+Bomb Bag,1,Passive,Item Room,"Bombs/ Explodes,Familiar",Gray,Character,Flash
+Bomber Boy,2,Passive,"Bomb Beggar,Item Room",Bombs/ Explodes,White,Always Unlocked,Afterbirth
+Bone Spurs,2,Passive,Item Room,"Contact DMG,Enemies,Familiar",White,Character,Repentance
+Book of Revelations,3,Active,"Angel Room,Item Room,Library","Boss,Room Chance,Soul Hearts","Purple,White",Game Progression,Flash
+Book of Secrets,0,Active,"Item Room,Library,Secret Room","Map,Multi Trait","Black,White",Character,Rebirth
+Book of Shadows,3,Active,"Item Room,Library",Invincibility,"Black,White",Always Unlocked,Flash
+Book of the Dead,2,Active,"Devil Room,Item Room,Library","Familiar,Orbital","Black,White",Character,Afterbirth+
+Book of Virtues,3,Active,"Angel Room,Library","Contact DMG,Familiar,Items,Multi Trait,Orbital,Room Chance,Tears","Blue,White",Character,Repentance
+Boom!,0,Passive,Item Room,Bombs/ Explodes,Gray,Always Unlocked,Flash
+Boomerang,1,Active,"Crane Game,Shop","Pickups,Status Effect,Throwable","Blue,White",Always Unlocked,Rebirth
+Booster Pack,1,Passive,"Boss Room,Crane Game,Shop",Cards,"Brown/ Beige,Gray",Always Unlocked,Repentance
+Bot Fly,3,Passive,"Baby Shop,Crane Game,Item Room,Key Beggar","Familiar,Fly,Orbital,Tears","Gray,Red",Always Unlocked,Repentance
+Box,0,Passive,"Beggar,Boss Room","Pickups,Trinkets","Brown/ Beige,Gray",Always Unlocked,Wrath of the Lamb
+Box of Friends,1,Active,"Crane Game,Shop",Familiar,"Black,Yellow",Character,Afterbirth
+Box of Spiders,1,Active,Item Room,Spiders,"Gray,White",Always Unlocked,Rebirth
+Bozo,2,Passive,Item Room,"DMG Stat,Enemies,Poop,Soul Hearts,Status Effect,When Damaged","Blue,Red,White",Game Progression,Afterbirth+
+Breakfast,1,Passive,"Beggar,Boss Room","Heal,HP Stat",White,Always Unlocked,Flash
+Breath of Life,1,Active,Angel Room,"Contact DMG,Invincibility,Laser/ Beams,Self Damage",White,Always Unlocked,Rebirth
+Brimstone,4,Passive,"Devil Room,Ultra Secret Room","Laser/ Beams,Tear Stat,Tears","Black,Red",Always Unlocked,Flash
+Brimstone Bombs,2,Passive,"Bomb Beggar,Devil Room","Bombs/ Explodes,Laser/ Beams","Black,Gray,Red",Game Progression,Repentance
+Brittle Bones,3,Passive,Item Room,"Bone Hearts,HP Stat,Tear Stat,When Damaged",White,Character,Afterbirth+
+Broken Glass Cannon,0,Active,Unique,Items,"Transparent,White",Always Unlocked,Afterbirth+
+Broken Modem,3,Passive,Shop,"Enemies,Pickups,Status Effect","Black,Red",Game Progression,Afterbirth+
+Broken Shovel (1),4,Passive,Unique,"Boss,Rooms/ Environment","Brown/ Beige,Purple",Game Progression,Afterbirth+
+Broken Shovel (2),4,Active,Unique,"Boss,Rooms/ Environment","Brown/ Beige,Purple",Game Progression,Afterbirth+
+Broken Watch,1,Passive,"Crane Game,Shop","Enemies,Status Effect","Blue,White",Always Unlocked,Rebirth
+Brother Bobby,1,Passive,"Baby Shop,Devil Room,Item Room","Familiar,Tears",Blue,Always Unlocked,Flash
+Brown Nugget,0,Active,Item Room,"Familiar,Fly,Poop,Tears",Brown/ Beige,Character,Afterbirth+
+Bucket of Lard,1,Passive,"Item Room,Unique","HP Stat,Speed Stat","Gray,White",Always Unlocked,Flash
+Buddy in a Box,2,Passive,"Baby Shop,Crane Game,Shop","Familiar,Multi Trait,Tears","Black,Brown/ Beige,White",Game Progression,Afterbirth+
+Bum Friend,1,Passive,"Baby Shop,Beggar,Item Room","Batteries,Coins,Familiar,Items,Pickups",Pink,Always Unlocked,Wrath of the Lamb
+Bumbo,1,Passive,"Baby Shop,Beggar,Item Room","Coins,Contact DMG,Familiar,Items,Pickups,Tears",Pink,Always Unlocked,Afterbirth
+Bursting Sack,1,Passive,Item Room,"Enemies,Spiders","Black,White",Always Unlocked,Afterbirth
+Butt Bombs,1,Passive,"Bomb Beggar,Item Room","Bombs/ Explodes,Mass Damage,Poop,Status Effect",Brown/ Beige,Always Unlocked,Rebirth
+Butter Bean,0,Active,"Beggar,Item Room","Farts,Knockback,Reflection",White,Game Progression,Rebirth
+C Section,4,Passive,"Item Room,Ultra Secret Room",Tears,"Pink,Red",Character,Repentance
+Caffeine Pill,1,Passive,"Boss Room,Demon Beggar","Pills,Size,Speed Stat",White,Always Unlocked,Rebirth
+Cain's Other Eye,2,Passive,Item Room,"Familiar,Tears","Gray,White",Character,Rebirth
+Cambion Conception,1,Passive,"Devil Room,Ultra Secret Room","Familiar,When Damaged",Red,Character,Afterbirth
+Camo Undies,3,Passive,Item Room,"Aura/ Circle,DMG Stat,Speed Stat,Status Effect,Tear Stat","Pink,Purple",Always Unlocked,Afterbirth+
+Cancer,3,Passive,Item Room,"Negates DMG,Soul Hearts,When Damaged","Black,Blue",Always Unlocked,Rebirth
+Candy Heart,1,Passive,"Item Room,Ultra Secret Room","Many Stats,Red Hearts",Red,Character,Repentance
+Capricorn,3,Passive,Item Room,"Bombs/ Explodes,Coins,Keys/ Doors,Many Stats","Black,Blue",Always Unlocked,Rebirth
+Car Battery,3,Passive,"Battery Beggar,Shop",Item Charge,Black,Always Unlocked,Afterbirth
+Card Reading,3,Passive,Shop,Teleportation,"Blue,Red,White,Yellow",Always Unlocked,Repentance
+Cat-O-Nine-Tails,3,Passive,Boss Room,"DMG Stat,Shot Speed Stat","Black,Gray",Always Unlocked,Wrath of the Lamb
+Celtic Cross,1,Passive,"Angel Room,Item Room","Invincibility,When Damaged",Black,Character,Wrath of the Lamb
+Censer,2,Passive,Angel Room,"Aura/ Circle,Enemies,Status Effect",Yellow,Character,Afterbirth
+Ceremonial Robes,3,Passive,"Curse Room,Demon Beggar,Devil Room","Black Hearts,DMG Stat","Black,Gray",Always Unlocked,Rebirth
+Champion Belt,3,Passive,"Crane Game,Shop,Ultra Secret Room","DMG Stat,Enemies",Red,Always Unlocked,Rebirth
+Chaos,3,Passive,"Secret Room,Shop","Items,Pickups",Red,Always Unlocked,Afterbirth
+Charged Baby,2,Passive,"Baby Shop,Battery Beggar,Shop","Batteries,Familiar,Item Charge,Status Effect","Gray,Yellow",Always Unlocked,Afterbirth
+Charm of the Vampire,2,Passive,Item Room,"DMG Stat,Enemies,Heal",Black,Always Unlocked,Flash
+Chemical Peel,2,Passive,Item Room,"DMG Stat,Tears","Brown/ Beige,Green",Always Unlocked,Wrath of the Lamb
+Chocolate Milk,3,Passive,Item Room,Tears,"Brown/ Beige,Transparent",Always Unlocked,Flash
+Circle of Protection,2,Passive,Angel Room,"Aura/ Circle,Contact DMG,Reflection",White,Always Unlocked,Afterbirth
+Clear Rune,2,Active,"Crane Game,Secret Room","Multi Trait,Runes",White,Challenge,Repentance
+Clicker,0,Active,Item Room,"Character,Items,Many Stats",Black,Always Unlocked,Afterbirth+
+Compost,0,Active,"Rotten Beggar,Shop","Fly,Pickups,Spiders","Brown/ Beige,Gray,Green",Always Unlocked,Afterbirth+
+Compound Fracture,3,Passive,Item Room,"Range Stat,Tears","Red,White",Character,Afterbirth+
+Cone Head,2,Passive,Item Room,"Negates DMG,Soul Hearts",Pink,Always Unlocked,Afterbirth+
+Consolation Prize,1,Passive,"Boss Room,Crane Game,Golden Chest","Bombs/ Explodes,Coins,Keys/ Doors,Many Stats","Brown/ Beige,Red",Always Unlocked,Repentance
+Contagion,2,Passive,"Item Room,Ultra Secret Room","Enemies,Status Effect","Black,Red",Always Unlocked,Afterbirth+
+Continuum,2,Passive,Item Room,"Range Stat,Tears",Purple,Always Unlocked,Afterbirth
+Contract From Below,2,Passive,"Curse Room,Demon Beggar,Devil Room",Pickups,Brown/ Beige,Always Unlocked,Rebirth
+Converter,1,Active,Shop,"Black Hearts,HP Stat,Soul Hearts","Blue,Gray,Yellow",Always Unlocked,Rebirth
+Coupon,2,Active,"Shop,Unique","Items,Pickups","Green,Pink,White",Game Progression,Afterbirth+
+Crack Jacks,2,Passive,"Boss Room,Golden Chest","Heal,HP Stat,Trinkets","Brown/ Beige,Red,White",Always Unlocked,Afterbirth
+Crack The Sky,1,Active,Item Room,Laser/ Beams,White,Always Unlocked,Wrath of the Lamb
+Cracked Orb,1,Passive,"Item Room,Secret Room","Keys/ Doors,Map,Rocks,When Damaged",Gray,Character,Repentance
+Cricket's Body,3,Passive,Item Room,"Range Stat,Tear Stat,Tears","Brown/ Beige,Red",Always Unlocked,Rebirth
+Cricket's Head,4,Passive,"Crane Game,Item Room",DMG Stat,"Brown/ Beige,Pink",Always Unlocked,Rebirth
+Crooked Penny,2,Active,"Beggar,Item Room,Shop","Chests,Coins,Items,Pickups","Brown/ Beige,Yellow",Character,Afterbirth+
+Crown of Light,4,Passive,Angel Room,"DMG Stat,Shot Speed Stat,Soul Hearts,Tears",Blue,Always Unlocked,Afterbirth
+Crystal Ball,3,Active,Unique,"Cards,Map,Room Chance,Runes,Soul Hearts","Purple,White",Always Unlocked,Wrath of the Lamb
+Cube Baby,1,Passive,"Baby Shop,Item Room","Contact DMG,Familiar,Status Effect",Blue,Always Unlocked,Repentance
+Cube of Meat,1,Passive,"Baby Shop,Ultra Secret Room,Unique","Contact DMG,Familiar,Orbital,Tears",Red,Game Progression,Flash
+Cupid's Arrow,2,Passive,"Crane Game,Item Room",Tears,"Gray,Red",Always Unlocked,Flash
+Curse of The Tower,0,Passive,"Curse Room,Item Room,Red Chest","Bombs/ Explodes,When Damaged","Blue,Gray,Orange",Always Unlocked,Afterbirth
+Cursed Eye,0,Passive,"Item Room,Red Chest,Secret Room","Tears,Teleportation,When Damaged",White,Always Unlocked,Rebirth
+D Infinity,4,Active,Secret Room,"Enemies,Items,Many Stats,Multi Trait,Pickups,Rooms/ Environment","Pink,White,Yellow",Character,Afterbirth+
+D1,2,Active,"Crane Game,Item Room","Chests,Pickups",White,Character,Afterbirth+
+D10,1,Active,"Crane Game,Item Room",Enemies,Orange,Always Unlocked,Rebirth
+D100,1,Active,"Crane Game,Item Room","Enemies,Items,Many Stats,Multi Trait,Pickups,Rooms/ Environment",White,Character,Rebirth
+D12,1,Active,"Crane Game,Item Room",Rocks,Blue,Character,Afterbirth
+D20,2,Active,"Crane Game,Item Room,Ultra Secret Room","Chests,Pickups",Red,Character,Wrath of the Lamb
+D4,1,Active,"Crane Game,Item Room",Items,Green,Game Progression,Rebirth
+D7,1,Active,"Crane Game,Item Room","Enemies,Rooms/ Environment",Gray,Always Unlocked,Afterbirth
+D8,1,Active,"Crane Game,Item Room",Many Stats,Black,Challenge,Afterbirth
+Dad's Key,2,Active,"Item Room,Key Beggar,Old Chest",Keys/ Doors,Brown/ Beige,Game Progression,Wrath of the Lamb
+Dad's Lost Coin,1,Passive,"Beggar,Boss Room,Golden Chest,Old Chest","Coins,Luck Stat,Range Stat",Gray,Character,Afterbirth+
+Dad's Note,0,Passive,Unique,"Rooms/ Environment,Teleportation",White,Game Progression,Repentance
+Dad's Ring,2,Passive,"Old Chest,Secret Room","Aura/ Circle,Enemies,Status Effect",Yellow,Character,Afterbirth+
+Daddy Longlegs,3,Passive,"Baby Shop,Item Room","Contact DMG,Familiar,Spiders",White,Always Unlocked,Wrath of the Lamb
+Damocles,3,Active,Devil Room,"Items,Self Damage","Brown/ Beige,Gray,Red",Character,Repentance
+Dark Arts,1,Active,"Devil Room,Ultra Secret Room","Aura/ Circle,Contact DMG,Invincibility,Melee,Speed Stat","Gray,Red",Character,Repentance
+Dark Bum,3,Passive,"Baby Shop,Demon Beggar,Devil Room,Item Room","Black Hearts,Cards,Familiar,Pills,Red Hearts,Runes,Spiders","Black,Gray",Always Unlocked,Rebirth
+Dark Matter,3,Passive,"Demon Beggar,Devil Room","DMG Stat,Status Effect,Tears","Black,Gray",Always Unlocked,Rebirth
+Dark Prince's Crown,1,Passive,"Curse Room,Devil Room","Range Stat,Shot Speed Stat,Tear Stat",Black,Character,Afterbirth+
+Dataminer,0,Active,"Item Room,Ultra Secret Room","Items,Many Stats,Rooms/ Environment","Black,Red",Always Unlocked,Afterbirth+
+Dead Bird,0,Passive,"Baby Shop,Item Room","Contact DMG,Familiar,When Damaged",Gray,Always Unlocked,Flash
+Dead Cat,3,Passive,"Curse Room,Devil Room,Red Chest,Unique","HP Stat,Number of Lives","Black,White",Always Unlocked,Flash
+Dead Dove,3,Passive,Angel Room,"Flight,Tears",White,Always Unlocked,Wrath of the Lamb
+Dead Eye,3,Passive,"Item Room,Ultra Secret Room","DMG Stat,Tears","Black,Red",Always Unlocked,Afterbirth
+Dead Onion,2,Passive,"Item Room,Rotten Beggar","Range Stat,Shot Speed Stat,Tears",Brown/ Beige,Always Unlocked,Rebirth
+Dead Sea Scrolls,1,Active,"Angel Room,Item Room",Multi Trait,Brown/ Beige,Always Unlocked,Flash
+Dead Tooth,1,Passive,Item Room,"Aura/ Circle,Status Effect,Tears",Brown/ Beige,Always Unlocked,Afterbirth+
+Death Certificate,4,Active,Secret Room,"Items,Teleportation","Blue,Gray",Game Progression,Repentance
+Death's List,1,Passive,Devil Room,"Enemies,Many Stats,Pickups","Black,Brown/ Beige,Red",Game Progression,Afterbirth+
+Death's Touch,3,Passive,"Devil Room,Item Room","DMG Stat,Tear Stat,Tears","Black,Gray",Challenge,Rebirth
+Decap Attack,1,Active,Item Room,"Contact DMG,Tears,Throwable","Blue,Pink",Character,Repentance
+Deck of Cards,2,Active,"Crane Game,Item Room,Shop",Cards,"Brown/ Beige,Pink,Yellow",Always Unlocked,Flash
+Deep Pockets,2,Passive,Shop,Coins,Gray,Character,Afterbirth
+Delirious,1,Active,Angel Room,"Boss,Familiar","Pink,White",Game Progression,Afterbirth+
+Demon Baby,1,Passive,"Baby Shop,Devil Room,Item Room","Familiar,Tears",Black,Character,Flash
+Depression,1,Passive,Item Room,"Creep,Familiar,Laser/ Beams",Purple,Always Unlocked,Afterbirth+
+Dessert,1,Passive,"Beggar,Boss Room","Heal,HP Stat",Brown/ Beige,Always Unlocked,Flash
+Dinner,1,Passive,"Beggar,Boss Room","Heal,HP Stat","Brown/ Beige,Gray",Always Unlocked,Flash
+Diplopia,3,Active,Shop,"Items,Pickups","Black,Gray,White",Always Unlocked,Afterbirth
+Dirty Mind,1,Passive,Item Room,"Familiar,Poop,Rocks","Brown/ Beige,Red",Challenge,Repentance
+Distant Admiration,1,Passive,"Baby Shop,Item Room,Key Beggar","Contact DMG,Familiar,Fly,Orbital",Black,Always Unlocked,Flash
+Divine Intervention,1,Passive,Angel Room,"Knockback,Reflection","White,Yellow",Character,Repentance
+Divorce Papers,3,Passive,"Boss Room,Old Chest","Bone Hearts,Tear Stat,Trinkets","Red,White",Character,Afterbirth+
+Doctor's Remote,1,Active,"Crane Game,Item Room",Bombs/ Explodes,"Black,Gray",Always Unlocked,Flash
+Dog Tooth,2,Passive,Item Room,"DMG Stat,Rooms/ Environment,Speed Stat",White,Always Unlocked,Afterbirth+
+Dogma,3,Passive,Unique,"DMG Stat,Flight,HP Stat,Negates DMG,Speed Stat",Blue,None,Repentance
+Dr. Fetus,4,Passive,Item Room,"Bombs/ Explodes,Tear Stat,Tears","Pink,Transparent",Game Progression,Flash
+Dream Catcher,2,Passive,Shop,"Boss,Items,Soul Hearts","Black,Blue,Brown/ Beige",Always Unlocked,Repentance
+Dry Baby,3,Passive,"Baby Shop,Item Room,Unique","Familiar,Mass Damage",White,Always Unlocked,Rebirth
+Duality,1,Passive,"Angel Room,Devil Room",Room Chance,"Black,White",Character,Afterbirth+
+Dull Razor,0,Active,Shop,Self Damage,"Brown/ Beige,Gray",Character,Afterbirth+
+E. Coli,0,Passive,Item Room,"Contact DMG,Poop",Red,Always Unlocked,Rebirth
+Echo Chamber,3,Passive,"Secret Room,Ultra Secret Room","Cards,Pills,Runes","Brown/ Beige,Red,White",Character,Repentance
+Eden's Blessing,3,Passive,Item Room,"Items,Tear Stat",White,Character,Afterbirth
+Eden's Soul,2,Active,Angel Room,Items,"Blue,White",Character,Afterbirth+
+Empty Heart,1,Passive,"Demon Beggar,Item Room",HP Stat,"Black,Red",Character,Repentance
+Empty Vessel,2,Passive,"Demon Beggar,Devil Room","Black Hearts,Flight,Invincibility","Black,Red",Character,Afterbirth
+Epic Fetus,4,Passive,"Item Room,Secret Room","Bombs/ Explodes,Tears","Black,Pink,Transparent",Challenge,Wrath of the Lamb
+Epiphora,1,Passive,Item Room,"Tear Stat,Tears",Blue,Always Unlocked,Afterbirth
+Eraser,1,Active,"Crane Game,Shop","Enemies,Throwable",Pink,Always Unlocked,Repentance
+Esau Jr,1,Active,"Item Room,Secret Room,Ultra Secret Room","Black Hearts,Character,DMG Stat,Flight,Items","Black,Red,Transparent",Character,Repentance
+Eternal D6,3,Active,"Crane Game,Item Room,Secret Room",Items,White,Character,Repentance
+Eucharist,3,Passive,Angel Room,Room Chance,"White,Yellow",Character,Afterbirth+
+Euthanasia,3,Passive,"Curse Room,Demon Beggar,Item Room","Status Effect,Tears","Black,Gray",Character,Afterbirth+
+Eve's Mascara,3,Passive,Item Room,"DMG Stat,Shot Speed Stat,Tear Stat",Black,Character,Rebirth
+Everything Jar,2,Active,"Crane Game,Item Room","Multi Trait,Pickups,Poop","Purple,Transparent",Character,Repentance
+Evil Charm,1,Passive,Secret Room,"Creep,Fire,Luck Stat,Status Effect","Blue,White",Always Unlocked,Repentance
+Evil Eye,2,Passive,Item Room,Tears,"Blue,White",Character,Afterbirth
+Experimental Treatment,1,Passive,"Boss Room,Demon Beggar,Item Room",Many Stats,"Gray,Yellow",Game Progression,Rebirth
+Explosivo,3,Passive,Item Room,"Bombs/ Explodes,Tears","Black,Orange",Always Unlocked,Afterbirth
+Eye Drops,3,Passive,Boss Room,Tear Stat,White,Always Unlocked,Repentance
+Eye of Belial,3,Passive,"Devil Room,Ultra Secret Room","Range Stat,Tears",Red,Character,Afterbirth+
+Eye of Greed,2,Passive,Secret Room,"Coins,Status Effect,Tears",Gray,Character,Afterbirth+
+Eye of the Occult,3,Passive,"Devil Room,Ultra Secret Room","DMG Stat,Range Stat,Shot Speed Stat,Tears","Black,Red",Always Unlocked,Repentance
+Eye Sore,1,Passive,Item Room,Tears,"Pink,White",Always Unlocked,Repentance
+False PHD,2,Passive,"Curse Room,Devil Room,Red Chest,Ultra Secret Room","Black Hearts,DMG Stat,Pills","Red,White",Always Unlocked,Repentance
+Fanny pack,1,Passive,"Beggar,Shop","Pickups,When Damaged",Brown/ Beige,Always Unlocked,Rebirth
+Farting Baby,1,Passive,"Baby Shop,Item Room","Familiar,Farts,Knockback,Status Effect",Brown/ Beige,Character,Afterbirth
+Fast Bombs,1,Passive,"Bomb Beggar,Item Room",Bombs/ Explodes,"Black,Yellow",Game Progression,Afterbirth+
+Fate,3,Passive,Golden Chest,"Eternal Heart,Flight",Blue,Character,Wrath of the Lamb
+Fate's Reward,2,Passive,"Baby Shop,Item Room","Familiar,Tears",Blue,Character,Afterbirth
+Finger!,1,Passive,Item Room,"Familiar,Laser/ Beams",Pink,Always Unlocked,Afterbirth+
+Fire Mind,2,Passive,Item Room,"Bombs/ Explodes,Fire,Status Effect,Tears","Black,Orange",Always Unlocked,Rebirth
+Flat Stone,2,Passive,Item Room,Tears,"Blue,Gray",Game Progression,Afterbirth+
+Flip,4,Active,"Curse Room,Secret Room,Ultra Secret Room",Items,"Black,Red",Character,Repentance
+FLUSH!,1,Active,Item Room,"Boss,Enemies,Poop,Rooms/ Environment",Gray,Always Unlocked,Rebirth
+Forever Alone,1,Passive,"Baby Shop,Item Room,Key Beggar,Unique","Contact DMG,Familiar,Fly,Orbital","Black,Blue",Always Unlocked,Flash
+Forget Me Now,3,Active,"Demon Beggar,Devil Room,Item Room,Secret Room",Rooms/ Environment,White,Character,Flash
+Fortune Cookie,2,Active,Item Room,"Cards,Runes,Soul Hearts,Trinkets","Brown/ Beige,Gray,White",Always Unlocked,Repentance
+Free Lemonade,0,Active,Item Room,Creep,"Transparent,Yellow",Always Unlocked,Repentance
+Freezer Baby,2,Passive,"Baby Shop,Item Room","Familiar,Status Effect,Tears","Blue,White",Always Unlocked,Repentance
+Friend Finder,2,Active,"Crane Game,Item Room","Enemies,Familiar",White,Character,Repentance
+Friend Zone,1,Passive,"Baby Shop,Item Room,Key Beggar","Contact DMG,Familiar,Fly,Orbital",Gray,Always Unlocked,Afterbirth
+Friendly Ball,1,Active,"Crane Game,Item Room","Enemies,Throwable","Blue,Gray",Always Unlocked,Afterbirth
+Fruit Cake,2,Passive,Item Room,"Multi Trait,Status Effect,Tears","Brown/ Beige,Green,Red",Always Unlocked,Afterbirth
+Fruity Plum,1,Passive,"Baby Shop,Crane Game,Item Room,Key Beggar","Familiar,Tears","Purple,White",Game Progression,Repentance
+GB Bug,1,Passive,"Item Room,Secret Room","Enemies,Familiar,Pickups,Trinkets","Green,Red,White,Yellow",Character,Afterbirth
+Gello,3,Active,"Devil Room,Item Room,Ultra Secret Room","Contact DMG,Familiar,Tears","Pink,Red",Character,Repentance
+Gemini,1,Passive,Item Room,"Contact DMG,Familiar","Black,Blue",Always Unlocked,Rebirth
+Genesis,2,Active,Angel Room,"Items,Many Stats,Rooms/ Environment,Teleportation","Blue,White",Character,Repentance
+Ghost Baby,1,Passive,"Baby Shop,Devil Room,Item Room,Unique","Familiar,Tears",White,Always Unlocked,Wrath of the Lamb
+Ghost Bombs,1,Passive,"Bomb Beggar,Item Room","Bombs/ Explodes,Familiar",White,Character,Repentance
+Ghost Pepper,3,Passive,Item Room,"Fire,Tears",White,Always Unlocked,Afterbirth+
+Giant Cell,1,Passive,Item Room,"Familiar,Tears,When Damaged",Pink,Always Unlocked,Repentance
+Gimpy,2,Passive,"Curse Room,Demon Beggar,Devil Room,Item Room","Enemies,Red Hearts,Soul Hearts,When Damaged","Black,White",Always Unlocked,Rebirth
+Glass Cannon,1,Active,"Crane Game,Item Room","Creep,Range Stat,Tears,When Damaged","Transparent,White",Always Unlocked,Afterbirth
+Glass Eye,3,Passive,"Boss Room,Crane Game,Golden Chest","DMG Stat,Luck Stat","Blue,White",Always Unlocked,Repentance
+Glaucoma,1,Passive,Item Room,"Status Effect,Tears",White,Always Unlocked,Afterbirth+
+Glitched Crown,4,Passive,Secret Room,Items,Yellow,Character,Repentance
+Glitter Bombs,2,Passive,"Bomb Beggar,Item Room","Bombs/ Explodes,Pickups,Status Effect",Pink,Always Unlocked,Afterbirth
+Glowing Hourglass,3,Active,"Crane Game,Item Room,Shop",Rooms/ Environment,"Blue,Brown/ Beige",Always Unlocked,Afterbirth
+Glyph of Balance,2,Passive,Angel Room,"Pickups,Soul Hearts",Blue,Character,Afterbirth+
+Gnawed Leaf,1,Passive,Item Room,Invincibility,Green,Always Unlocked,Rebirth
+Goat Head,3,Passive,"Curse Room,Devil Room",Room Chance,Brown/ Beige,Always Unlocked,Rebirth
+God's Flesh,1,Passive,Item Room,"Size,Status Effect,Tears",Pink,Always Unlocked,Afterbirth
+Godhead,4,Passive,Angel Room,"Aura/ Circle,DMG Stat,Shot Speed Stat,Tear Stat,Tears","Black,Blue,Red,White,Yellow",Character,Rebirth
+Golden Razor,0,Active,Item Room,"Coins,DMG Stat",Yellow,Game Progression,Repentance
+Greed's Gullet,1,Passive,Secret Room,"Coins,HP Stat",Brown/ Beige,Challenge,Afterbirth+
+Growth Hormones,3,Passive,"Boss Room,Demon Beggar","DMG Stat,Speed Stat","Gray,Purple",Always Unlocked,Flash
+Guardian Angel,1,Passive,"Angel Room,Baby Shop","Contact DMG,Familiar,Orbital","Pink,White",Character,Flash
+Guppy's Collar,1,Passive,"Crane Game,Curse Room,Devil Room,Red Chest",Number of Lives,"Pink,White",Always Unlocked,Rebirth
+Guppy's Eye,2,Passive,"Curse Room,Devil Room,Red Chest","Chests,Fire,Pickups,Sacks",Orange,Character,Repentance
+Guppy's Hairball,1,Passive,Devil Room,"Contact DMG,Familiar",Brown/ Beige,Game Progression,Wrath of the Lamb
+Guppy's Head,2,Active,"Curse Room,Devil Room,Red Chest",Fly,"Black,White",Always Unlocked,Wrath of the Lamb
+Guppy's Paw,3,Active,"Curse Room,Devil Room,Red Chest","HP Stat,Soul Hearts","Black,Gray,Pink",Always Unlocked,Wrath of the Lamb
+Guppy's Tail,2,Passive,"Curse Room,Devil Room,Red Chest",Chests,"Black,White",Always Unlocked,Wrath of the Lamb
+Habit,2,Passive,"Angel Room,Shop","Item Charge,When Damaged","Black,White",Always Unlocked,Wrath of the Lamb
+Haemolacria,4,Passive,"Item Room,Ultra Secret Room","Many Stats,Tears",Red,Game Progression,Afterbirth+
+Hallowed Ground,1,Passive,"Angel Room,Item Room","Aura/ Circle,DMG Stat,Familiar,Negates DMG,Poop,Tear Stat,Tears,When Damaged","Blue,White",Character,Afterbirth+
+Halo of Flies,2,Passive,"Baby Shop,Item Room,Key Beggar","Fly,Orbital",Black,Always Unlocked,Flash
+Harlequin Baby,1,Passive,"Baby Shop,Item Room,Ultra Secret Room","Familiar,Tears","Pink,Red",Always Unlocked,Wrath of the Lamb
+Head of Krampus,1,Active,Unique,"Laser/ Beams,Tears","Black,Gray,Red",Game Progression,Rebirth
+Head of the Keeper,2,Passive,Unique,"Coins,Tears","Gray,Yellow",Always Unlocked,Afterbirth
+Headless Baby,1,Passive,"Baby Shop,Devil Room,Item Room","Creep,Familiar","Red,White",Always Unlocked,Rebirth
+Heartbreak,3,Passive,"Curse Room,Devil Room,Ultra Secret Room","Broken Hearts,DMG Stat",Red,Character,Repentance
+Hemoptysis,1,Passive,"Item Room,Ultra Secret Room","Knockback,Reflection,Status Effect,Tears",Red,Character,Repentance
+Hive Mind,2,Passive,Shop,"Fly,Spiders","Blue,White",Always Unlocked,Rebirth
+Hold,0,Active,Unique,"Poop,Throwable","Orange,Transparent",None,Repentance
+Holy Grail,3,Passive,Angel Room,"Flight,Heal,HP Stat",Brown/ Beige,Always Unlocked,Wrath of the Lamb
+Holy Light!,3,Passive,"Angel Room,Item Room","Laser/ Beams,Tears","Black,Blue,White",Always Unlocked,Afterbirth
+Holy Mantle,4,Passive,"Angel Room,Item Room",Negates DMG,"Blue,White",Always Unlocked,Rebirth
+Holy Water,3,Passive,"Angel Room,Item Room","Creep,Familiar,Status Effect","Blue,Transparent",Always Unlocked,Wrath of the Lamb
+Host Hat,3,Passive,Item Room,"Familiar,Negates DMG,Tears",Gray,Always Unlocked,Afterbirth
+Hot Bombs,1,Passive,"Bomb Beggar,Item Room","Bombs/ Explodes,Contact DMG,Fire","Black,Orange",Always Unlocked,Rebirth
+How To Jump,1,Active,"Item Room,Library",Dash,"Blue,Brown/ Beige,Gray,Orange,Red,White",Always Unlocked,Rebirth
+Humbleing Bundle,3,Passive,Shop,Pickups,Brown/ Beige,Always Unlocked,Rebirth
+Hungry Soul,2,Passive,"Devil Room,Ultra Secret Room","Bombs/ Explodes,Contact DMG,Enemies,Familiar",Red,Character,Repentance
+Hushy,0,Passive,"Baby Shop,Item Room","Contact DMG,Familiar,Tears",Blue,Character,Afterbirth+
+Hypercoagulation,2,Passive,"Item Room,Ultra Secret Room","Red Hearts,When Damaged",Red,Character,Repentance
+IBS,0,Passive,Item Room,"Poop,Throwable",Pink,Character,Repentance
+Immaculate Conception,1,Passive,Angel Room,"Familiar,Heal,Soul Hearts",White,Character,Afterbirth
+Immaculate Heart,3,Passive,"Angel Room,Ultra Secret Room","DMG Stat,Heal,HP Stat,Orbital,Tears","Orange,Red",Always Unlocked,Repentance
+Incubus,4,Passive,"Baby Shop,Devil Room","Familiar,Tears","Black,Red",Character,Afterbirth
+Infamy,2,Passive,"Item Room,Secret Room",Negates DMG,Purple,Always Unlocked,Rebirth
+Infestation,0,Passive,Item Room,"Fly,When Damaged",Yellow,Always Unlocked,Wrath of the Lamb
+Infestation 2,3,Passive,Item Room,"Enemies,Spiders",Orange,Always Unlocked,Rebirth
+Inner Child,2,Passive,"Secret Room,Unique","Bombs/ Explodes,Number of Lives,Size,Speed Stat",Pink,Character,Repentance
+Ipecac,4,Passive,Item Room,"Bombs/ Explodes,DMG Stat,Status Effect,Tear Stat,Tears","Purple,White",Game Progression,Wrath of the Lamb
+Iron Bar,2,Passive,Item Room,"DMG Stat,Status Effect,Tears",Gray,Always Unlocked,Rebirth
+Isaac's Heart,0,Passive,"Item Room,Ultra Secret Room","Contact DMG,Creep,Familiar,Knockback,Negates DMG,Tears",Red,Character,Rebirth
+Isaac's Tears,1,Active,Item Room,Tears,"Blue,Transparent",Character,Rebirth
+Isaac's Tomb,2,Passive,Secret Room,Chests,"Brown/ Beige,Gray",Character,Repentance
+It Hurts,1,Passive,Item Room,"Creep,Tear Stat,Tears,When Damaged","Gray,Red",Always Unlocked,Repentance
+IV Bag,2,Active,"Ultra Secret Room,Unique","Coins,Self Damage","Red,Transparent",Always Unlocked,Wrath of the Lamb
+Jacob's Ladder,3,Passive,"Battery Beggar,Crane Game,Item Room","Laser/ Beams,Tears","Blue,Gray",Always Unlocked,Afterbirth+
+Jar of Flies,2,Active,Shop,"Enemies,Fly","Black,Transparent",Always Unlocked,Afterbirth
+Jar of Wisps,1,Active,Angel Room,"Contact DMG,Familiar,Orbital,Tears","Blue,Brown/ Beige,Transparent,Yellow",Character,Repentance
+Jaw Bone,1,Passive,Item Room,"Contact DMG,Familiar,Pickups",White,Character,Afterbirth+
+Jesus Juice,2,Passive,"Angel Room,Boss Room","DMG Stat,Range Stat","Purple,White",Always Unlocked,Wrath of the Lamb
+Judas' Shadow,3,Passive,Devil Room,"Black Hearts,Character,DMG Stat,Number of Lives,Speed Stat",Black,Character,Rebirth
+Juicy Sack,2,Passive,"Baby Shop,Item Room","Creep,Familiar,Spiders",White,Always Unlocked,Rebirth
+Jumper Cables,2,Passive,"Battery Beggar,Shop","Enemies,Item Charge","Black,Gray,Red",Game Progression,Afterbirth+
+Jupiter,2,Passive,Planetarium,"Farts,HP Stat,Speed Stat,Status Effect","Black,Blue",Game Progression,Repentance
+Kamikaze,0,Active,"Item Room,Ultra Secret Room","Bombs/ Explodes,Self Damage","Red,White",Always Unlocked,Flash
+Keeper's Box,1,Active,"Secret Room,Shop,Wooden Chest","Items,Pickups","Brown/ Beige,Orange",Character,Repentance
+Keeper's Kin,2,Passive,"Item Room,Secret Room","Rocks,Spiders","Blue,Gray",Character,Repentance
+Keeper's Sack,3,Passive,"Secret Room,Shop","Coins,DMG Stat,Keys/ Doors,Range Stat,Speed Stat",Gray,Character,Repentance
+Key Bum,0,Passive,"Baby Shop,Item Room,Key Beggar,Secret Room","Chests,Familiar,Keys/ Doors",Gray,Character,Afterbirth
+Key Piece 1,0,Passive,Unique,"Eternal Heart,Familiar,Keys/ Doors,Room Chance",Yellow,Game Progression,Rebirth
+Key Piece 2,0,Passive,Unique,"Eternal Heart,Familiar,Keys/ Doors,Room Chance",Yellow,Game Progression,Rebirth
+Kidney Bean,0,Active,"Item Room,Ultra Secret Room","Farts,Status Effect",Red,Always Unlocked,Afterbirth
+Kidney Stone,2,Passive,Item Room,"Tear Stat,Tears","Brown/ Beige,Red",Challenge,Afterbirth
+King Baby,1,Passive,"Baby Shop,Shop",Familiar,"Blue,Yellow",Character,Afterbirth+
+Knife Piece 1,0,Passive,Unique,"Contact DMG,Familiar,Keys/ Doors",Brown/ Beige,Game Progression,Repentance
+Knife Piece 2,0,Passive,Unique,"Contact DMG,Familiar,Keys/ Doors",Gray,Game Progression,Repentance
+Knockout Drops,2,Passive,"Item Room,Ultra Secret Room","Knockback,Status Effect,Tears","Black,Red,Yellow",Always Unlocked,Repentance
+Lachryphagy,3,Passive,Item Room,Tears,Blue,Game Progression,Afterbirth+
+Large Zit,1,Passive,Item Room,"Creep,Status Effect,Tears","Pink,Yellow",Always Unlocked,Afterbirth+
+Larynx,2,Active,Item Room,"Aura/ Circle,Mass Damage","Red,White",Character,Repentance
+Latch Key,1,Passive,"Boss Room,Golden Chest,Key Beggar","Keys/ Doors,Luck Stat,Soul Hearts",Brown/ Beige,Always Unlocked,Rebirth
+Lazarus' Rags,1,Passive,"Angel Room,Item Room","Character,Creep,Many Stats,Number of Lives","Red,White",Character,Rebirth
+Lead Pencil,3,Passive,"Crane Game,Golden Chest,Item Room",Tears,"Pink,Yellow",Always Unlocked,Afterbirth+
+Leech,2,Passive,"Baby Shop,Item Room,Unique","Contact DMG,Familiar,Heal",Gray,Always Unlocked,Rebirth
+Lemegeton,3,Active,"Devil Room,Library","Contact DMG,Familiar,Items,Multi Trait,Orbital","Black,White",Character,Repentance
+Lemon Mishap,0,Active,Item Room,Creep,Yellow,Always Unlocked,Flash
+Leo,1,Passive,Item Room,"Rocks,Size","Black,Blue",Always Unlocked,Rebirth
+Leprosy,0,Passive,Item Room,"Orbital,When Damaged","Pink,Red",Game Progression,Afterbirth+
+Libra,1,Passive,Item Room,"Bombs/ Explodes,Coins,Keys/ Doors,Many Stats","Black,Blue",Always Unlocked,Rebirth
+Lil Abaddon,2,Passive,"Baby Shop,Devil Room","Aura/ Circle,Familiar,Laser/ Beams","Black,Red",Character,Repentance
+Lil Brimstone,2,Passive,"Baby Shop,Devil Room,Item Room","Familiar,Laser/ Beams,Tears","Black,Gray",Always Unlocked,Rebirth
+Lil Chest,2,Passive,"Beggar,Crane Game,Item Room,Wooden Chest","Familiar,Pickups,Trinkets",Brown/ Beige,Character,Afterbirth
+Lil Delirium,1,Passive,"Angel Room,Baby Shop,Devil Room","Familiar,Multi Trait","Pink,White",Game Progression,Afterbirth+
+Lil Dumpy,3,Passive,"Baby Shop,Item Room","Familiar,Farts,Knockback,Reflection",Pink,Always Unlocked,Repentance
+Lil Gurdy,1,Passive,"Baby Shop,Item Room","Contact DMG,Familiar","Brown/ Beige,Pink",Always Unlocked,Afterbirth
+Lil Haunt,1,Passive,"Baby Shop,Item Room","Contact DMG,Familiar,Status Effect",White,Always Unlocked,Rebirth
+Lil Loki,1,Passive,"Baby Shop,Item Room,Ultra Secret Room","Familiar,Tears",Red,Always Unlocked,Afterbirth
+Lil Monstro,2,Passive,"Baby Shop,Item Room","Familiar,Tears",Pink,Always Unlocked,Afterbirth+
+Lil Portal,0,Passive,Item Room,"Contact DMG,Familiar,Fly,Pickups,Rooms/ Environment,Teleportation","Black,Purple,White",Character,Repentance
+Lil Spewer,1,Passive,"Baby Shop,Item Room","Creep,Familiar,Pills",Pink,Game Progression,Afterbirth+
+Linger Bean,0,Passive,"Beggar,Item Room","Farts,Tears",Pink,Always Unlocked,Afterbirth+
+Little Baggy,0,Passive,Shop,"Cards,Pills,Runes","Brown/ Beige,Purple,Transparent,White",Game Progression,Rebirth
+Little C.H.A.D,2,Passive,"Baby Shop,Item Room,Ultra Secret Room,Unique","Familiar,Red Hearts",Red,Game Progression,Flash
+Little Chubby,1,Passive,"Baby Shop,Item Room","Contact DMG,Familiar",White,Game Progression,Flash
+Little Gish,1,Passive,"Baby Shop,Item Room,Unique","Familiar,Status Effect,Tears","Black,Yellow",Game Progression,Flash
+Little Horn,3,Passive,"Curse Room,Demon Beggar,Devil Room","Contact DMG,Status Effect,Tears",Black,Always Unlocked,Afterbirth+
+Little Steven,2,Passive,"Baby Shop,Item Room,Unique","Familiar,Tears","Black,White",Game Progression,Flash
+Lodestone,2,Passive,"Crane Game,Item Room","Status Effect,Tears","Black,Gray",Always Unlocked,Repentance
+Loki's Horns,1,Passive,"Demon Beggar,Item Room",Tears,"Black,Gray",Game Progression,Flash
+Lord of the Pit,3,Passive,"Demon Beggar,Devil Room,Ultra Secret Room","Flight,Speed Stat","Black,Red",Always Unlocked,Flash
+Lost Contact,2,Passive,"Item Room,Secret Room","Shot Speed Stat,Tears",White,Always Unlocked,Rebirth
+Lost Fly,2,Passive,"Baby Shop,Item Room,Key Beggar","Contact DMG,Enemies,Familiar,Fly,Rooms/ Environment",White,Always Unlocked,Afterbirth
+Lost Soul,1,Passive,"Baby Shop,Item Room,Secret Room","Eternal Heart,Familiar,Items,Soul Hearts",White,Character,Repentance
+Lucky Foot,2,Passive,"Beggar,Crane Game,Item Room","Luck Stat,Pills","Pink,Yellow",Always Unlocked,Flash
+Luna,3,Passive,Planetarium,"Rooms/ Environment,Soul Hearts,Tear Stat","Black,Blue",Game Progression,Repentance
+Lunch,1,Passive,"Beggar,Boss Room,Unique","Heal,HP Stat","Brown/ Beige,Gray",Always Unlocked,Flash
+Lusty Blood,3,Passive,"Devil Room,Item Room,Ultra Secret Room","DMG Stat,Enemies",Red,Character,Afterbirth
+Maggy's Bow,2,Passive,Item Room,"Heal,HP Stat",Pink,Character,Rebirth
+Magic 8 Ball,1,Passive,"Boss Room,Crane Game,Golden Chest","Cards,Room Chance,Shot Speed Stat","Black,White",Always Unlocked,Wrath of the Lamb
+Magic Fingers,0,Active,"Item Room,Shop","Coins,Mass Damage","Brown/ Beige,Gray,Yellow",Always Unlocked,Rebirth
+Magic Mushroom,4,Passive,"Item Room,Ultra Secret Room,Unique","Heal,Many Stats,Size","Red,White",Always Unlocked,Flash
+Magic Scab,2,Passive,"Boss Room,Ultra Secret Room","Heal,HP Stat,Luck Stat",Red,Always Unlocked,Rebirth
+Magic Skin,2,Active,"Curse Room,Red Chest,Shop","Broken Hearts,Items",Pink,Character,Repentance
+Magneto,1,Passive,"Item Room,Ultra Secret Room","Chests,Pickups","Red,White",Always Unlocked,Flash
+MaMa Mega!,3,Active,"Bomb Beggar,Shop","Bombs/ Explodes,Keys/ Doors,Mass Damage,Rocks","Black,Red",Always Unlocked,Afterbirth+
+Marbles,2,Passive,"Boss Room,Crane Game","Trinkets,When Damaged","Blue,Brown/ Beige,Green,Red",Game Progression,Afterbirth+
+Marked,0,Passive,"Item Room,Ultra Secret Room","Range Stat,Tear Stat,Tears",Red,Always Unlocked,Afterbirth
+Marrow,1,Passive,"Boss Room,Ultra Secret Room","Bone Hearts,Red Hearts","Red,White",Character,Afterbirth+
+Mars,0,Passive,Planetarium,"Contact DMG,Dash,Invincibility,Knockback,Speed Stat","Black,Blue",Game Progression,Repentance
+Match Book,1,Passive,"Boss Room,Golden Chest","Black Hearts,Bombs/ Explodes,Trinkets","Gray,Red,White",Always Unlocked,Rebirth
+Maw of The Void,3,Passive,"Devil Room,Ultra Secret Room","Aura/ Circle,Laser/ Beams,Tears",Red,Character,Afterbirth
+Meat Cleaver,0,Active,Item Room,"Enemies,Mass Damage,Size","Brown/ Beige,Gray",Character,Repentance
+MEAT!,2,Passive,"Boss Room,Ultra Secret Room","DMG Stat,Heal,HP Stat",Red,Always Unlocked,Wrath of the Lamb
+Mega Bean,1,Active,Item Room,"Bombs/ Explodes,Enemies,Farts,Reflection,Status Effect",Pink,Always Unlocked,Afterbirth
+Mega Blast,4,Active,Devil Room,"Laser/ Beams,Tears","Black,Red",Game Progression,Afterbirth
+Mega Mush,4,Active,"Item Room,Secret Room","Contact DMG,DMG Stat,Invincibility,Range Stat,Rocks,Size","White,Yellow",Game Progression,Repentance
+Member Card,2,Passive,Shop,Rooms/ Environment,Yellow,Game Progression,Repentance
+Mercurius,2,Passive,Planetarium,"Keys/ Doors,Speed Stat","Black,Blue",Game Progression,Repentance
+Metal Plate,1,Passive,Item Room,"Reflection,Soul Hearts,Status Effect",Gray,Always Unlocked,Afterbirth+
+Metronome,1,Active,"Crane Game,Item Room,Wooden Chest",Multi Trait,"Brown/ Beige,Gray",Character,Afterbirth+
+Midas Touch,1,Passive,Item Room,"Coins,Contact DMG,Status Effect",Yellow,Always Unlocked,Rebirth
+Midnight Snack,1,Passive,"Beggar,Boss Room,Golden Chest","Heal,HP Stat","Brown/ Beige,Green",Always Unlocked,Afterbirth+
+Milk!,1,Passive,Item Room,"Familiar,Tear Stat","Transparent,White",Always Unlocked,Afterbirth
+Mine Crafter,1,Active,"Crane Game,Item Room",Bombs/ Explodes,"Orange,Red",Always Unlocked,Afterbirth
+Mini Mush,2,Passive,"Item Room,Unique","Range Stat,Size,Speed Stat","Blue,White",Always Unlocked,Flash
+Missing No,0,Passive,Secret Room,"Items,Many Stats","Blue,Red,White,Yellow",Character,Rebirth
+Missing Page 2,0,Passive,"Demon Beggar,Devil Room,Secret Room","Black Hearts,Mass Damage,When Damaged","Brown/ Beige,Red",Always Unlocked,Rebirth
+Mitre,3,Passive,"Angel Room,Item Room",Soul Hearts,"White,Yellow",Always Unlocked,Wrath of the Lamb
+Mom's Bottle of Pills,1,Active,"Beggar,Crane Game,Demon Beggar,Item Room,Mom's Chest,Old Chest,Shop",Pills,"Blue,Red,White,Yellow",Always Unlocked,Flash
+Mom's Box,2,Active,"Crane Game,Mom's Chest,Old Chest,Shop,Wooden Chest","Luck Stat,Trinkets","Black,Purple",Always Unlocked,Afterbirth
+Mom's Bra,0,Active,"Item Room,Mom's Chest,Old Chest","Enemies,Status Effect",White,Always Unlocked,Flash
+Mom's Bracelet,1,Active,"Crane Game,Old Chest,Shop","Rocks,Throwable",Yellow,Always Unlocked,Repentance
+Mom's Coin Purse,0,Passive,"Beggar,Boss Room,Demon Beggar,Mom's Chest,Old Chest,Shop",Pills,"Brown/ Beige,Gray",Always Unlocked,Wrath of the Lamb
+Mom's Contacts,3,Passive,"Item Room,Mom's Chest,Old Chest,Ultra Secret Room","Range Stat,Status Effect,Tears","Pink,Red",Game Progression,Flash
+Mom's Eye,1,Passive,"Item Room,Mom's Chest,Old Chest",Tears,"Black,Red,White",Always Unlocked,Flash
+Mom's Eyeshadow,1,Passive,"Item Room,Mom's Chest,Old Chest","Status Effect,Tears","Blue,Gray,Orange",Always Unlocked,Rebirth
+Mom's Heels,1,Passive,"Boss Room,Mom's Chest,Old Chest,Ultra Secret Room","Contact DMG,Range Stat",Red,Always Unlocked,Flash
+Mom's Key,3,Passive,"Key Beggar,Mom's Chest,Old Chest,Shop","Chests,Keys/ Doors",Yellow,Always Unlocked,Rebirth
+Mom's Knife,4,Passive,"Devil Room,Item Room,Mom's Chest,Old Chest","Melee,Tears","Brown/ Beige,Gray",Character,Flash
+Mom's Lipstick,1,Passive,"Boss Room,Mom's Chest,Old Chest,Ultra Secret Room","Black Hearts,Bone Hearts,Eternal Heart,Range Stat,Red Hearts,Rotten Hearts,Soul Hearts","Gray,Red",Always Unlocked,Flash
+Mom's Pad,0,Active,"Item Room,Mom's Chest,Old Chest","Enemies,Fly,Status Effect",White,Always Unlocked,Flash
+Mom's Pearls,2,Passive,"Boss Room,Golden Chest,Mom's Chest,Old Chest","Luck Stat,Range Stat,Soul Hearts","Gray,White",Always Unlocked,Afterbirth
+Mom's Perfume,2,Passive,"Item Room,Mom's Chest,Old Chest","Status Effect,Tear Stat,Tears","Brown/ Beige,White,Yellow",Always Unlocked,Rebirth
+Mom's Purse,2,Passive,"Mom's Chest,Old Chest,Shop",Trinkets,"Pink,Purple",Always Unlocked,Wrath of the Lamb
+Mom's Razor,1,Passive,"Item Room,Mom's Chest,Old Chest","Contact DMG,Orbital,Status Effect","Gray,Pink",Always Unlocked,Afterbirth+
+Mom's Ring,3,Passive,"Golden Chest,Mom's Chest,Old Chest","DMG Stat,Runes","Purple,Yellow",Always Unlocked,Repentance
+Mom's Shovel,4,Active,Unique,Rooms/ Environment,"Brown/ Beige,Purple",Game Progression,Afterbirth+
+Mom's Underwear,1,Passive,"Boss Room,Golden Chest,Mom's Chest,Old Chest","Fly,Range Stat",Pink,Always Unlocked,Flash
+Mom's Wig,2,Passive,"Item Room,Mom's Chest,Old Chest","Heal,Spiders,Tears",Orange,Always Unlocked,Rebirth
+Money = Power,3,Passive,"Devil Room,Item Room,Ultra Secret Room","Coins,DMG Stat","Gray,Red",Always Unlocked,Flash
+Mongo Baby,2,Passive,"Baby Shop,Item Room","Familiar,Multi Trait,Tears","Blue,Gray,Pink",Always Unlocked,Rebirth
+Monster Manual,1,Active,"Devil Room,Item Room,Library","Familiar,Multi Trait","Blue,Brown/ Beige,Green,Pink,White",Always Unlocked,Flash
+Monstrance,1,Passive,Angel Room,"Aura/ Circle,Contact DMG",Brown/ Beige,Always Unlocked,Repentance
+Monstro's Lung,2,Passive,Item Room,"Tear Stat,Tears",Pink,Always Unlocked,Rebirth
+Monstro's Tooth,0,Active,Item Room,"Boss,Familiar","Red,White",Game Progression,Flash
+Montezuma's Revenge,2,Passive,Item Room,"Laser/ Beams,Poop,Tears",Brown/ Beige,Character,Repentance
+More Options,3,Passive,Shop,Items,"Black,Yellow",Game Progression,Afterbirth
+Moving Box,1,Active,Shop,"Chests,Items,Pickups","Brown/ Beige,Gray",Game Progression,Afterbirth+
+Mr. Boom,1,Active,"Bomb Beggar,Item Room,Unique",Bombs/ Explodes,Gray,Always Unlocked,Flash
+Mr. Dolly,3,Passive,"Boss Room,Crane Game,Golden Chest","Black Hearts,Range Stat,Red Hearts,Soul Hearts,Tear Stat","Pink,Red,Yellow",Always Unlocked,Afterbirth
+Mr. ME!,3,Active,"Crane Game,Key Beggar,Shop,Wooden Chest","Enemies,Familiar,Items,Keys/ Doors,Rooms/ Environment","Brown/ Beige,Gray,Yellow",Game Progression,Afterbirth+
+Mr. Mega,2,Passive,"Bomb Beggar,Item Room,Unique",Bombs/ Explodes,Gray,Game Progression,Flash
+Mucormycosis,3,Passive,Item Room,"Status Effect,Tears","Blue,Purple",Always Unlocked,Repentance
+Multidimensional Baby,2,Passive,"Devil Room,Item Room","Familiar,Tears",Gray,Always Unlocked,Afterbirth
+Mutant Spider,3,Passive,"Crane Game,Item Room","Spiders,Tear Stat,Tears",Green,Always Unlocked,Wrath of the Lamb
+My Little Unicorn,1,Active,Item Room,"Contact DMG,Invincibility,Speed Stat",White,Always Unlocked,Flash
+My Reflection,3,Passive,"Crane Game,Item Room","Many Stats,Tears",White,Always Unlocked,Flash
+My Shadow,1,Passive,Devil Room,"Contact DMG,Familiar",Black,Character,Afterbirth
+Mysterious Liquid,3,Passive,Item Room,"Creep,Tears","Gray,Green,Transparent",Always Unlocked,Rebirth
+Mystery Egg,0,Passive,Item Room,"Enemies,Familiar,When Damaged",Pink,Game Progression,Afterbirth+
+Mystery Gift,3,Active,"Crane Game,Shop",Items,"Green,Red",Game Progression,Afterbirth+
+Mystery Sack,2,Passive,"Beggar,Item Room,Secret Room","Familiar,Pickups",Purple,Character,Rebirth
+Nancy Bombs,1,Passive,"Bomb Beggar,Item Room","Bombs/ Explodes,Multi Trait","Pink,Yellow",Always Unlocked,Repentance
+Neptunus,3,Passive,Planetarium,Tears,"Black,Blue",Game Progression,Repentance
+Night Light,1,Passive,"Crane Game,Shop","Aura/ Circle,Curses,Status Effect","Blue,White",Always Unlocked,Afterbirth
+No. 2,2,Passive,Item Room,"Bombs/ Explodes,Farts,Mass Damage,Poop,Status Effect,Tears",White,Always Unlocked,Afterbirth
+Notched Axe,1,Active,"Crane Game,Shop","Keys/ Doors,Melee,Rocks","Brown/ Beige,White",Always Unlocked,Wrath of the Lamb
+Number One,2,Passive,Item Room,"Range Stat,Tear Stat,Tears",Yellow,Always Unlocked,Flash
+Obsessed Fan,0,Passive,"Baby Shop,Item Room,Key Beggar","Contact DMG,Familiar,Fly",Purple,Always Unlocked,Afterbirth
+Ocular Rift,2,Passive,"Devil Room,Ultra Secret Room","Enemies,Pickups,Tears","Red,Yellow",Always Unlocked,Repentance
+Odd Mushroom (Large) ,2,Passive,"Item Room,Secret Room",Many Stats,Brown/ Beige,Always Unlocked,Flash
+Odd Mushroom (Thin),2,Passive,"Item Room,Secret Room","DMG Stat,Speed Stat,Tear Stat",Brown/ Beige,Always Unlocked,Flash
+Old Bandage,2,Passive,Boss Room,"HP Stat,Red Hearts,When Damaged",White,Always Unlocked,Rebirth
+Options?,2,Passive,Shop,"Chests,Pickups,Rooms/ Environment","Black,Gray",Character,Repentance
+Orphan Socks,2,Passive,"Golden Chest,Secret Room","Creep,Soul Hearts,Speed Stat","Blue,White",Always Unlocked,Repentance
+Ouija Board,2,Passive,"Devil Room,Item Room","Tear Stat,Tears",Brown/ Beige,Always Unlocked,Flash
+Pageant Boy,0,Passive,Boss Room,Coins,"Pink,Purple",Always Unlocked,Wrath of the Lamb
+Pandora's Box,2,Active,"Red Chest,Shop","Items,Multi Trait,Pickups",Blue,Character,Rebirth
+Papa Fly,1,Passive,"Baby Shop,Item Room,Key Beggar","Familiar,Fly,Tears",Blue,Always Unlocked,Afterbirth
+Parasitoid,3,Passive,Item Room,"Creep,Fly,Spiders,Tears","Blue,White",Always Unlocked,Afterbirth+
+Paschal Candle,3,Passive,Angel Room,"Tear Stat,When Damaged","Red,White",Always Unlocked,Repentance
+Pause,0,Active,"Crane Game,Item Room","Enemies,Status Effect","Black,Green",Always Unlocked,Afterbirth+
+Pay To Play,2,Passive,Shop,"Chests,Coins,Keys/ Doors",Gray,Always Unlocked,Afterbirth
+Pentagram,3,Passive,"Boss Room,Crane Game,Curse Room,Demon Beggar,Devil Room,Ultra Secret Room","DMG Stat,Room Chance","Black,Red",Always Unlocked,Flash
+PhD,2,Passive,"Item Room,Shop","Heal,Pills","Pink,White,Yellow",Always Unlocked,Flash
+Piggy Bank,1,Passive,"Crane Game,Item Room,Shop","Coins,When Damaged",Pink,Always Unlocked,Rebirth
+Pinking Shears,2,Active,Item Room,"Contact DMG,Familiar,Flight","Black,Gray",Always Unlocked,Flash
+Pisces,2,Passive,Item Room,"Knockback,Tear Stat,Tears","Black,Blue",Always Unlocked,Rebirth
+PJs,2,Passive,"Boss Room,Golden Chest","Heal,Soul Hearts",Blue,Always Unlocked,Afterbirth
+Placebo,1,Active,"Secret Room,Shop","Multi Trait,Pills",Gray,Always Unlocked,Afterbirth
+Placenta,2,Passive,"Boss Room,Unique","Heal,HP Stat","Purple,Red",Always Unlocked,Rebirth
+Plan C,0,Active,"Curse Room,Demon Beggar,Devil Room,Red Chest,Shop,Ultra Secret Room","Mass Damage,Self Damage",Red,Character,Afterbirth+
+Playdough Cookie,2,Passive,Item Room,"Multi Trait,Status Effect,Tears","Brown/ Beige,Green,Purple,Red",Always Unlocked,Repentance
+Plum Flute,0,Active,"Item Room,Ultra Secret Room,Unique","Boss,Familiar","Brown/ Beige,Red,White",Game Progression,Repentance
+Pluto,3,Passive,Planetarium,"Size,Tear Stat","Black,Blue",Game Progression,Repentance
+Pointy Rib,1,Passive,Item Room,"Contact DMG,Familiar","Red,White",Character,Afterbirth+
+Poke Go,2,Passive,"Crane Game,Shop","Enemies,Familiar","Black,Blue,Green",Always Unlocked,Afterbirth+
+Polydactyly,2,Passive,Item Room,"Cards,Pills,Runes",Pink,Always Unlocked,Afterbirth+
+Polyphemus,4,Passive,Item Room,"DMG Stat,Tear Stat,Tears","Black,Blue,White",Always Unlocked,Wrath of the Lamb
+Pop!,1,Passive,Item Room,Tears,"Red,White",Game Progression,Afterbirth+
+Portable Slot,0,Active,"Ultra Secret Room,Unique","Coins,Fly,Pickups","Red,White",Always Unlocked,Wrath of the Lamb
+Potato Peeler,2,Active,"Demon Beggar,Shop","Creep,DMG Stat,HP Stat,Orbital,Range Stat,Self Damage","Brown/ Beige,Gray",Always Unlocked,Afterbirth+
+Prayer Card,3,Active,"Angel Room,Item Room",Eternal Heart,"Blue,White,Yellow",Always Unlocked,Wrath of the Lamb
+Proptosis,3,Passive,"Item Room,Ultra Secret Room","DMG Stat,Range Stat,Tears","Red,White",Always Unlocked,Rebirth
+Psy Fly,4,Passive,"Baby Shop,Item Room,Key Beggar","Familiar,Fly,Orbital","Black,Purple",Always Unlocked,Repentance
+Punching Bag,1,Passive,"Baby Shop,Item Room","Enemies,Familiar",Brown/ Beige,Always Unlocked,Rebirth
+Pupula Duplex,2,Passive,Item Room,Tears,"Black,Blue,White",Always Unlocked,Afterbirth
+Purgatory,1,Passive,"Angel Room,Devil Room","Bombs/ Explodes,Familiar,Rooms/ Environment","Pink,White",Challenge,Repentance
+Purity,3,Passive,"Angel Room,Item Room","Many Stats,When Damaged",White,Character,Afterbirth
+Pyro,3,Passive,"Bomb Beggar,Item Room,Secret Room",Bombs/ Explodes,"Black,White",Always Unlocked,Wrath of the Lamb
+Pyromaniac,4,Passive,Item Room,"Bombs/ Explodes,Heal","Orange,Red",Always Unlocked,Rebirth
+Quints,2,Passive,"Baby Shop,Item Room","Enemies,Familiar,Multi Trait,Tears","Black,Gray",Always Unlocked,Repentance
+R Key,4,Active,Secret Room,Rooms/ Environment,White,Always Unlocked,Repentance
+Rainbow Baby,1,Passive,"Baby Shop,Item Room","Familiar,Multi Trait,Status Effect,Tears","Blue,Green,Purple,Red,Yellow",Always Unlocked,Wrath of the Lamb
+Raw Liver,2,Passive,Secret Room,"Heal,HP Stat",Brown/ Beige,Always Unlocked,Flash
+Razor Blade,0,Active,"Curse Room,Demon Beggar,Item Room","DMG Stat,Self Damage",Gray,Character,Flash
+Recall,0,Active,Unique,"Character,Throwable","Blue,White",None,Repentance
+Red Candle,1,Active,"Shop,Ultra Secret Room","Fire,Throwable","Gray,Red",Game Progression,Rebirth
+Red Key,3,Active,"Curse Room,Key Beggar,Mom's Chest,Red Chest,Secret Room,Ultra Secret Room","Keys/ Doors,Rooms/ Environment",Red,Game Progression,Repentance
+Red Stew,2,Passive,"Shop,Ultra Secret Room","DMG Stat,Heal","Brown/ Beige,Gray,Red",Character,Repentance
+Redemption,2,Passive,Unique,"DMG Stat,Rooms/ Environment,Soul Hearts","Blue,White",Character,Repentance
+Remote Detonator,0,Active,"Bomb Beggar,Crane Game,Item Room,Shop,Ultra Secret Room",Bombs/ Explodes,Red,Always Unlocked,Wrath of the Lamb
+Restock,2,Passive,"Beggar,Shop","Items,Pickups",Green,Always Unlocked,Afterbirth
+Revelation,4,Passive,Angel Room,"Flight,Laser/ Beams,Soul Hearts,Tears","Blue,White,Yellow",Character,Repentance
+Robo-Baby,1,Passive,"Baby Shop,Crane Game,Item Room","Familiar,Laser/ Beams,Tears","Gray,Red",Always Unlocked,Flash
+Robo-Baby 2.0,1,Passive,"Baby Shop,Crane Game,Item Room","Familiar,Laser/ Beams,Tears","Gray,Red",Challenge,Rebirth
+Rock Bottom,4,Passive,Secret Room,Many Stats,"Blue,Gray",Character,Repentance
+Rocket in a Jar,1,Passive,"Bomb Beggar,Item Room",Bombs/ Explodes,"Black,Transparent,Yellow",Always Unlocked,Repentance
+Roid Rage,2,Passive,"Boss Room,Demon Beggar,Item Room","Range Stat,Speed Stat","Gray,Green",Always Unlocked,Flash
+Rosary,2,Passive,"Angel Room,Item Room,Ultra Secret Room","Items,Soul Hearts,Tear Stat","Gray,Red",Always Unlocked,Flash
+Rotten Baby,3,Passive,"Baby Shop,Devil Room,Item Room,Rotten Beggar,Unique","Familiar,Fly","Green,Red",Always Unlocked,Rebirth
+Rotten Meat,1,Passive,"Beggar,Boss Room,Rotten Beggar,Unique","Heal,HP Stat","Brown/ Beige,Green,White",Always Unlocked,Flash
+Rotten Tomato,2,Passive,"Item Room,Rotten Beggar,Ultra Secret Room","Status Effect,Tears","Green,Purple,Red",Always Unlocked,Repentance
+Rubber Cement,3,Passive,Item Room,Tears,"Brown/ Beige,Orange",Game Progression,Rebirth
+Rune Bag,3,Passive,"Item Room,Secret Room","Familiar,Runes","Pink,Purple",Character,Afterbirth
+Sack Head,3,Passive,"Secret Room,Shop","Pickups,Sacks","Blue,Brown/ Beige",Always Unlocked,Afterbirth
+Sack of Pennies,1,Passive,Item Room,"Coins,Familiar",Brown/ Beige,Character,Flash
+Sack of Sacks,2,Passive,Secret Room,"Familiar,Sacks",Brown/ Beige,Character,Afterbirth+
+Sacred Heart,4,Passive,"Angel Room,Ultra Secret Room","Heal,Many Stats,Tears","Orange,Red",Always Unlocked,Wrath of the Lamb
+Sacred Orb,4,Passive,"Angel Room,Secret Room",Items,"Brown/ Beige,Transparent",Character,Repentance
+Sacrificial Altar,1,Active,"Curse Room,Devil Room","Black Hearts,Coins,Familiar,Items","Gray,Red",Game Progression,Afterbirth+
+Sacrificial Dagger,2,Passive,"Baby Shop,Devil Room,Item Room","Contact DMG,Familiar,Orbital","Gray,Red",Character,Wrath of the Lamb
+Sad Bombs,2,Passive,"Bomb Beggar,Item Room","Bombs/ Explodes,Tears","Black,Blue",Always Unlocked,Rebirth
+Safety Pin,1,Passive,Boss Room,"Black Hearts,Range Stat,Shot Speed Stat",Gray,Always Unlocked,Rebirth
+Sagittarius,3,Passive,Item Room,"Speed Stat,Tears","Black,Blue",Always Unlocked,Rebirth
+Salvation,3,Passive,Angel Room,"Aura/ Circle,Laser/ Beams,When Damaged","Blue,White",Character,Repentance
+Samson's Chains,1,Passive,"Item Room,Secret Room","Contact DMG,Familiar,Rocks","Black,Gray",Character,Rebirth
+Sanguine Bond,1,Passive,"Curse Room,Devil Room,Ultra Secret Room","Black Hearts,Coins,DMG Stat,Items,Rooms/ Environment","Red,White",Character,Repentance
+Satanic Bible,3,Active,"Devil Room,Item Room,Library","Black Hearts,Items","Black,Red,White",Character,Rebirth
+Saturnus,2,Passive,Planetarium,"Aura/ Circle,Orbital,Tears","Black,Blue",Game Progression,Repentance
+Sausage,3,Passive,Secret Room,"Heal,Many Stats,Room Chance","Pink,Red,White",Always Unlocked,Repentance
+Scapular,2,Passive,"Angel Room,Item Room","Soul Hearts,When Damaged","Brown/ Beige,White",Always Unlocked,Wrath of the Lamb
+Scatter Bombs,1,Passive,"Bomb Beggar,Item Room",Bombs/ Explodes,"Black,Transparent",Always Unlocked,Afterbirth
+Schoolbag,3,Passive,"Golden Chest,Shop",Items,Brown/ Beige,Game Progression,Afterbirth+
+Scissors,0,Active,Item Room,"Familiar,Tears","Black,Gray",Game Progression,Rebirth
+Scorpio,3,Passive,Item Room,"Status Effect,Tears","Black,Blue",Always Unlocked,Rebirth
+Screw,2,Passive,"Boss Room,Crane Game,Golden Chest","Shot Speed Stat,Tear Stat",Gray,Always Unlocked,Rebirth
+Seraphim,3,Passive,"Angel Room,Baby Shop,Item Room","Familiar,Tears","Blue,Pink,White",Always Unlocked,Afterbirth
+Serpent's Kiss,2,Passive,Item Room,"Black Hearts,Contact DMG,Status Effect,Tears",Green,Character,Afterbirth
+Shade,0,Passive,"Baby Shop,Curse Room,Devil Room","Contact DMG,Familiar","Blue,White",Character,Afterbirth+
+Shard of Glass,1,Passive,Item Room,"Red Hearts,Self Damage,Tears,When Damaged",Blue,Always Unlocked,Afterbirth+
+Sharp Key,1,Active,Shop,"Chests,Enemies,Keys/ Doors,Throwable","Gray,Red",Always Unlocked,Repentance
+Sharp Plug,2,Passive,"Battery Beggar,Shop","Item Charge,Self Damage",White,Always Unlocked,Rebirth
+Sharp Straw,2,Active,Item Room,"Mass Damage,Red Hearts","Blue,White",Always Unlocked,Afterbirth+
+Shoop Da Whoop!,2,Active,"Crane Game,Item Room,Ultra Secret Room,Unique","Laser/ Beams,Tears","Red,White",Always Unlocked,Flash
+Sinus Infection,3,Passive,Item Room,"Status Effect,Tears",Green,Always Unlocked,Afterbirth+
+Sissy Long Legs,1,Passive,"Baby Shop,Item Room","Familiar,Spiders,Status Effect",Blue,Always Unlocked,Rebirth
+Sister Maggy,1,Passive,"Baby Shop,Devil Room,Item Room,Ultra Secret Room","Familiar,Tears",Red,Always Unlocked,Flash
+Skatole,0,Passive,Unique,"Enemies,Fly,Poop","Black,Red",Always Unlocked,Flash
+Skeleton Key,2,Passive,"Item Room,Secret Room",Keys/ Doors,Gray,Always Unlocked,Flash
+Slipped Rib,1,Passive,Item Room,"Orbital,Reflection",White,Character,Afterbirth+
+Smart Fly,1,Passive,"Baby Shop,Item Room,Key Beggar","Contact DMG,Familiar,Fly,Orbital,When Damaged","White,Yellow",Always Unlocked,Rebirth
+SMB Super Fan,3,Passive,"Crane Game,Item Room","Heal,Many Stats","Gray,Red",Challenge,Wrath of the Lamb
+Smelter,2,Active,Shop,Trinkets,"Gray,Orange,White",Character,Afterbirth+
+Sol,2,Passive,Planetarium,"Boss,Curses,DMG Stat,Heal,Item Charge,Luck Stat,Map","Black,Blue",Game Progression,Repentance
+Soul Locket,1,Passive,Angel Room,"Many Stats,Soul Hearts",Blue,Character,Repentance
+Soy Milk,2,Passive,Item Room,"DMG Stat,Knockback,Tear Stat,Tears","Transparent,White",Always Unlocked,Rebirth
+Spear of Destiny,1,Passive,Angel Room,"Contact DMG,Familiar,Status Effect","Black,White",Always Unlocked,Afterbirth
+Speed Ball,2,Passive,"Boss Room,Demon Beggar,Item Room","Shot Speed Stat,Speed Stat","Gray,White",Always Unlocked,Wrath of the Lamb
+Spelunker Hat,2,Passive,"Crane Game,Item Room","Map,Negates DMG","Brown/ Beige,Gray,Green",Always Unlocked,Flash
+Spider Bite,2,Passive,"Crane Game,Item Room","Spiders,Status Effect,Tears","Black,Gray,Red",Always Unlocked,Flash
+Spider Butt,1,Active,Item Room,"Mass Damage,Spiders,Status Effect","Black,Brown/ Beige,Red,White",Always Unlocked,Wrath of the Lamb
+Spider Mod,1,Passive,"Baby Shop,Crane Game,Shop","Batteries,Enemies,Familiar,Spiders,Status Effect","Gray,Red",Always Unlocked,Afterbirth
+Spiderbaby,0,Passive,Item Room,"Spiders,When Damaged","Blue,Red",Always Unlocked,Rebirth
+Spin to Win,0,Active,"Crane Game,Item Room","Contact DMG,Familiar,Orbital,Speed Stat","Blue,Gray,Orange,Red",Always Unlocked,Repentance
+Spindown Dice,4,Active,"Crane Game,Item Room,Secret Room",Items,"Black,Red",Character,Repentance
+Spirit of the Night,3,Passive,"Demon Beggar,Devil Room,Ultra Secret Room","Flight,Tears","Black,Red",Always Unlocked,Wrath of the Lamb
+Spirit Shackles,1,Passive,Secret Room,"Flight,Number of Lives,Soul Hearts",Blue,Character,Repentance
+Spirit Sword,3,Passive,Angel Room,"Melee,Tears","Brown/ Beige,Gray",Challenge,Repentance
+Spoon Bender,3,Passive,"Crane Game,Item Room",Tears,Gray,Always Unlocked,Flash
+Sprinkler,1,Active,"Crane Game,Item Room","Familiar,Tears","Gray,White",Game Progression,Afterbirth+
+Squeezy,3,Passive,"Boss Room,Crane Game,Golden Chest","Soul Hearts,Tear Stat","Red,White",Always Unlocked,Wrath of the Lamb
+Stapler,3,Passive,"Boss Room,Golden Chest",DMG Stat,Gray,Always Unlocked,Repentance
+Star of Bethlehem,3,Passive,Angel Room,"Aura/ Circle,Boss,DMG Stat,Negates DMG,Tear Stat,Tears","Blue,White",Character,Repentance
+Starter Deck,2,Passive,"Crane Game,Shop","Cards,Pills,Runes","Brown/ Beige,Orange,White",Always Unlocked,Rebirth
+Steam Sale,2,Passive,"Shop,Unique","Items,Pickups","Pink,White",Always Unlocked,Flash
+Stem Cells,1,Passive,"Boss Room,Item Room,Ultra Secret Room","Heal,HP Stat,Shot Speed Stat",Red,Always Unlocked,Wrath of the Lamb
+Steven,3,Passive,Unique,DMG Stat,"Black,White",Game Progression,Flash
+StickyBombs,1,Passive,"Bomb Beggar,Item Room","Bombs/ Explodes,Creep,Spiders",White,Always Unlocked,Afterbirth
+Stigmata,2,Passive,"Angel Room,Item Room,Wooden Chest","DMG Stat,Heal,HP Stat",Brown/ Beige,Always Unlocked,Wrath of the Lamb
+Stitches,1,Active,"Baby Shop,Item Room","Contact DMG,Familiar,Teleportation",Brown/ Beige,Always Unlocked,Repentance
+Stop Watch,4,Passive,"Crane Game,Shop","Enemies,Speed Stat,Status Effect","Blue,White",Game Progression,Rebirth
+Strange Attractor,0,Passive,Item Room,"Enemies,Pickups,Tears","Black,Gray",Always Unlocked,Rebirth
+Strawman,1,Passive,Secret Room,Character,Gray,Character,Repentance
+Stye,2,Passive,Boss Room,"DMG Stat,Range Stat,Shot Speed Stat,Tears",Pink,Always Unlocked,Repentance
+Succubus,3,Passive,"Baby Shop,Devil Room","Aura/ Circle,DMG Stat,Enemies,Familiar","Black,Red",Character,Afterbirth
+Sulfur,2,Active,"Devil Room,Ultra Secret Room","DMG Stat,Laser/ Beams,Tear Stat,Tears","Black,Red",Always Unlocked,Repentance
+Sulfuric Acid,2,Passive,Item Room,"DMG Stat,Rocks,Tears",Yellow,Always Unlocked,Afterbirth+
+Sumptorium,3,Active,Item Room,"Familiar,Self Damage,Tears","Gray,Red",Character,Repentance
+Super Bandage,2,Passive,"Boss Room,Item Room","Heal,HP Stat,Soul Hearts",Pink,Game Progression,Flash
+Suplex!,1,Active,"Crane Game,Item Room","Aura/ Circle,Dash,Invincibility,Melee,Rocks","Black,Orange",Character,Repentance
+Supper,1,Passive,"Beggar,Boss Room","Heal,HP Stat","Brown/ Beige,Gray,Pink",Always Unlocked,Repentance
+Sworn Protector,2,Passive,"Angel Room,Baby Shop","Eternal Heart,Familiar,Orbital","Pink,White,Yellow",Character,Afterbirth
+Synthoil,3,Passive,"Boss Room,Demon Beggar","DMG Stat,Range Stat","Gray,Transparent",Always Unlocked,Rebirth
+Tammy's Head,1,Active,"Crane Game,Item Room",Tears,White,Always Unlocked,Flash
+Tarot Cloth,2,Passive,"Crane Game,Curse Room,Shop",Cards,"Gray,Purple",Always Unlocked,Afterbirth+
+Taurus,1,Passive,Item Room,"Contact DMG,Invincibility,Speed Stat","Black,Blue",Always Unlocked,Rebirth
+Tear Detonator,1,Active,"Crane Game,Shop",Tears,Blue,Always Unlocked,Afterbirth
+Tech X,4,Passive,"Crane Game,Item Room","Laser/ Beams,Tears","Gray,Green",Always Unlocked,Afterbirth
+Tech.5,3,Passive,"Crane Game,Item Room","Laser/ Beams,Tears","Gray,Red",Challenge,Rebirth
+Technology,3,Passive,"Crane Game,Item Room","Laser/ Beams,Tears","Gray,Red,White",Always Unlocked,Flash
+Technology 2,2,Passive,"Crane Game,Item Room","Laser/ Beams,Tear Stat,Tears","Gray,Red",Always Unlocked,Wrath of the Lamb
+Technology Zero,3,Passive,"Crane Game,Item Room","Laser/ Beams,Tears","Gray,White",Game Progression,Afterbirth+
+Telekinesis,1,Active,Item Room,"Aura/ Circle,Reflection",Blue,Game Progression,Afterbirth+
+Telepathy for Dummies,1,Active,"Item Room,Library","Range Stat,Tears","Black,Blue,White,Yellow",Always Unlocked,Wrath of the Lamb
+Teleport,0,Active,"Crane Game,Item Room",Teleportation,"Black,Blue",Always Unlocked,Flash
+Teleport 2.0,3,Active,"Crane Game,Item Room",Teleportation,"Black,Yellow",Always Unlocked,Afterbirth
+Terra,3,Passive,Planetarium,"DMG Stat,Knockback,Rocks,Tears","Black,Blue",Game Progression,Repentance
+The Battery,2,Passive,"Battery Beggar,Crane Game,Shop",Item Charge,"Brown/ Beige,Gray",Always Unlocked,Flash
+The Bean,0,Active,"Beggar,Item Room","Farts,Knockback,Status Effect",Brown/ Beige,Always Unlocked,Flash
+The Belt,1,Passive,"Boss Room,Golden Chest",Speed Stat,Brown/ Beige,Always Unlocked,Flash
+The Bible,1,Active,"Angel Room,Library,Shop","Boss,Flight","Brown/ Beige,White",Always Unlocked,Flash
+The Black Bean,0,Passive,"Beggar,Item Room","Farts,Knockback,Status Effect,When Damaged",Black,Always Unlocked,Wrath of the Lamb
+The Body,3,Passive,"Angel Room,Item Room,Ultra Secret Room",HP Stat,"Red,White",Character,Rebirth
+The Book of Belial,2,Active,"Devil Room,Library","DMG Stat,Room Chance","Black,Gray,White",Always Unlocked,Flash
+The Book of Sin,1,Active,"Devil Room,Item Room,Library",Pickups,"Black,Red,White",Game Progression,Flash
+The Candle,2,Active,Shop,"Fire,Throwable","Blue,Gray",Game Progression,Wrath of the Lamb
+The Common Cold,1,Passive,Item Room,"Status Effect,Tears",Green,Always Unlocked,Flash
+The Compass,1,Passive,"Beggar,Crane Game,Shop",Map,"Red,Yellow",Always Unlocked,Flash
+The D6,4,Active,"Crane Game,Item Room,Ultra Secret Room",Items,Red,Character,Flash
+The Gamekid,1,Active,"Crane Game,Item Room","Contact DMG,Enemies,Heal,Invincibility,Status Effect","Gray,Green,White",Game Progression,Flash
+The Guillotine,0,Passive,Item Room,"Contact DMG,DMG Stat,Orbital,Tear Stat","Brown/ Beige,White",Character,Rebirth
+The Halo,3,Passive,"Angel Room,Item Room","Heal,Many Stats",Yellow,Game Progression,Flash
+The Hourglass,0,Active,"Crane Game,Item Room","Enemies,Status Effect","Brown/ Beige,Transparent,White",Always Unlocked,Flash
+The Inner Eye,3,Passive,Item Room,"Tear Stat,Tears","Black,White",Always Unlocked,Flash
+The Intruder,2,Passive,"Baby Shop,Item Room","Familiar,Spiders,Status Effect,Tears,When Damaged","Black,Red",Always Unlocked,Repentance
+The Jar,0,Active,Shop,Red Hearts,"Red,Transparent",Always Unlocked,Rebirth
+The Ladder,1,Passive,"Shop,Wooden Chest",Rooms/ Environment,Brown/ Beige,Always Unlocked,Flash
+The Ludovico Technique,1,Passive,Item Room,Tears,"Gray,Pink,White",Always Unlocked,Rebirth
+The Mark,3,Passive,"Curse Room,Demon Beggar,Devil Room,Ultra Secret Room","Black Hearts,DMG Stat,Speed Stat",Red,Always Unlocked,Flash
+The Mind,3,Passive,"Angel Room,Item Room",Map,"White,Yellow",Character,Rebirth
+The Mulligan,3,Passive,Item Room,"Fly,Tears",Blue,Always Unlocked,Wrath of the Lamb
+The Nail,2,Active,"Demon Beggar,Devil Room","Black Hearts,Contact DMG,DMG Stat,Rocks,Speed Stat","Gray,Red",Character,Flash
+The Necronomicon,0,Active,"Devil Room,Library,Secret Room",Mass Damage,"Brown/ Beige,White",Game Progression,Flash
+The Negative,2,Passive,Unique,"DMG Stat,Keys/ Doors,Mass Damage,When Damaged","Black,Blue,Brown/ Beige,Green,Purple",Game Progression,Rebirth
+The Pact,3,Passive,"Curse Room,Demon Beggar,Devil Room,Ultra Secret Room","Black Hearts,DMG Stat,Tear Stat","Red,White",Always Unlocked,Flash
+The Parasite,3,Passive,Item Room,Tears,Pink,Game Progression,Flash
+The Peeper,2,Passive,"Baby Shop,Item Room","Contact DMG,DMG Stat,Familiar,Tears","Black,Red,White",Always Unlocked,Wrath of the Lamb
+The Polaroid,2,Passive,Unique,"Invincibility,Keys/ Doors,When Damaged","Blue,Brown/ Beige,Green,Pink,White",Game Progression,Rebirth
+The Poop,0,Active,"Item Room,Unique","Knockback,Poop",Brown/ Beige,Always Unlocked,Flash
+The Relic,3,Passive,"Angel Room,Item Room","Familiar,Soul Hearts",Blue,Character,Flash
+The Sad Onion,3,Passive,"Crane Game,Item Room",Tear Stat,"Blue,Green,White",Always Unlocked,Flash
+The Scooper,0,Active,Item Room,"Creep,DMG Stat,Familiar,Tears","Black,Gray",Always Unlocked,Repentance
+The Small Rock,3,Passive,"Crane Game,Unique","DMG Stat,Speed Stat,Tear Stat",Gray,Game Progression,Flash
+The Soul,3,Passive,"Angel Room,Item Room","Aura/ Circle,Reflection,Soul Hearts","Blue,White",Character,Rebirth
+The Stairway,3,Passive,Angel Room,Rooms/ Environment,"White,Yellow",Character,Repentance
+The Swarm,2,Passive,"Item Room,Key Beggar","Fly,Orbital",Black,Character,Repentance
+The Virus,2,Passive,"Demon Beggar,Item Room,Ultra Secret Room,Unique","Contact DMG,Speed Stat,Status Effect","Gray,Red",Always Unlocked,Flash
+The Wafer,4,Passive,"Angel Room,Item Room",Negates DMG,Yellow,Always Unlocked,Flash
+The Wiz,0,Passive,Item Room,Tears,"Black,White",Always Unlocked,Afterbirth
+There's Options,3,Passive,Shop,Items,"Black,White",Game Progression,Rebirth
+Thunder Thighs,1,Passive,Item Room,"HP Stat,Rocks,Speed Stat","Gray,Yellow",Always Unlocked,Rebirth
+Tiny Planet,0,Passive,Item Room,"Orbital,Range Stat,Tears",Gray,Always Unlocked,Rebirth
+Tinytoma,1,Passive,"Baby Shop,Item Room","Contact DMG,Orbital,Spiders",Black,Character,Repentance
+TMTRAINER,0,Passive,Secret Room,"Items,Multi Trait","Blue,Pink",Character,Repentance
+Tooth and Nail,2,Passive,Item Room,"Contact DMG,Invincibility",Gray,Always Unlocked,Repentance
+Toothpicks,3,Passive,"Boss Room,Wooden Chest","Shot Speed Stat,Tear Stat",Brown/ Beige,Always Unlocked,Wrath of the Lamb
+Torn Photo,3,Passive,"Boss Room,Golden Chest,Old Chest","Shot Speed Stat,Tear Stat","Gray,Orange,Pink,White",Always Unlocked,Rebirth
+Tough Love,3,Passive,Item Room,Tears,Gray,Always Unlocked,Wrath of the Lamb
+Toxic Shock,3,Passive,Item Room,"Creep,Enemies,Status Effect","Black,Green",Always Unlocked,Afterbirth
+Tractor Beam,3,Passive,"Crane Game,Item Room","Laser/ Beams,Range Stat,Shot Speed Stat,Tear Stat,Tears","Blue,Gray",Always Unlocked,Afterbirth
+Transcendence,2,Passive,Secret Room,Flight,Brown/ Beige,Game Progression,Flash
+Treasure Map,1,Passive,"Beggar,Shop",Map,"Black,Brown/ Beige",Always Unlocked,Flash
+Trinity Shield,2,Passive,Angel Room,"Familiar,Negates DMG","Blue,Gray",Always Unlocked,Rebirth
+Trisagion,3,Passive,Angel Room,"Laser/ Beams,Tears",White,Game Progression,Afterbirth+
+Tropicamide,1,Passive,Boss Room,"Range Stat,Tears","Red,White",Always Unlocked,Repentance
+Twisted Pair,4,Passive,"Baby Shop,Devil Room","Familiar,Tears","Black,Red",Character,Repentance
+Undefined,1,Active,Item Room,Teleportation,"Brown/ Beige,Red,Yellow",Character,Rebirth
+Unicorn Stump,1,Active,Item Room,"Invincibility,Speed Stat",White,Always Unlocked,Rebirth
+Uranus,3,Passive,Planetarium,"Status Effect,Tears","Black,Blue",Game Progression,Repentance
+Urn of Souls,3,Active,Angel Room,"Enemies,Fire","White,Yellow",Character,Repentance
+Vade Retro,1,Active,Angel Room,"Bombs/ Explodes,Boss,Enemies,Familiar","Brown/ Beige,White",Character,Repentance
+Vanishing Twin,1,Passive,"Curse Room,Secret Room","Boss,Familiar",White,Character,Repentance
+Varicose Veins,0,Passive,"Item Room,Ultra Secret Room","Creep,Range Stat,Tears,When Damaged",Red,Always Unlocked,Afterbirth+
+Vasculitis,1,Passive,"Item Room,Ultra Secret Room","Enemies,Tears",Red,Always Unlocked,Repentance
+Vengeful Spirit,1,Passive,"Curse Room,Devil Room,Ultra Secret Room","Contact DMG,Familiar,Orbital,Tears,When Damaged",Red,Character,Repentance
+Ventricle Razor,0,Active,Shop,Teleportation,"Gray,Red",Always Unlocked,Afterbirth
+Venus,2,Passive,Planetarium,"Heal,HP Stat,Status Effect","Black,Blue",Game Progression,Repentance
+Virgo,2,Passive,Item Room,"Invincibility,Pills,When Damaged","Black,Blue",Always Unlocked,Rebirth
+Void,3,Active,"Angel Room,Devil Room","Items,Many Stats","Black,Purple",Character,Afterbirth+
+Voodoo Head,2,Passive,"Crane Game,Shop",Rooms/ Environment,"Gray,Red",Always Unlocked,Repentance
+Wait What?,1,Active,"Beggar,Item Room","Aura/ Circle,Farts,Knockback,Rocks",White,Always Unlocked,Afterbirth+
+Wavy Cap,0,Active,"Secret Room,Unique","Rooms/ Environment,Speed Stat,Tear Stat",Black,Always Unlocked,Repentance
+We Need To Go Deeper,2,Active,"Devil Room,Secret Room",Rooms/ Environment,"Brown/ Beige,Gray",Always Unlocked,Flash
+White Pony,3,Active,Unique,"Contact DMG,Dash,Flight,Invincibility,Laser/ Beams,Speed Stat","Red,White",Game Progression,Wrath of the Lamb
+Whore of Babylon,2,Passive,"Demon Beggar,Devil Room,Ultra Secret Room","DMG Stat,Speed Stat","Black,Red",Always Unlocked,Flash
+Wire Coat Hanger,3,Passive,"Boss Room,Crane Game,Golden Chest",Tear Stat,Black,Game Progression,Flash
+Wooden Nickel,1,Active,"Shop,Wooden Chest",Coins,Brown/ Beige,Game Progression,Afterbirth
+Wooden Spoon,1,Passive,"Boss Room,Wooden Chest",Speed Stat,Brown/ Beige,Always Unlocked,Flash
+Worm Friend,3,Passive,"Baby Shop,Item Room,Ultra Secret Room","Contact DMG,Familiar,Status Effect","Brown/ Beige,Red",Character,Repentance
+X-Ray Vision,2,Passive,Item Room,Keys/ Doors,"Black,Pink,White",Always Unlocked,Flash
+YO LISTEN!,2,Passive,"Baby Shop,Item Room,Key Beggar","Familiar,Fly,Luck Stat,Rooms/ Environment","Black,Green",Always Unlocked,Afterbirth+
+Yuck Heart,1,Active,"Item Room,Rotten Beggar","Heal,Rotten Hearts","Green,Red",Character,Repentance
+Yum Heart,1,Active,"Item Room,Ultra Secret Room,Unique",Heal,Red,Always Unlocked,Flash
+Zodiac,1,Passive,Item Room,Multi Trait,"Black,White",Character,Afterbirth

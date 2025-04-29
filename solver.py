@@ -13,7 +13,6 @@ def json_to_dict(filename: str):
         return json.load(file)
 
 items_list = json_to_dict('./items.json')
-# pprint.pprint(items_list)
 
 # Populate lists of options for each category
 
@@ -59,9 +58,7 @@ for item in items_list:
 
 for list in category_lists_dict.keys():
     category_lists_dict[list].sort()
-
-# pprint.pprint(category_lists_dict)
-
+    
 # Function to look up an item from the list by name
 def lookupItem(itemName, items_list):
     res = [item for item in items_list if item['ITEM'] == itemName]
@@ -80,9 +77,6 @@ def complexCategoryMatch(guessed_item, target_item, category):
     guessed_category_list = guessed_item[category].split(",")
     target_category_list = target_item[category].split(",")
     
-    # print(guessed_category_list)
-    # print(target_category_list)
-    
     if guessed_category_list == target_category_list:
         categoryMatch = "Full"
     else:        
@@ -91,8 +85,6 @@ def complexCategoryMatch(guessed_item, target_item, category):
                 if guessed_element == target_element:
                     categoryMatch = "Partial"
                     break
-    
-    # print(category, categoryMatch)
     
     return categoryMatch
     
@@ -144,16 +136,16 @@ def guessItem(guessedItemName, targetItemName, items_list, category_list_dict):
     # Filter by Simple Matches
     # Filter by QUALITY match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "QUALITY", quality_match)
-    print(len(matching_items_list))
+    print("Remaining item count after filtering QUALITY:\t" + str(len(matching_items_list)))
     # Filter by TYPE match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "TYPE", type_match)
-    print(len(matching_items_list))
+    print("Remaining item count after filtering TYPE:\t" + str(len(matching_items_list)))
     # Filter by UNLOCK match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "UNLOCK", unlock_match)
-    print(len(matching_items_list))
+    print("Remaining item count after filtering UNLOCK:\t" + str(len(matching_items_list)))
     # Filter by RELEASE match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "RELEASE", release_match)
-    print(len(matching_items_list))
+    print("Remaining item count after filtering RELEASE:\t" + str(len(matching_items_list)))
     
     
     # Filter by Complex Matches
@@ -181,8 +173,4 @@ pprint.pprint(target)
 print("GUESS: ")
 pprint.pprint(guess)
 
-# pprint.pprint(category_lists_dict)
-
 remaining_matches_list = guessItem(guess["ITEM"], target["ITEM"], items_list, category_lists_dict)
-
-pprint.pprint(remaining_matches_list)

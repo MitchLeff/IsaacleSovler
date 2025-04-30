@@ -8,74 +8,78 @@ TARGET_ITEM = "Holy Mantle"
 # Set filepath for items.json
 ITEMS_JSON_FILE_PATH = './items.json'
 
-# Populate items from JSON file into a dictionary
+# Function to load a json into a dictionary
 def json_to_dict(filename: str):
     with open(filename) as file:
         return json.load(file)
 
-def populateItemsListFromFile(filepath):
+
+# Function to get a dictionary of all possibilities in each category
+def getDictOfCategories(filepath):
 
     items_list = json_to_dict(filepath)
 
     # Populate lists of options for each category
     category_lists_dict = {
-        "quality_list" : [],
-        "type_list" : [],
-        "item_pool_list" : [],
-        "description_list" : [],
-        "colors_list" : [],
-        "unlock_list" : [],
-        "release_list" : []
+        "quality" : [],
+        "type" : [],
+        "item_pool" : [],
+        "description" : [],
+        "colors" : [],
+        "unlock" : [],
+        "release" : []
     }
 
     for item in items_list:
         for key in item.keys():
             if key == "QUALITY":
-                if item[key] not in category_lists_dict["quality_list"]:
-                    category_lists_dict["quality_list"].append(item[key])
+                if item[key] not in category_lists_dict["quality"]:
+                    category_lists_dict["quality"].append(item[key])
             if key == "TYPE":
-                if item[key] not in category_lists_dict["type_list"]:
-                    category_lists_dict["type_list"].append(item[key])
+                if item[key] not in category_lists_dict["type"]:
+                    category_lists_dict["type"].append(item[key])
             if key == "ITEM POOL":
                 elements = item[key].split(",")
                 for element in elements:
-                    if element not in category_lists_dict["item_pool_list"]:
-                        category_lists_dict["item_pool_list"].append(element)
+                    if element not in category_lists_dict["item_pool"]:
+                        category_lists_dict["item_pool"].append(element)
             if key == "DESCRIPTION":
                 elements = item[key].split(",")
                 for element in elements:
-                    if element not in category_lists_dict["description_list"]:
-                        category_lists_dict["description_list"].append(element)
+                    if element not in category_lists_dict["description"]:
+                        category_lists_dict["description"].append(element)
             if key == "COLORS":
                 elements = item[key].split(",")
                 for element in elements:
-                    if element not in category_lists_dict["colors_list"]:
-                        category_lists_dict["colors_list"].append(element)
+                    if element not in category_lists_dict["colors"]:
+                        category_lists_dict["colors"].append(element)
             if key == "UNLOCK":
-                if item[key] not in category_lists_dict["unlock_list"]:
-                    category_lists_dict["unlock_list"].append(item[key])
+                if item[key] not in category_lists_dict["unlock"]:
+                    category_lists_dict["unlock"].append(item[key])
             if key == "RELEASE":
-                if item[key] not in category_lists_dict["release_list"]:
-                    category_lists_dict["release_list"].append(item[key])
+                if item[key] not in category_lists_dict["release"]:
+                    category_lists_dict["release"].append(item[key])
 
     for list in category_lists_dict.keys():
         category_lists_dict[list].sort()
         
-    return items_list
+    return category_lists_dict
 
-ITEMS_LIST = populateItemsListFromFile(ITEMS_JSON_FILE_PATH)
+ITEMS_LIST = json_to_dict(ITEMS_JSON_FILE_PATH)
 
 # -------- FUNCTIONS --------
-    
+
 # Function to look up an item from the list by name
 def lookupItem(itemName, items_list):
     res = [item for item in items_list if item['ITEM'] == itemName]
     return res[0] if len(res) > 0 else False
 
+
 # Function for matching items on a simple category (partial matches are NOT possible)
 def simpleCategoryMatch(guessed_item, target_item, category):
     # If categories match, return True, otherwise return False
     return guessed_item[category] == target_item[category]
+
 
 # Function for matching items on a simple category (partial matches are possible)
 def complexCategoryMatch(guessed_item, target_item, category):
@@ -95,7 +99,8 @@ def complexCategoryMatch(guessed_item, target_item, category):
                     break
     
     return categoryMatch
-    
+
+
 # Function to get items after a simple match
 def getMatchingItemsFromSimpleMatch(guessed_item, items_list, category, match):
     matching_items_list = []
@@ -109,6 +114,7 @@ def getMatchingItemsFromSimpleMatch(guessed_item, items_list, category, match):
                 matching_items_list.append(item);
     
     return matching_items_list
+
 
 def getMatchingItemsFromComplexMatch(guessed_item, items_list, category, match):
     guessed_item_item_pool_list = guessed_item[category].split(",")    
@@ -135,6 +141,7 @@ def getMatchingItemsFromComplexMatch(guessed_item, items_list, category, match):
     matching_items_list = remaining_items_list.copy()
     
     return matching_items_list
+
 
 # Function to run a guess against a target item, returns list of remaining possible items
 def guessItem(guessedItemName, targetItemName, items_list):
@@ -197,6 +204,7 @@ def guessItem(guessedItemName, targetItemName, items_list):
     
     return matching_items_list
 
+
 def getSimpleInput(prompt):
     gettingInput = True
     
@@ -206,6 +214,7 @@ def getSimpleInput(prompt):
             return text == "y"
         else:
             print("Invalid input")
+
 
 def getComplexInput(prompt):
     
@@ -223,6 +232,7 @@ def getComplexInput(prompt):
             return complexMatchTypeMap[text]
         else:
             print("Invalid input")
+
 
 # Function to run a guess with no target item, takes in category match inputs, returns list of remaining possible items
 def guessItemNoTarget(guessedItemName, items_list):
@@ -275,6 +285,7 @@ def guessItemNoTarget(guessedItemName, items_list):
     
     return matching_items_list
 
+# Function to run a guessing interface against a target item
 def guessingInterfaceWithTarget(target_item, items_list):
 
     target = lookupItem(target_item, items_list)
@@ -307,8 +318,7 @@ def guessingInterfaceWithTarget(target_item, items_list):
         else:
             print("Item not found")
 
-
-
+# Function to run a guessing interface without a target item
 def guessingInterfaceNoTarget(items_list):
     guessing = True
 
@@ -337,7 +347,7 @@ def guessingInterfaceNoTarget(items_list):
             print("Item not found")
 
 
-# CALL FUNCTIONS HERE
+# -------- CALL FUNCTIONS HERE --------
 
 # guessingInterfaceWithTarget(TARGET_ITEM, ITEMS_LIST)
 

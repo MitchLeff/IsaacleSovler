@@ -69,7 +69,7 @@ ITEMS_LIST = json_to_dict(ITEMS_JSON_FILE_PATH)
 
 # Function to look up an item from the list by name
 def lookupItem(itemName, items_list):
-    res = [item for item in items_list if item['ITEM'] == itemName]
+    res = [item for item in items_list if item['ITEM'].lower() == itemName.lower()]
     return res[0] if len(res) > 0 else False
 
 

@@ -2,7 +2,7 @@ import json, pprint
 
 # -------- CONFIGURATION VARIBLES --------
 # Set target item
-TARGET_ITEM = "Holy Mantle"
+TARGET_ITEM = "A Pound of Flesh"
 
 # -------- POPULATE ITEMS_LIST --------
 # Set filepath for items.json
@@ -104,12 +104,14 @@ def getMatchingItemsFromSimpleMatch(guessed_item, items_list, category, match):
     matching_items_list = []
     
     for item in items_list:
-        if match:
+        if match == 1:
             if item[category] == guessed_item[category]:
                 matching_items_list.append(item);
-        else:
+        elif match == 0:
             if item[category] != guessed_item[category]:
                 matching_items_list.append(item);
+        elif match == -1:
+            matching_items_list.append(item)
     
     return matching_items_list
 
@@ -135,6 +137,8 @@ def getMatchingItemsFromComplexMatch(guessed_item, items_list, category, match):
             item_item_pool_list = item[category].split(",")
             if any(map(lambda element: element not in item_item_pool_list, guessed_item_item_pool_list)) or any(map(lambda element: element not in guessed_item_item_pool_list, item_item_pool_list)):
                 remaining_items_list.remove(item)
+    elif match == "Hidden":
+        pass
     
     matching_items_list = remaining_items_list.copy()
     
@@ -207,9 +211,14 @@ def getSimpleInput(prompt):
     gettingInput = True
     
     while gettingInput:
-        text = input(prompt + " (y/n): ")
-        if text == "y" or text == "n":
-            return text == "y"
+        text = input(prompt + " (y/n/x): ")
+        if text in "ynx":
+            if text == "y":
+                return 1
+            elif text == "n":
+                return 0
+            elif text == "x":
+                return -1
         else:
             print("Invalid input")
 
@@ -219,14 +228,15 @@ def getComplexInput(prompt):
     complexMatchTypeMap = {
         "n": "None",
         "p": "Partial",
-        "f": "Full"
+        "f": "Full",
+        "x": "Hidden"
     }
     
     gettingInput = True
     
     while gettingInput:
-        text = input(prompt + " (n/p/f): ")
-        if text == "n" or text == "p" or text == "f":
+        text = input(prompt + " (n/p/f/x): ")
+        if text in complexMatchTypeMap.keys():
             return complexMatchTypeMap[text]
         else:
             print("Invalid input")
@@ -374,6 +384,6 @@ def popularityCounter(items_list):
 
 # guessingInterfaceWithTarget(TARGET_ITEM, ITEMS_LIST)
 
-# guessingInterfaceNoTarget(ITEMS_LIST)
+guessingInterfaceNoTarget(ITEMS_LIST)
 
-popularityCounter(ITEMS_LIST)
+# popularityCounter(ITEMS_LIST)

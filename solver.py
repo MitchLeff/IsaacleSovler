@@ -177,33 +177,33 @@ def guessItem(guessedItemName, targetItemName, items_list):
     
     matching_items_list = items_list
     
-    print("Original size of items list:\t\t\t\t" + str(len(matching_items_list)))
+    print("Original size of items list:\t\t" + str(len(matching_items_list)))
     
     # Filter by Simple Matches
     # Filter by QUALITY match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "QUALITY", quality_match)
-    print("Remaining item count after filtering QUALITY:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering QUALITY:\t" + str(len(matching_items_list)))
     # Filter by TYPE match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "TYPE", type_match)
-    print("Remaining item count after filtering TYPE:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering TYPE:\t" + str(len(matching_items_list)))
     # Filter by UNLOCK match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "UNLOCK", unlock_match)
-    print("Remaining item count after filtering UNLOCK:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering UNLOCK:\t" + str(len(matching_items_list)))
     # Filter by RELEASE match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "RELEASE", release_match)
-    print("Remaining item count after filtering RELEASE:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering RELEASE:\t" + str(len(matching_items_list)))
     
     
     # Filter by Complex Matches
     # Filter by ITEM POOL match
     matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "ITEM POOL", item_pool_match)
-    print("Remaining item count after filtering ITEM POOL:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering ITEM POOL:\t" + str(len(matching_items_list)))
     # Filter by DESCRIPTION match
     matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "DESCRIPTION", description_match)
-    print("Remaining item count after filtering DESCRIPTION:\t" + str(len(matching_items_list)))
+    print("Item count after filtering DESCRIPTION:\t" + str(len(matching_items_list)))
     # Filter by COLORS match
     matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "COLORS", color_match)
-    print("Remaining item count after filtering COLORS:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering COLORS:\t" + str(len(matching_items_list)))
     
     return matching_items_list
 
@@ -265,32 +265,32 @@ def guessItemNoTarget(guessedItemName, items_list):
     
     matching_items_list = items_list
     
-    print("Original size of items list:\t\t\t\t" + str(len(matching_items_list)))
+    print("Original size of items list:\t\t" + str(len(matching_items_list)))
     
     # Filter by Simple Matches
     # Filter by QUALITY match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "QUALITY", quality_match)
-    print("Remaining item count after filtering QUALITY:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering QUALITY:\t" + str(len(matching_items_list)))
     # Filter by TYPE match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "TYPE", type_match)
-    print("Remaining item count after filtering TYPE:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering TYPE:\t" + str(len(matching_items_list)))
     # Filter by UNLOCK match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "UNLOCK", unlock_match)
-    print("Remaining item count after filtering UNLOCK:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering UNLOCK:\t" + str(len(matching_items_list)))
     # Filter by RELEASE match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "RELEASE", release_match)
-    print("Remaining item count after filtering RELEASE:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering RELEASE:\t" + str(len(matching_items_list)))
     
     # Filter by Complex Matches
     # Filter by ITEM POOL match
     matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "ITEM POOL", item_pool_match)
-    print("Remaining item count after filtering ITEM POOL:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering ITEM POOL:\t" + str(len(matching_items_list)))
     # Filter by DESCRIPTION match
     matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "DESCRIPTION", description_match)
-    print("Remaining item count after filtering DESCRIPTION:\t" + str(len(matching_items_list)))
+    print("Item count after filtering DESCRIPTION:\t" + str(len(matching_items_list)))
     # Filter by COLORS match
     matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "COLORS", color_match)
-    print("Remaining item count after filtering COLORS:\t\t" + str(len(matching_items_list)))
+    print("Item count after filtering COLORS:\t" + str(len(matching_items_list)))
     
     return matching_items_list
 

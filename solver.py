@@ -2,7 +2,9 @@ import json, pprint
 
 # Set target item
 TARGET_ITEM = "Holy Mantle"
-GUESSED_ITEM = "Jesus Juice"
+# GUESSED_ITEM = "Purity"         #Full match
+# GUESSED_ITEM = "Stapler"        #No match
+GUESSED_ITEM = "Jesus Juice"    #Partial match
 
 # List of Categories
 CATEGORIES = ["QUALITY", "TYPE", "ITEM POOL", "DESCRIPTION", "COLORS", "UNLOCK", "RELEASE"]
@@ -62,7 +64,7 @@ for list in category_lists_dict.keys():
 # Function to look up an item from the list by name
 def lookupItem(itemName, items_list):
     res = [item for item in items_list if item['ITEM'] == itemName]
-    return res[0]
+    return res[0] if len(res) > 0 else False
 
 # Function for matching items on a simple category (partial matches are NOT possible)
 def simpleCategoryMatch(guessed_item, target_item, category):
@@ -102,6 +104,32 @@ def getMatchingItemsFromSimpleMatch(guessed_item, items_list, category, match):
     
     return matching_items_list
 
+def getMatchingItemsFromComplexMatch(guessed_item, items_list, category, match):
+    guessed_item_item_pool_list = guessed_item[category].split(",")    
+
+    remaining_items_list = items_list.copy()
+    
+    if match == "None":
+        for item in items_list:
+            item_item_pool_list = item[category].split(",")
+            if any(map(lambda element: element in item_item_pool_list, guessed_item_item_pool_list)):
+                remaining_items_list.remove(item)
+    elif match == "Partial":
+        for item in items_list:
+            item_item_pool_list = item[category].split(",")
+            diff = set(item_item_pool_list).difference(guessed_item_item_pool_list)
+            if diff == set(item_item_pool_list):
+                remaining_items_list.remove(item)
+    elif match == "Full":
+        for item in items_list:
+            item_item_pool_list = item[category].split(",")
+            if any(map(lambda element: element not in item_item_pool_list, guessed_item_item_pool_list)) or any(map(lambda element: element not in guessed_item_item_pool_list, item_item_pool_list)):
+                remaining_items_list.remove(item)
+    
+    matching_items_list = remaining_items_list.copy()
+    
+    return matching_items_list
+
 # Function to run a guess against a target item, returns list of remaining possible items
 def guessItem(guessedItemName, targetItemName, items_list, category_list_dict):
     
@@ -133,38 +161,34 @@ def guessItem(guessedItemName, targetItemName, items_list, category_list_dict):
     
     matching_items_list = items_list
     
+    print("Original size of items list:\t\t\t\t" + str(len(matching_items_list)))
+    
     # Filter by Simple Matches
     # Filter by QUALITY match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "QUALITY", quality_match)
-    print("Remaining item count after filtering QUALITY:\t" + str(len(matching_items_list)))
+    print("Remaining item count after filtering QUALITY:\t\t" + str(len(matching_items_list)))
     # Filter by TYPE match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "TYPE", type_match)
-    print("Remaining item count after filtering TYPE:\t" + str(len(matching_items_list)))
+    print("Remaining item count after filtering TYPE:\t\t" + str(len(matching_items_list)))
     # Filter by UNLOCK match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "UNLOCK", unlock_match)
-    print("Remaining item count after filtering UNLOCK:\t" + str(len(matching_items_list)))
+    print("Remaining item count after filtering UNLOCK:\t\t" + str(len(matching_items_list)))
     # Filter by RELEASE match
     matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "RELEASE", release_match)
-    print("Remaining item count after filtering RELEASE:\t" + str(len(matching_items_list)))
+    print("Remaining item count after filtering RELEASE:\t\t" + str(len(matching_items_list)))
     
     
     # Filter by Complex Matches
     # Filter by ITEM POOL match
-    # filtered_items_list = []
-    
-    # guessed_item_item_pool_list = guessed_item["ITEM POOL"].split(",")
-    
-    # for item in matching_items_list:
-        # item_item_pool_list = item["ITEM POOL"].split(",")
-        # if item_pool_match == "None":
-            # for element in guessed_item_item_pool_list:
-                # if element in item_item_pool_list:
-                    
-                
+    matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "ITEM POOL", item_pool_match)
+    print("Remaining item count after filtering ITEM POOL:\t\t" + str(len(matching_items_list)))
+    matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "DESCRIPTION", description_match)
+    print("Remaining item count after filtering DESCRIPTION:\t" + str(len(matching_items_list)))
+    matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "COLORS", color_match)
+    print("Remaining item count after filtering COLORS:\t\t" + str(len(matching_items_list)))
     
     return matching_items_list
-    
-    
+
 target = lookupItem(TARGET_ITEM, items_list)
 guess = lookupItem(GUESSED_ITEM, items_list)
 

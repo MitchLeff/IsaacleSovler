@@ -2,9 +2,6 @@ import json, pprint
 
 # Set target item
 TARGET_ITEM = "Holy Mantle"
-# GUESSED_ITEM = "Purity"         #Full match
-# GUESSED_ITEM = "Stapler"        #No match
-GUESSED_ITEM = "Jesus Juice"    #Partial match
 
 # List of Categories
 CATEGORIES = ["QUALITY", "TYPE", "ITEM POOL", "DESCRIPTION", "COLORS", "UNLOCK", "RELEASE"]
@@ -14,10 +11,9 @@ def json_to_dict(filename: str):
     with open(filename) as file:
         return json.load(file)
 
-items_list = json_to_dict('./items.json')
+ITEMS_LIST = json_to_dict('./items.json')
 
 # Populate lists of options for each category
-
 category_lists_dict = {
     "quality_list" : [],
     "type_list" : [],
@@ -28,7 +24,7 @@ category_lists_dict = {
     "release_list" : []
 }
 
-for item in items_list:
+for item in ITEMS_LIST:
     for key in item.keys():
         if key == "QUALITY":
             if item[key] not in category_lists_dict["quality_list"]:
@@ -131,7 +127,7 @@ def getMatchingItemsFromComplexMatch(guessed_item, items_list, category, match):
     return matching_items_list
 
 # Function to run a guess against a target item, returns list of remaining possible items
-def guessItem(guessedItemName, targetItemName, items_list, category_list_dict):
+def guessItem(guessedItemName, targetItemName, items_list):
     
     # Look up Guessed Item and Target Item
     guessed_item = lookupItem(guessedItemName, items_list)
@@ -182,19 +178,153 @@ def guessItem(guessedItemName, targetItemName, items_list, category_list_dict):
     # Filter by ITEM POOL match
     matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "ITEM POOL", item_pool_match)
     print("Remaining item count after filtering ITEM POOL:\t\t" + str(len(matching_items_list)))
+    # Filter by DESCRIPTION match
     matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "DESCRIPTION", description_match)
     print("Remaining item count after filtering DESCRIPTION:\t" + str(len(matching_items_list)))
+    # Filter by COLORS match
     matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "COLORS", color_match)
     print("Remaining item count after filtering COLORS:\t\t" + str(len(matching_items_list)))
     
     return matching_items_list
 
-target = lookupItem(TARGET_ITEM, items_list)
-guess = lookupItem(GUESSED_ITEM, items_list)
+def getSimpleInput(prompt):
+    gettingInput = True
+    
+    while gettingInput:
+        text = input(prompt + " (y/n): ")
+        if text == "y" or text == "n":
+            return text == "y"
+        else:
+            print("Invalid input")
 
-print("TARGET: ")
-pprint.pprint(target)
-print("GUESS: ")
-pprint.pprint(guess)
+def getComplexInput(prompt):
+    
+    complexMatchTypeMap = {
+        "n": "None",
+        "p": "Partial",
+        "f": "Full"
+    }
+    
+    gettingInput = True
+    
+    while gettingInput:
+        text = input(prompt + " (n/p/f): ")
+        if text == "n" or text == "p" or text == "f":
+            return complexMatchTypeMap[text]
+        else:
+            print("Invalid input")
 
-remaining_matches_list = guessItem(guess["ITEM"], target["ITEM"], items_list, category_lists_dict)
+# Function to run a guess with no target item, takes in category match inputs, returns list of remaining possible items
+def guessItemNoTarget(guessedItemName, items_list):
+    
+    # Look up Guessed Item and Target Item
+    guessed_item = lookupItem(guessedItemName, items_list)
+    
+    # Input simple category matches
+    quality_match = getSimpleInput("QUALITY match")
+    type_match = getSimpleInput("TYPE match")
+    unlock_match = getSimpleInput("UNLOCK match")
+    release_match = getSimpleInput("RELEASE match")
+    
+    # Input complex category matches
+    
+    item_pool_match = getComplexInput("ITEM POOL match")
+    description_match = getComplexInput("DESCRIPTION match")
+    color_match = getComplexInput("COLORS match")
+    
+    # Build list of items with remaining possible categories
+    
+    matching_items_list = items_list
+    
+    print("Original size of items list:\t\t\t\t" + str(len(matching_items_list)))
+    
+    # Filter by Simple Matches
+    # Filter by QUALITY match
+    matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "QUALITY", quality_match)
+    print("Remaining item count after filtering QUALITY:\t\t" + str(len(matching_items_list)))
+    # Filter by TYPE match
+    matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "TYPE", type_match)
+    print("Remaining item count after filtering TYPE:\t\t" + str(len(matching_items_list)))
+    # Filter by UNLOCK match
+    matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "UNLOCK", unlock_match)
+    print("Remaining item count after filtering UNLOCK:\t\t" + str(len(matching_items_list)))
+    # Filter by RELEASE match
+    matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "RELEASE", release_match)
+    print("Remaining item count after filtering RELEASE:\t\t" + str(len(matching_items_list)))
+    
+    # Filter by Complex Matches
+    # Filter by ITEM POOL match
+    matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "ITEM POOL", item_pool_match)
+    print("Remaining item count after filtering ITEM POOL:\t\t" + str(len(matching_items_list)))
+    # Filter by DESCRIPTION match
+    matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "DESCRIPTION", description_match)
+    print("Remaining item count after filtering DESCRIPTION:\t" + str(len(matching_items_list)))
+    # Filter by COLORS match
+    matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "COLORS", color_match)
+    print("Remaining item count after filtering COLORS:\t\t" + str(len(matching_items_list)))
+    
+    return matching_items_list
+
+def guessingInterfaceWithTarget(target_item, items_list):
+
+    target = lookupItem(target_item, items_list)
+    print("TARGET: ")
+    pprint.pprint(target)
+
+    guessing = True
+
+    while guessing:
+        guessText = input("Enter your guess: ")
+        guess = lookupItem(guessText, items_list)
+        
+        if guess:        
+            
+            print("GUESS: ")
+            pprint.pprint(guess)
+            
+            items_list = guessItem(guess["ITEM"], target["ITEM"], items_list)
+            
+            print("REMAINING OPTIONS: ")
+            for item in items_list:
+                print(item["ITEM"])
+            
+            if len(items_list) == 1:
+                print("SOLVED!")
+                guessing = False
+            elif len(items_list) == 0:
+                print("You fucked up...")
+                guessing = False
+        else:
+            print("Item not found")
+
+# guessingInterfaceWithTarget(TARGET_ITEM, ITEMS_LIST)
+
+
+def guessingInterfaceNoTarget(items_list):
+    guessing = True
+
+    while guessing:
+        guessText = input("Enter your guess: ")
+        guess = lookupItem(guessText, items_list)
+        
+        if guess:        
+            
+            print("GUESS: ")
+            pprint.pprint(guess)
+            
+            items_list = guessItemNoTarget(guess["ITEM"], items_list)
+            
+            print("REMAINING OPTIONS: ")
+            for item in items_list:
+                print(item["ITEM"])
+                
+            if len(items_list) == 1:
+                print("SOLVED!")
+                guessing = False
+            elif len(items_list) == 0:
+                print("You fucked up...")
+                guessing = False
+        else:
+            print("Item not found")
+
+guessingInterfaceNoTarget(ITEMS_LIST)

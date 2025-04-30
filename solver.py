@@ -1,61 +1,71 @@
 import json, pprint
 
+# -------- CONFIGURATION VARIBLES --------
 # Set target item
 TARGET_ITEM = "Holy Mantle"
 
-# List of Categories
-CATEGORIES = ["QUALITY", "TYPE", "ITEM POOL", "DESCRIPTION", "COLORS", "UNLOCK", "RELEASE"]
+# -------- POPULATE ITEMS_LIST --------
+# Set filepath for items.json
+ITEMS_JSON_FILE_PATH = './items.json'
 
 # Populate items from JSON file into a dictionary
 def json_to_dict(filename: str):
     with open(filename) as file:
         return json.load(file)
 
-ITEMS_LIST = json_to_dict('./items.json')
+def populateItemsListFromFile(filepath):
 
-# Populate lists of options for each category
-category_lists_dict = {
-    "quality_list" : [],
-    "type_list" : [],
-    "item_pool_list" : [],
-    "description_list" : [],
-    "colors_list" : [],
-    "unlock_list" : [],
-    "release_list" : []
-}
+    items_list = json_to_dict(filepath)
 
-for item in ITEMS_LIST:
-    for key in item.keys():
-        if key == "QUALITY":
-            if item[key] not in category_lists_dict["quality_list"]:
-                category_lists_dict["quality_list"].append(item[key])
-        if key == "TYPE":
-            if item[key] not in category_lists_dict["type_list"]:
-                category_lists_dict["type_list"].append(item[key])
-        if key == "ITEM POOL":
-            elements = item[key].split(",")
-            for element in elements:
-                if element not in category_lists_dict["item_pool_list"]:
-                    category_lists_dict["item_pool_list"].append(element)
-        if key == "DESCRIPTION":
-            elements = item[key].split(",")
-            for element in elements:
-                if element not in category_lists_dict["description_list"]:
-                    category_lists_dict["description_list"].append(element)
-        if key == "COLORS":
-            elements = item[key].split(",")
-            for element in elements:
-                if element not in category_lists_dict["colors_list"]:
-                    category_lists_dict["colors_list"].append(element)
-        if key == "UNLOCK":
-            if item[key] not in category_lists_dict["unlock_list"]:
-                category_lists_dict["unlock_list"].append(item[key])
-        if key == "RELEASE":
-            if item[key] not in category_lists_dict["release_list"]:
-                category_lists_dict["release_list"].append(item[key])
+    # Populate lists of options for each category
+    category_lists_dict = {
+        "quality_list" : [],
+        "type_list" : [],
+        "item_pool_list" : [],
+        "description_list" : [],
+        "colors_list" : [],
+        "unlock_list" : [],
+        "release_list" : []
+    }
 
-for list in category_lists_dict.keys():
-    category_lists_dict[list].sort()
+    for item in items_list:
+        for key in item.keys():
+            if key == "QUALITY":
+                if item[key] not in category_lists_dict["quality_list"]:
+                    category_lists_dict["quality_list"].append(item[key])
+            if key == "TYPE":
+                if item[key] not in category_lists_dict["type_list"]:
+                    category_lists_dict["type_list"].append(item[key])
+            if key == "ITEM POOL":
+                elements = item[key].split(",")
+                for element in elements:
+                    if element not in category_lists_dict["item_pool_list"]:
+                        category_lists_dict["item_pool_list"].append(element)
+            if key == "DESCRIPTION":
+                elements = item[key].split(",")
+                for element in elements:
+                    if element not in category_lists_dict["description_list"]:
+                        category_lists_dict["description_list"].append(element)
+            if key == "COLORS":
+                elements = item[key].split(",")
+                for element in elements:
+                    if element not in category_lists_dict["colors_list"]:
+                        category_lists_dict["colors_list"].append(element)
+            if key == "UNLOCK":
+                if item[key] not in category_lists_dict["unlock_list"]:
+                    category_lists_dict["unlock_list"].append(item[key])
+            if key == "RELEASE":
+                if item[key] not in category_lists_dict["release_list"]:
+                    category_lists_dict["release_list"].append(item[key])
+
+    for list in category_lists_dict.keys():
+        category_lists_dict[list].sort()
+        
+    return items_list
+
+ITEMS_LIST = populateItemsListFromFile(ITEMS_JSON_FILE_PATH)
+
+# -------- FUNCTIONS --------
     
 # Function to look up an item from the list by name
 def lookupItem(itemName, items_list):
@@ -297,7 +307,6 @@ def guessingInterfaceWithTarget(target_item, items_list):
         else:
             print("Item not found")
 
-# guessingInterfaceWithTarget(TARGET_ITEM, ITEMS_LIST)
 
 
 def guessingInterfaceNoTarget(items_list):
@@ -326,5 +335,10 @@ def guessingInterfaceNoTarget(items_list):
                 guessing = False
         else:
             print("Item not found")
+
+
+# CALL FUNCTIONS HERE
+
+# guessingInterfaceWithTarget(TARGET_ITEM, ITEMS_LIST)
 
 guessingInterfaceNoTarget(ITEMS_LIST)

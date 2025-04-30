@@ -15,50 +15,48 @@ def json_to_dict(filename: str):
 
 
 # Function to get a dictionary of all possibilities in each category
-def getDictOfCategories(filepath):
-
-    items_list = json_to_dict(filepath)
+def getDictOfCategories(items_list):
 
     # Populate lists of options for each category
     category_lists_dict = {
-        "quality" : [],
-        "type" : [],
-        "item_pool" : [],
-        "description" : [],
-        "colors" : [],
-        "unlock" : [],
-        "release" : []
+        "QUALITY" : [],
+        "TYPE" : [],
+        "ITEM POOL" : [],
+        "DESCRIPTION" : [],
+        "COLORS" : [],
+        "UNLOCK" : [],
+        "RELEASE" : []
     }
 
     for item in items_list:
         for key in item.keys():
             if key == "QUALITY":
-                if item[key] not in category_lists_dict["quality"]:
-                    category_lists_dict["quality"].append(item[key])
+                if item[key] not in category_lists_dict["QUALITY"]:
+                    category_lists_dict["QUALITY"].append(item[key])
             if key == "TYPE":
-                if item[key] not in category_lists_dict["type"]:
-                    category_lists_dict["type"].append(item[key])
+                if item[key] not in category_lists_dict["TYPE"]:
+                    category_lists_dict["TYPE"].append(item[key])
             if key == "ITEM POOL":
                 elements = item[key].split(",")
                 for element in elements:
-                    if element not in category_lists_dict["item_pool"]:
-                        category_lists_dict["item_pool"].append(element)
+                    if element not in category_lists_dict["ITEM POOL"]:
+                        category_lists_dict["ITEM POOL"].append(element)
             if key == "DESCRIPTION":
                 elements = item[key].split(",")
                 for element in elements:
-                    if element not in category_lists_dict["description"]:
-                        category_lists_dict["description"].append(element)
+                    if element not in category_lists_dict["DESCRIPTION"]:
+                        category_lists_dict["DESCRIPTION"].append(element)
             if key == "COLORS":
                 elements = item[key].split(",")
                 for element in elements:
-                    if element not in category_lists_dict["colors"]:
-                        category_lists_dict["colors"].append(element)
+                    if element not in category_lists_dict["COLORS"]:
+                        category_lists_dict["COLORS"].append(element)
             if key == "UNLOCK":
-                if item[key] not in category_lists_dict["unlock"]:
-                    category_lists_dict["unlock"].append(item[key])
+                if item[key] not in category_lists_dict["UNLOCK"]:
+                    category_lists_dict["UNLOCK"].append(item[key])
             if key == "RELEASE":
-                if item[key] not in category_lists_dict["release"]:
-                    category_lists_dict["release"].append(item[key])
+                if item[key] not in category_lists_dict["RELEASE"]:
+                    category_lists_dict["RELEASE"].append(item[key])
 
     for list in category_lists_dict.keys():
         category_lists_dict[list].sort()
@@ -347,8 +345,35 @@ def guessingInterfaceNoTarget(items_list):
             print("Item not found")
 
 
+def popularityCounter(items_list):
+    categories_dict = getDictOfCategories(items_list)
+    category_count_list = []
+    
+    for i, category in enumerate(categories_dict):
+        print(category)
+        category_count_list.append({category: {}})
+        for possibility in categories_dict[category]:
+            count = 0
+            for item in items_list:
+                # print(item)
+                item_list = str(item[category]).split(",")
+                if str(possibility) in item_list:
+                    count += 1
+            print(str(possibility) + ": " + str(count))
+            category_count_list[i][category][possibility] = count
+            
+
+    pprint.pprint(category_count_list)
+    
+    with open('./count.json', 'w') as f:
+        json.dump( category_count_list, f)
+    
+    return category_count_list
+    
 # -------- CALL FUNCTIONS HERE --------
 
 # guessingInterfaceWithTarget(TARGET_ITEM, ITEMS_LIST)
 
-guessingInterfaceNoTarget(ITEMS_LIST)
+# guessingInterfaceNoTarget(ITEMS_LIST)
+
+popularityCounter(ITEMS_LIST)

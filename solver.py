@@ -373,7 +373,7 @@ def popularityCounter(items_list):
     with open('./count.json', 'w') as f:
         json.dump( category_count_list, f)
 
-    pprint.pprint(category_count_list)
+    # pprint.pprint(category_count_list)
     
     # Get the most popular possibility for each category
     pop_category_dict = {}
@@ -384,7 +384,7 @@ def popularityCounter(items_list):
         most_popular_possibility = max(possibilities, key=possibilities.get)
         pop_category_dict[category] = [most_popular_possibility]
     
-    pprint.pprint(pop_category_dict)
+    # pprint.pprint(pop_category_dict)
     
     item_popularity_dict = {}
     
@@ -401,22 +401,51 @@ def popularityCounter(items_list):
                     popMatchCount += 1
         item_popularity_dict[item["ITEM"]] = popMatchCount
                     
-    pprint.pprint(item_popularity_dict)
+    # pprint.pprint(item_popularity_dict)
     
     # Get a list of all items with the most popular matches
     most_popular_matches_value = item_popularity_dict[max(item_popularity_dict, key=item_popularity_dict.get)]
-    print(most_popular_matches_value)
+    # print(most_popular_matches_value)
     most_popular_matches_list = []
     for i, item in enumerate(item_popularity_dict):
         if item_popularity_dict[item] == most_popular_matches_value:
             most_popular_matches_list.append(item)
     
     return most_popular_matches_list
-    
+
+# Function to run a guessing interface without a target item
+def guessingInterfaceNoTargetPopularMatches(items_list):
+    guessing = True
+
+    while guessing:
+        print("Most popular matches:")
+        print(popularityCounter(items_list))
+        guessText = input("Enter your guess: ")
+        guess = lookupItem(guessText, items_list)
+        
+        if guess:
+            
+            print("GUESS: ")
+            pprint.pprint(guess)
+            
+            items_list = guessItemNoTarget(guess["ITEM"], items_list)
+            
+            print("REMAINING OPTIONS: ")
+            for item in items_list:
+                print(item["ITEM"])
+                
+            if len(items_list) == 1:
+                print("SOLVED!")
+                guessing = False
+            elif len(items_list) == 0:
+                print("You fucked up...")
+                guessing = False
+        else:
+            print("Item not found")
+
 # -------- CALL FUNCTIONS HERE --------
 
 # guessingInterfaceWithTarget(TARGET_ITEM, ITEMS_LIST)
 
 # guessingInterfaceNoTarget(ITEMS_LIST)
-
-popularityCounter(ITEMS_LIST)
+guessingInterfaceNoTargetPopularMatches(ITEMS_LIST)

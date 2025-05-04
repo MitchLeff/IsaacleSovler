@@ -376,18 +376,42 @@ def popularityCounter(items_list):
     pprint.pprint(category_count_list)
     
     # Get the most popular possibility for each category
-    pop_catagory_dict = {}
+    pop_category_dict = {}
     
     for i, currCategory in enumerate(category_count_list):
         category = list(category_count_list[i].keys())[0]
         possibilities = category_count_list[i][category]
         most_popular_possibility = max(possibilities, key=possibilities.get)
-        pop_catagory_dict[category] = most_popular_possibility
+        pop_category_dict[category] = [most_popular_possibility]
     
-    pprint.pprint(pop_catagory_dict)
+    pprint.pprint(pop_category_dict)
     
+    item_popularity_dict = {}
     
-    return category_count_list
+    # Count the number of most popular categories matched for each item
+    for item in items_list:
+        popMatchCount = 0
+        for category in list(pop_category_dict):
+            if category != "ITEM":
+                if type(item[category]) is str:
+                    item_category_list = item[category].split(",")
+                else:
+                    item_category_list = [item[category]]
+                if any(map(lambda possibility: possibility in item_category_list, pop_category_dict[category])):
+                    popMatchCount += 1
+        item_popularity_dict[item["ITEM"]] = popMatchCount
+                    
+    pprint.pprint(item_popularity_dict)
+    
+    # Get a list of all items with the most popular matches
+    most_popular_matches_value = item_popularity_dict[max(item_popularity_dict, key=item_popularity_dict.get)]
+    print(most_popular_matches_value)
+    most_popular_matches_list = []
+    for i, item in enumerate(item_popularity_dict):
+        if item_popularity_dict[item] == most_popular_matches_value:
+            most_popular_matches_list.append(item)
+    
+    return most_popular_matches_list
     
 # -------- CALL FUNCTIONS HERE --------
 

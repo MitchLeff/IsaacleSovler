@@ -3,7 +3,7 @@ import json, pprint
 # -------- CONFIGURATION VARIBLES --------
 # Set target item
 TARGET_ITEM = "A Pound of Flesh"
-VERSION_NUMBER = "1.0.0"
+VERSION_NUMBER = "1.0.1"
 
 # -------- POPULATE ITEMS_LIST --------
 # Set filepath for items.json

@@ -344,13 +344,18 @@ def guessingInterfaceNoTarget(items_list):
         else:
             print("Item not found")
 
+def getMaxValue(dict):
+    highest_value = max(dict, key=dict.get)
+    print(highest_value)
 
 def popularityCounter(items_list):
     categories_dict = getDictOfCategories(items_list)
     category_count_list = []
     
+    # Get a count of the most popular possibility in each category
+    
     for i, category in enumerate(categories_dict):
-        print(category)
+        # print(category)
         category_count_list.append({category: {}})
         for possibility in categories_dict[category]:
             count = 0
@@ -359,14 +364,28 @@ def popularityCounter(items_list):
                 item_list = str(item[category]).split(",")
                 if str(possibility) in item_list:
                     count += 1
-            print(str(possibility) + ": " + str(count))
+            # print(str(possibility) + ": " + str(count))
             category_count_list[i][category][possibility] = count
             
 
-    pprint.pprint(category_count_list)
+    # pprint.pprint(category_count_list)
     
     with open('./count.json', 'w') as f:
         json.dump( category_count_list, f)
+
+    pprint.pprint(category_count_list)
+    
+    # Get the most popular possibility for each category
+    pop_catagory_dict = {}
+    
+    for i, currCategory in enumerate(category_count_list):
+        category = list(category_count_list[i].keys())[0]
+        possibilities = category_count_list[i][category]
+        most_popular_possibility = max(possibilities, key=possibilities.get)
+        pop_catagory_dict[category] = most_popular_possibility
+    
+    pprint.pprint(pop_catagory_dict)
+    
     
     return category_count_list
     

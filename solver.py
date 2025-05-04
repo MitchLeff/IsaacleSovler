@@ -366,26 +366,15 @@ def popularityCounter(items_list):
     # Get a count of the most popular possibility in each category
     
     for i, category in enumerate(categories_dict):
-        # print(category)
         category_count_list.append({category: {}})
         for possibility in categories_dict[category]:
             count = 0
             for item in items_list:
-                # print(item)
                 item_list = str(item[category]).split(",")
                 if str(possibility) in item_list:
                     count += 1
-            # print(str(possibility) + ": " + str(count))
             category_count_list[i][category][possibility] = count
             
-
-    # pprint.pprint(category_count_list)
-    
-    with open('./count.json', 'w') as f:
-        json.dump( category_count_list, f)
-
-    # pprint.pprint(category_count_list)
-    
     # Get the most popular possibility for each category
     pop_category_dict = {}
     
@@ -409,13 +398,12 @@ def popularityCounter(items_list):
                 if any(map(lambda possibility: possibility in item_category_list, pop_category_dict[category])):
                     popMatchCount += 1
         item_popularity_dict[item["ITEM"]] = popMatchCount
-                    
-    # pprint.pprint(item_popularity_dict)
-    
+        
     # Get a list of all items with the most popular matches
     most_popular_matches_value = item_popularity_dict[max(item_popularity_dict, key=item_popularity_dict.get)]
-    # print(most_popular_matches_value)
+    
     most_popular_matches_list = []
+    
     for i, item in enumerate(item_popularity_dict):
         if item_popularity_dict[item] == most_popular_matches_value:
             most_popular_matches_list.append(item)

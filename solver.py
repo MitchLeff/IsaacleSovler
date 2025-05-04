@@ -384,8 +384,6 @@ def popularityCounter(items_list):
         most_popular_possibility = max(possibilities, key=possibilities.get)
         pop_category_dict[category] = [most_popular_possibility]
     
-    # pprint.pprint(pop_category_dict)
-    
     item_popularity_dict = {}
     
     # Count the number of most popular categories matched for each item

@@ -2,7 +2,7 @@ import json, pprint
 
 # -------- CONFIGURATION VARIBLES --------
 # Set target item
-TARGET_ITEM = "A Pound of Flesh"
+TARGET_ITEM = "Fate"
 VERSION_NUMBER = "1.0.1"
 
 # -------- POPULATE ITEMS_LIST --------
@@ -447,3 +447,6 @@ print("Version " + VERSION_NUMBER)
 
 # guessingInterfaceNoTarget(ITEMS_LIST)
 guessingInterfaceNoTargetPopularMatches(ITEMS_LIST)
+# remaingingItems = guessItem(TARGET_ITEM,"Eye Sore", ITEMS_LIST)
+# pprint.pprint(remaingingItems)
+# print(len(remaingingItems))

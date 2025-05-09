@@ -1,7 +1,7 @@
 import json, pprint
 
 # -------- CONFIGURATION VARIBLES --------
-VERSION_NUMBER = "1.1.0"
+VERSION_NUMBER = "1.1.1"
 LOGGING = True              # Turn logging on or off
 TARGET_ITEM = "Bozo"        # Set target item
 FIRST_GUESS = "Cain's Other Eye"    # Set first guess for simulator

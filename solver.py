@@ -4,7 +4,7 @@ import json, pprint
 VERSION_NUMBER = "1.1.1"
 LOGGING = True              # Turn logging on or off
 TARGET_ITEM = "Bozo"        # Set target item
-FIRST_GUESS = "Cain's Other Eye"    # Set first guess for simulator
+FIRST_GUESS = "Rainbow Baby"    # Set first guess for simulator
 
 # -------- POPULATE ITEMS_LIST --------
 ITEMS_JSON_FILE_PATH = './items.json'       # Set filepath for items.json

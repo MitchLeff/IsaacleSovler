@@ -1,13 +1,15 @@
 import json, pprint
 
 # -------- CONFIGURATION VARIBLES --------
-# Set target item
-TARGET_ITEM = "Bozo"
 VERSION_NUMBER = "1.1.0"
+LOGGING = True              # Turn logging on or off
+TARGET_ITEM = "Bozo"        # Set target item
+FIRST_GUESS = "Cain's Other Eye"    # Set first guess for simulator
 
 # -------- POPULATE ITEMS_LIST --------
-# Set filepath for items.json
-ITEMS_JSON_FILE_PATH = './items.json'
+ITEMS_JSON_FILE_PATH = './items.json'       # Set filepath for items.json
+FIRST_GUESS_LOG_STRING = "_" + FIRST_GUESS if FIRST_GUESS else ""
+GUESS_LOG_OUTPUT_FILE = "./guessCounts/guessCount" + FIRST_GUESS_LOG_STRING + ".csv"    # Set filepath for guess log
 
 # Function to load a json into a dictionary
 def json_to_dict(filename: str):
@@ -166,48 +168,49 @@ def guessItemWithTarget(guessedItemName, targetItemName, items_list):
         unlock_match = simpleCategoryMatch(guessed_item, target_item, "UNLOCK")
         release_match = simpleCategoryMatch(guessed_item, target_item, "RELEASE")
         
-        print("QUALITY MATCH:\t\t" + str(quality_match))
-        print("TYPE MATCH:\t\t" + str(type_match))
-        print("UNLOCK MATCH:\t\t" + str(unlock_match))
-        print("RELEASE MATCH:\t\t" + str(release_match))
-
         # Check complex category matches
         item_pool_match = complexCategoryMatch(guessed_item, target_item, "ITEM POOL")
         description_match = complexCategoryMatch(guessed_item, target_item, "DESCRIPTION")
         color_match = complexCategoryMatch(guessed_item, target_item, "COLORS")
         
-        print("ITEM POOL MATCH:\t" + item_pool_match)
-        print("DESCRIPTION MATCH:\t" + description_match)
-        print("COLOR MATCH:\t\t" + color_match)
+        if LOGGING:
+            print("QUALITY MATCH:\t\t" + str(quality_match))
+            print("TYPE MATCH:\t\t" + str(type_match))
+            print("UNLOCK MATCH:\t\t" + str(unlock_match))
+            print("RELEASE MATCH:\t\t" + str(release_match))
+
+            print("ITEM POOL MATCH:\t" + item_pool_match)
+            print("DESCRIPTION MATCH:\t" + description_match)
+            print("COLOR MATCH:\t\t" + color_match)
         
         
-        print("Original size of items list:\t\t" + str(len(items_list)))
+            print("Original size of items list:\t\t" + str(len(items_list)))
         
         # Filter by Simple Matches
         # Filter by QUALITY match
         items_list = getMatchingItemsFromSimpleMatch(guessed_item, items_list, "QUALITY", quality_match)
-        print("Item count after filtering QUALITY:\t" + str(len(items_list)))
+        if LOGGING: print("Item count after filtering QUALITY:\t" + str(len(items_list)))
         # Filter by TYPE match
         items_list = getMatchingItemsFromSimpleMatch(guessed_item, items_list, "TYPE", type_match)
-        print("Item count after filtering TYPE:\t" + str(len(items_list)))
+        if LOGGING: print("Item count after filtering TYPE:\t" + str(len(items_list)))
         # Filter by UNLOCK match
         items_list = getMatchingItemsFromSimpleMatch(guessed_item, items_list, "UNLOCK", unlock_match)
-        print("Item count after filtering UNLOCK:\t" + str(len(items_list)))
+        if LOGGING: print("Item count after filtering UNLOCK:\t" + str(len(items_list)))
         # Filter by RELEASE match
         items_list = getMatchingItemsFromSimpleMatch(guessed_item, items_list, "RELEASE", release_match)
-        print("Item count after filtering RELEASE:\t" + str(len(items_list)))
+        if LOGGING: print("Item count after filtering RELEASE:\t" + str(len(items_list)))
         
         
         # Filter by Complex Matches
         # Filter by ITEM POOL match
         items_list = getMatchingItemsFromComplexMatch(guessed_item, items_list, "ITEM POOL", item_pool_match)
-        print("Item count after filtering ITEM POOL:\t" + str(len(items_list)))
+        if LOGGING: print("Item count after filtering ITEM POOL:\t" + str(len(items_list)))
         # Filter by DESCRIPTION match
         items_list = getMatchingItemsFromComplexMatch(guessed_item, items_list, "DESCRIPTION", description_match)
-        print("Item count after filtering DESCRIPTION:\t" + str(len(items_list)))
+        if LOGGING: print("Item count after filtering DESCRIPTION:\t" + str(len(items_list)))
         # Filter by COLORS match
         items_list = getMatchingItemsFromComplexMatch(guessed_item, items_list, "COLORS", color_match)
-        print("Item count after filtering COLORS:\t" + str(len(items_list)))
+        if LOGGING: print("Item count after filtering COLORS:\t" + str(len(items_list)))
         
         return items_list
 
@@ -445,25 +448,20 @@ def guessingInterfaceNoTargetPopularMatches(items_list):
         else:
             print("Item not found")
 
-def simulateWithTargetItem(target_item_name, items_list):
+def simulateWithTargetItem(target_item_name, items_list, first_guess_name = None):
     target_item = lookupItem(target_item_name, items_list)
     
     guessing = True
     guessing_history_string = target_item_name + ","
     guessCount = 0
-    
-    # Begin guessing
-    while guessing:
+
+    # If a first_guess is given, do a guess with that item
+    if first_guess_name:
         guessCount += 1
-
-        # Find the popular remaining items
-        popular_items_list = popularityCounter(items_list)
-        print("POPULAR ITEMS: ")
-        print(popular_items_list)
-
+        
         # Guess the first popular item
-        guessed_item_name = popular_items_list[0]
-        print("GUESSING ITEM: " + guessed_item_name)
+        guessed_item_name = first_guess_name
+        if LOGGING: print("GUESSING ITEM: " + guessed_item_name)
         items_list = guessItemWithTarget(guessed_item_name, target_item_name, items_list)
         guessing_history_string += guessed_item_name + ","
 
@@ -471,16 +469,46 @@ def simulateWithTargetItem(target_item_name, items_list):
         if guessed_item_name == target_item_name:
             outputList = guessing_history_string.split(",")
             outputList.insert(1, guessCount)
-            print(outputList)
+            if LOGGING: print(outputList)
             guessing_history_string = ",".join(map(str, outputList))
             guessing = False
         
         # Print remaingin items after guess
-        print("REMAINING ITEMS: ")
-        for item in items_list:
-            print(item["ITEM"])
+        if LOGGING: print("REMAINING ITEMS: ")
+        if LOGGING:
+            for item in items_list:
+                print(item["ITEM"])
     
-    print("Solved!")
+    # Begin guessing
+    while guessing:
+        guessCount += 1
+
+        # Find the popular remaining items
+        popular_items_list = popularityCounter(items_list)
+        if LOGGING: print("POPULAR ITEMS: ")
+        if LOGGING: print(popular_items_list)
+
+        # Guess the first popular item
+        guessed_item_name = popular_items_list[0]
+        if LOGGING: print("GUESSING ITEM: " + guessed_item_name)
+        items_list = guessItemWithTarget(guessed_item_name, target_item_name, items_list)
+        guessing_history_string += guessed_item_name + ","
+
+        # If the target item was guessed, exit the guessing loop
+        if guessed_item_name == target_item_name:
+            outputList = guessing_history_string.split(",")
+            outputList.insert(1, guessCount)
+            if LOGGING: print(outputList)
+            guessing_history_string = ",".join(map(str, outputList))
+            guessing = False
+        
+        # Print remaingin items after guess
+        if LOGGING: print("REMAINING ITEMS: ")
+        if LOGGING: 
+            for item in items_list:
+                print(item["ITEM"])
+    
+    if LOGGING: print("Solved!")
     guessing_history_string += "\n"
     return guessing_history_string
 
@@ -496,13 +524,13 @@ print("Version " + VERSION_NUMBER)
 # print(len(remaingingItems))
 
 
-with open("./guessCount.csv", "w") as file:
+with open(GUESS_LOG_OUTPUT_FILE, "w") as file:
     # pprint.pprint(ITEMS_LIST)
     list_of_item_names = [item["ITEM"] for item in ITEMS_LIST]
     # print(list_of_item_names)
     
     for target_item_name in list_of_item_names:
         ITEMS_LIST = json_to_dict(ITEMS_JSON_FILE_PATH)
-        guessing_history = simulateWithTargetItem(target_item_name, ITEMS_LIST)
-        print(guessing_history)
+        guessing_history = simulateWithTargetItem(target_item_name, ITEMS_LIST, FIRST_GUESS)
+        if LOGGING: print(guessing_history)
         file.write(guessing_history)

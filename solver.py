@@ -4,7 +4,7 @@ import json, pprint
 VERSION_NUMBER = "1.1.1"
 LOGGING = True              # Turn logging on or off
 TARGET_ITEM = "Bozo"        # Set target item
-FIRST_GUESS = "Rainbow Baby"    # Set first guess for simulator
+FIRST_GUESS = None          # Set first guess for simulator (None for default)
 
 # -------- POPULATE ITEMS_LIST --------
 ITEMS_JSON_FILE_PATH = './items.json'       # Set filepath for items.json
@@ -512,6 +512,53 @@ def simulateWithTargetItem(target_item_name, items_list, first_guess_name = None
     guessing_history_string += "\n"
     return guessing_history_string
 
+def simulateWithAllPossibleTargetItems(items_list):
+    with open(GUESS_LOG_OUTPUT_FILE, "w") as file:
+        # pprint.pprint(items_list)
+        list_of_item_names = [item["ITEM"] for item in items_list]
+        # print(list_of_item_names)
+        
+        for target_item_name in list_of_item_names:
+            items_list = json_to_dict(ITEMS_JSON_FILE_PATH)
+            guessing_history = simulateWithTargetItem(target_item_name, items_list, FIRST_GUESS)
+            if LOGGING: print(guessing_history)
+            file.write(guessing_history)
+            
+def calculatePossibilityCorrelation(items_list):
+    
+    #Get a list of all possibilities
+    all_possibilities = []
+    for item in items_list:
+        for key in item.keys():
+            if key != "ITEM":
+                current_item_possibilities = str(item[key]).split(",")
+                for possibility in current_item_possibilities:
+                    if possibility not in all_possibilities:
+                        all_possibilities.append(possibility)
+    
+    possibility_correlation_matrix = []
+    possibility_matrix_string = "POSSIBILITIES,"
+    possibility_matrix_string += ",".join(all_possibilities) + "\n"
+    for p1 in all_possibilities:
+        possibility_matrix_string += p1 + ","
+        for p2 in all_possibilities:
+            count = 0
+            for item in items_list:
+                
+                current_item_possibilities = []
+                for key in item.keys():
+                    if key != "ITEM":
+                        category_possibilities = str(item[key]).split(",")
+                        current_item_possibilities.extend(category_possibilities)
+                if p1 in current_item_possibilities and p2 in current_item_possibilities:
+                    count += 1
+            possibility_matrix_string += str(count) + ","
+        possibility_matrix_string += "\n"
+    with open("./possibilityPairCountMatrix.csv", "w") as file:
+        print(possibility_matrix_string)
+        file.write(possibility_matrix_string)
+                    
+
 # -------- CALL FUNCTIONS HERE --------
 print("Version " + VERSION_NUMBER)
 
@@ -522,15 +569,5 @@ print("Version " + VERSION_NUMBER)
 # remaingingItems = guessItem(TARGET_ITEM,"Eye Sore", ITEMS_LIST)
 # pprint.pprint(remaingingItems)
 # print(len(remaingingItems))
-
-
-with open(GUESS_LOG_OUTPUT_FILE, "w") as file:
-    # pprint.pprint(ITEMS_LIST)
-    list_of_item_names = [item["ITEM"] for item in ITEMS_LIST]
-    # print(list_of_item_names)
-    
-    for target_item_name in list_of_item_names:
-        ITEMS_LIST = json_to_dict(ITEMS_JSON_FILE_PATH)
-        guessing_history = simulateWithTargetItem(target_item_name, ITEMS_LIST, FIRST_GUESS)
-        if LOGGING: print(guessing_history)
-        file.write(guessing_history)
+# simulateWithAllPossibleTargetItems(ITEMS_LIST)
+calculatePossibilityCorrelation(ITEMS_LIST)

@@ -149,67 +149,67 @@ def getMatchingItemsFromComplexMatch(guessed_item, items_list, category, match):
 # Function to run a guess against a target item, returns list of remaining possible items
 def guessItemWithTarget(guessedItemName, targetItemName, items_list):
     
-    # Look up Guessed Item and Target Item
-    guessed_item = lookupItem(guessedItemName, items_list)
-    target_item = lookupItem(targetItemName, items_list)
-    
-    # Remove the already guessed item
-    if guessed_item in items_list:
-        items_list.remove(guessed_item)
-    
-    # Check for simple category matches
-    quality_match = simpleCategoryMatch(guessed_item, target_item, "QUALITY")
-    type_match = simpleCategoryMatch(guessed_item, target_item, "TYPE")
-    unlock_match = simpleCategoryMatch(guessed_item, target_item, "UNLOCK")
-    release_match = simpleCategoryMatch(guessed_item, target_item, "RELEASE")
-    
-    print("QUALITY MATCH:\t\t" + str(quality_match))
-    print("TYPE MATCH:\t\t" + str(type_match))
-    print("UNLOCK MATCH:\t\t" + str(unlock_match))
-    print("RELEASE MATCH:\t\t" + str(release_match))
+    if guessedItemName == targetItemName:
+        return [lookupItem(guessedItemName, items_list)]
+    else:
+        # Look up Guessed Item and Target Item
+        guessed_item = lookupItem(guessedItemName, items_list)
+        target_item = lookupItem(targetItemName, items_list)
+        
+        # Remove the already guessed item
+        if guessed_item in items_list:
+            items_list.remove(guessed_item)
+        
+        # Check for simple category matches
+        quality_match = simpleCategoryMatch(guessed_item, target_item, "QUALITY")
+        type_match = simpleCategoryMatch(guessed_item, target_item, "TYPE")
+        unlock_match = simpleCategoryMatch(guessed_item, target_item, "UNLOCK")
+        release_match = simpleCategoryMatch(guessed_item, target_item, "RELEASE")
+        
+        print("QUALITY MATCH:\t\t" + str(quality_match))
+        print("TYPE MATCH:\t\t" + str(type_match))
+        print("UNLOCK MATCH:\t\t" + str(unlock_match))
+        print("RELEASE MATCH:\t\t" + str(release_match))
 
-    # Check complex category matches
-    item_pool_match = complexCategoryMatch(guessed_item, target_item, "ITEM POOL")
-    description_match = complexCategoryMatch(guessed_item, target_item, "DESCRIPTION")
-    color_match = complexCategoryMatch(guessed_item, target_item, "COLORS")
-    
-    print("ITEM POOL MATCH:\t" + item_pool_match)
-    print("DESCRIPTION MATCH:\t" + description_match)
-    print("COLOR MATCH:\t\t" + color_match)
-    
-    # Build list of items with remaining possible categories
-    matching_items_list = items_list
-    
-    
-    print("Original size of items list:\t\t" + str(len(matching_items_list)))
-    
-    # Filter by Simple Matches
-    # Filter by QUALITY match
-    matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "QUALITY", quality_match)
-    print("Item count after filtering QUALITY:\t" + str(len(matching_items_list)))
-    # Filter by TYPE match
-    matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "TYPE", type_match)
-    print("Item count after filtering TYPE:\t" + str(len(matching_items_list)))
-    # Filter by UNLOCK match
-    matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "UNLOCK", unlock_match)
-    print("Item count after filtering UNLOCK:\t" + str(len(matching_items_list)))
-    # Filter by RELEASE match
-    matching_items_list = getMatchingItemsFromSimpleMatch(guessed_item, matching_items_list, "RELEASE", release_match)
-    print("Item count after filtering RELEASE:\t" + str(len(matching_items_list)))
-    
-    
-    # Filter by Complex Matches
-    # Filter by ITEM POOL match
-    matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "ITEM POOL", item_pool_match)
-    print("Item count after filtering ITEM POOL:\t" + str(len(matching_items_list)))
-    # Filter by DESCRIPTION match
-    matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "DESCRIPTION", description_match)
-    print("Item count after filtering DESCRIPTION:\t" + str(len(matching_items_list)))
-    # Filter by COLORS match
-    matching_items_list = getMatchingItemsFromComplexMatch(guessed_item, matching_items_list, "COLORS", color_match)
-    print("Item count after filtering COLORS:\t" + str(len(matching_items_list)))
-    
-    return matching_items_list
+        # Check complex category matches
+        item_pool_match = complexCategoryMatch(guessed_item, target_item, "ITEM POOL")
+        description_match = complexCategoryMatch(guessed_item, target_item, "DESCRIPTION")
+        color_match = complexCategoryMatch(guessed_item, target_item, "COLORS")
+        
+        print("ITEM POOL MATCH:\t" + item_pool_match)
+        print("DESCRIPTION MATCH:\t" + description_match)
+        print("COLOR MATCH:\t\t" + color_match)
+        
+        
+        print("Original size of items list:\t\t" + str(len(items_list)))
+        
+        # Filter by Simple Matches
+        # Filter by QUALITY match
+        items_list = getMatchingItemsFromSimpleMatch(guessed_item, items_list, "QUALITY", quality_match)
+        print("Item count after filtering QUALITY:\t" + str(len(items_list)))
+        # Filter by TYPE match
+        items_list = getMatchingItemsFromSimpleMatch(guessed_item, items_list, "TYPE", type_match)
+        print("Item count after filtering TYPE:\t" + str(len(items_list)))
+        # Filter by UNLOCK match
+        items_list = getMatchingItemsFromSimpleMatch(guessed_item, items_list, "UNLOCK", unlock_match)
+        print("Item count after filtering UNLOCK:\t" + str(len(items_list)))
+        # Filter by RELEASE match
+        items_list = getMatchingItemsFromSimpleMatch(guessed_item, items_list, "RELEASE", release_match)
+        print("Item count after filtering RELEASE:\t" + str(len(items_list)))
+        
+        
+        # Filter by Complex Matches
+        # Filter by ITEM POOL match
+        items_list = getMatchingItemsFromComplexMatch(guessed_item, items_list, "ITEM POOL", item_pool_match)
+        print("Item count after filtering ITEM POOL:\t" + str(len(items_list)))
+        # Filter by DESCRIPTION match
+        items_list = getMatchingItemsFromComplexMatch(guessed_item, items_list, "DESCRIPTION", description_match)
+        print("Item count after filtering DESCRIPTION:\t" + str(len(items_list)))
+        # Filter by COLORS match
+        items_list = getMatchingItemsFromComplexMatch(guessed_item, items_list, "COLORS", color_match)
+        print("Item count after filtering COLORS:\t" + str(len(items_list)))
+        
+        return items_list
 
 
 def getSimpleInput(prompt):
@@ -250,6 +250,7 @@ def getComplexInput(prompt):
 # Function to run a guess with no target item, takes in category match inputs, returns list of remaining possible items
 def guessItemNoTarget(guessedItemName, items_list):
     
+    
     # Look up Guessed Item and Target Item
     guessed_item = lookupItem(guessedItemName, items_list)
     
@@ -266,7 +267,6 @@ def guessItemNoTarget(guessedItemName, items_list):
     color_match = getComplexInput("COLORS match")
     
     # Build list of items with remaining possible categories
-    
     matching_items_list = items_list
     
     print("Original size of items list:\t\t" + str(len(matching_items_list)))

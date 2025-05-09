@@ -2,8 +2,8 @@ import json, pprint
 
 # -------- CONFIGURATION VARIBLES --------
 # Set target item
-TARGET_ITEM = "Fate"
-VERSION_NUMBER = "1.0.1"
+TARGET_ITEM = "Bozo"
+VERSION_NUMBER = "1.1.0"
 
 # -------- POPULATE ITEMS_LIST --------
 # Set filepath for items.json
@@ -77,7 +77,7 @@ def lookupItem(itemName, items_list):
 # Function for matching items on a simple category (partial matches are NOT possible)
 def simpleCategoryMatch(guessed_item, target_item, category):
     # If categories match, return True, otherwise return False
-    return guessed_item[category] == target_item[category]
+    return 1 if guessed_item[category] == target_item[category] else 0
 
 
 # Function for matching items on a simple category (partial matches are possible)
@@ -147,11 +147,15 @@ def getMatchingItemsFromComplexMatch(guessed_item, items_list, category, match):
 
 
 # Function to run a guess against a target item, returns list of remaining possible items
-def guessItem(guessedItemName, targetItemName, items_list):
+def guessItemWithTarget(guessedItemName, targetItemName, items_list):
     
     # Look up Guessed Item and Target Item
     guessed_item = lookupItem(guessedItemName, items_list)
     target_item = lookupItem(targetItemName, items_list)
+    
+    # Remove the already guessed item
+    if guessed_item in items_list:
+        items_list.remove(guessed_item)
     
     # Check for simple category matches
     quality_match = simpleCategoryMatch(guessed_item, target_item, "QUALITY")
@@ -174,8 +178,8 @@ def guessItem(guessedItemName, targetItemName, items_list):
     print("COLOR MATCH:\t\t" + color_match)
     
     # Build list of items with remaining possible categories
-    
     matching_items_list = items_list
+    
     
     print("Original size of items list:\t\t" + str(len(matching_items_list)))
     
@@ -408,6 +412,7 @@ def popularityCounter(items_list):
         if item_popularity_dict[item] == most_popular_matches_value:
             most_popular_matches_list.append(item)
     
+    # Return a list of the most popular matches
     return most_popular_matches_list
 
 # Function to run a guessing interface without a target item
@@ -440,13 +445,64 @@ def guessingInterfaceNoTargetPopularMatches(items_list):
         else:
             print("Item not found")
 
+def simulateWithTargetItem(target_item_name, items_list):
+    target_item = lookupItem(target_item_name, items_list)
+    
+    guessing = True
+    guessing_history_string = target_item_name + ","
+    guessCount = 0
+    
+    # Begin guessing
+    while guessing:
+        guessCount += 1
+
+        # Find the popular remaining items
+        popular_items_list = popularityCounter(items_list)
+        print("POPULAR ITEMS: ")
+        print(popular_items_list)
+
+        # Guess the first popular item
+        guessed_item_name = popular_items_list[0]
+        print("GUESSING ITEM: " + guessed_item_name)
+        items_list = guessItemWithTarget(guessed_item_name, target_item_name, items_list)
+        guessing_history_string += guessed_item_name + ","
+
+        # If the target item was guessed, exit the guessing loop
+        if guessed_item_name == target_item_name:
+            outputList = guessing_history_string.split(",")
+            outputList.insert(1, guessCount)
+            print(outputList)
+            guessing_history_string = ",".join(map(str, outputList))
+            guessing = False
+        
+        # Print remaingin items after guess
+        print("REMAINING ITEMS: ")
+        for item in items_list:
+            print(item["ITEM"])
+    
+    print("Solved!")
+    guessing_history_string += "\n"
+    return guessing_history_string
+
 # -------- CALL FUNCTIONS HERE --------
 print("Version " + VERSION_NUMBER)
 
 # guessingInterfaceWithTarget(TARGET_ITEM, ITEMS_LIST)
 
 # guessingInterfaceNoTarget(ITEMS_LIST)
-guessingInterfaceNoTargetPopularMatches(ITEMS_LIST)
+# guessingInterfaceNoTargetPopularMatches(ITEMS_LIST)
 # remaingingItems = guessItem(TARGET_ITEM,"Eye Sore", ITEMS_LIST)
 # pprint.pprint(remaingingItems)
 # print(len(remaingingItems))
+
+
+with open("./guessCount.csv", "w") as file:
+    # pprint.pprint(ITEMS_LIST)
+    list_of_item_names = [item["ITEM"] for item in ITEMS_LIST]
+    # print(list_of_item_names)
+    
+    for target_item_name in list_of_item_names:
+        ITEMS_LIST = json_to_dict(ITEMS_JSON_FILE_PATH)
+        guessing_history = simulateWithTargetItem(target_item_name, ITEMS_LIST)
+        print(guessing_history)
+        file.write(guessing_history)

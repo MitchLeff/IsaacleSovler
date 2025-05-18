@@ -215,6 +215,72 @@ def guessItemWithTarget(guessedItemName, targetItemName, items_list):
         return items_list
 
 
+# Function to run a guess against a target item, returns list of remaining possible items
+def guessItemWithTarget_AllItems(guessedItemName, targetItemName, remaining_items_list, all_items_list):
+    
+    if guessedItemName == targetItemName:
+        return [lookupItem(guessedItemName, all_items_list)]
+    else:
+        # Look up Guessed Item and Target Item
+        guessed_item = lookupItem(guessedItemName, all_items_list)
+        target_item = lookupItem(targetItemName, all_items_list)
+        
+        # Remove the already guessed item
+        if guessed_item in remaining_items_list:
+            remaining_items_list.remove(guessed_item)
+        
+        # Check for simple category matches
+        quality_match = simpleCategoryMatch(guessed_item, target_item, "QUALITY")
+        type_match = simpleCategoryMatch(guessed_item, target_item, "TYPE")
+        unlock_match = simpleCategoryMatch(guessed_item, target_item, "UNLOCK")
+        release_match = simpleCategoryMatch(guessed_item, target_item, "RELEASE")
+        
+        # Check complex category matches
+        item_pool_match = complexCategoryMatch(guessed_item, target_item, "ITEM POOL")
+        description_match = complexCategoryMatch(guessed_item, target_item, "DESCRIPTION")
+        color_match = complexCategoryMatch(guessed_item, target_item, "COLORS")
+        
+        if LOGGING:
+            print("QUALITY MATCH:\t\t" + str(quality_match))
+            print("TYPE MATCH:\t\t" + str(type_match))
+            print("UNLOCK MATCH:\t\t" + str(unlock_match))
+            print("RELEASE MATCH:\t\t" + str(release_match))
+
+            print("ITEM POOL MATCH:\t" + item_pool_match)
+            print("DESCRIPTION MATCH:\t" + description_match)
+            print("COLOR MATCH:\t\t" + color_match)
+        
+        
+            print("Original size of items list:\t\t" + str(len(remaining_items_list)))
+        
+        # Filter by Simple Matches
+        # Filter by QUALITY match
+        remaining_items_list = getMatchingItemsFromSimpleMatch(guessed_item, remaining_items_list, "QUALITY", quality_match)
+        if LOGGING: print("Item count after filtering QUALITY:\t" + str(len(remaining_items_list)))
+        # Filter by TYPE match
+        remaining_items_list = getMatchingItemsFromSimpleMatch(guessed_item, remaining_items_list, "TYPE", type_match)
+        if LOGGING: print("Item count after filtering TYPE:\t" + str(len(remaining_items_list)))
+        # Filter by UNLOCK match
+        remaining_items_list = getMatchingItemsFromSimpleMatch(guessed_item, remaining_items_list, "UNLOCK", unlock_match)
+        if LOGGING: print("Item count after filtering UNLOCK:\t" + str(len(remaining_items_list)))
+        # Filter by RELEASE match
+        remaining_items_list = getMatchingItemsFromSimpleMatch(guessed_item, remaining_items_list, "RELEASE", release_match)
+        if LOGGING: print("Item count after filtering RELEASE:\t" + str(len(remaining_items_list)))
+        
+        
+        # Filter by Complex Matches
+        # Filter by ITEM POOL match
+        remaining_items_list = getMatchingItemsFromComplexMatch(guessed_item, remaining_items_list, "ITEM POOL", item_pool_match)
+        if LOGGING: print("Item count after filtering ITEM POOL:\t" + str(len(remaining_items_list)))
+        # Filter by DESCRIPTION match
+        remaining_items_list = getMatchingItemsFromComplexMatch(guessed_item, remaining_items_list, "DESCRIPTION", description_match)
+        if LOGGING: print("Item count after filtering DESCRIPTION:\t" + str(len(remaining_items_list)))
+        # Filter by COLORS match
+        remaining_items_list = getMatchingItemsFromComplexMatch(guessed_item, remaining_items_list, "COLORS", color_match)
+        if LOGGING: print("Item count after filtering COLORS:\t" + str(len(remaining_items_list)))
+        
+        return remaining_items_list
+
 def getSimpleInput(prompt):
     gettingInput = True
     
@@ -364,7 +430,7 @@ def guessingInterfaceNoTarget(items_list):
 
 def getMaxValue(dict):
     highest_value = max(dict, key=dict.get)
-    print(highest_value)
+    return highest_value
 
 def popularityCounter(items_list):
     categories_dict = getDictOfCategories(items_list)
@@ -415,7 +481,7 @@ def popularityCounter(items_list):
         if item_popularity_dict[item] == most_popular_matches_value:
             most_popular_matches_list.append(item)
     
-    # Return a list of the most popular matches
+    # Return a list of items with the most popular matches
     return most_popular_matches_list
 
 # Function to run a guessing interface without a target item
@@ -448,7 +514,7 @@ def guessingInterfaceNoTargetPopularMatches(items_list):
         else:
             print("Item not found")
 
-def simulateWithTargetItem(target_item_name, items_list, first_guess_name = None):
+def simulateWithTargetItem_MostPopularOfRemaining(target_item_name, items_list, first_guess_name = None):
     target_item = lookupItem(target_item_name, items_list)
     
     guessing = True
@@ -514,9 +580,7 @@ def simulateWithTargetItem(target_item_name, items_list, first_guess_name = None
 
 def simulateWithAllPossibleTargetItems(items_list):
     with open(GUESS_LOG_OUTPUT_FILE, "w") as file:
-        # pprint.pprint(items_list)
         list_of_item_names = [item["ITEM"] for item in items_list]
-        # print(list_of_item_names)
         
         for target_item_name in list_of_item_names:
             items_list = json_to_dict(ITEMS_JSON_FILE_PATH)
@@ -557,8 +621,117 @@ def calculatePossibilityCorrelation(items_list):
     with open("./possibilityPairCountMatrix.csv", "w") as file:
         print(possibility_matrix_string)
         file.write(possibility_matrix_string)
-                    
 
+# Function to return a dictionary of the most popular possibility for each category
+def categoryPossibilityPopularityCounter(remaining_items_list, all_items_list):
+    
+    # Get list of each category
+    category_list = []
+    for key in remaining_items_list[0].keys():
+        if key != "ITEM":
+            if key not in category_list:
+                category_list.append(key)
+    
+    # Get a dictionary of counts for each possibility in each category
+    category_possibility_count_dict = {}
+    for category in category_list:
+        possibility_list = []
+        for item in remaining_items_list:
+            item_possibilities = str(item[category]).split(",")
+            for possibility in item_possibilities:
+                if possibility not in possibility_list:
+                    possibility_list.append(possibility)
+        
+        possibility_count_dict = {}
+        for possibility in possibility_list:
+            count = 0
+            for item in remaining_items_list:
+                if possibility in str(item[category]).split(","):
+                    count += 1
+            
+            possibility_count_dict[possibility] = count
+        category_possibility_count_dict[category] = possibility_count_dict
+   
+    
+    # Get a dictionary of the most popular possibility in each category
+    most_popular_possibility_dict = {}
+    for category in category_possibility_count_dict.keys():
+        most_popular_possibility_dict[category] = getMaxValue(category_possibility_count_dict[category])
+
+    # Get a count for each item from all items that has the most popular possibilities in each category
+    all_item_popularity_match_count_dict = {}
+    for item in all_items_list:
+        count = 0
+        for category in category_list:
+            if most_popular_possibility_dict[category] in str(item[category]).split(","):
+                count += 1
+        all_item_popularity_match_count_dict[item["ITEM"]] = count
+    
+    return getMaxValue(all_item_popularity_match_count_dict)
+        
+
+# Function to run a guess against a target item, returns list of remaining possible items, finding the item with the 
+def simulateWithTargetItem_AllItems(target_item_name, items_list):
+    target_item = lookupItem(target_item_name, items_list)
+    
+    guessing = True
+    guessing_history_string = target_item_name + ","
+    guessCount = 0
+    matches_found_dict = {}
+    
+    # Initialize matches found dictionary (all unmatched)
+    for key in target_item.keys():
+        if key != "ITEM":
+            matches_found_dict[key] = "n"
+    
+    # Initialize the remaingin items list=    
+    remaining_items_list = items_list.copy()
+    
+    # Initialize guess history string
+    guessing_history_string = target_item_name + ","
+    
+    # Begin guessing
+    while guessing:
+        guessCount += 1
+        
+        # Find the item with the most popular count of the remaining items
+        guessed_item_name = categoryPossibilityPopularityCounter(remaining_items_list, items_list)
+        print(guessed_item_name)
+        remaining_items_list = guessItemWithTarget_AllItems(guessed_item_name, target_item_name, remaining_items_list, items_list)
+
+        # Guess the item
+        if LOGGING: print("GUESSING ITEM: " + guessed_item_name)
+        guessing_history_string += guessed_item_name + ","
+
+        # If the target item was guessed, exit the guessing loop
+        if guessed_item_name == target_item_name:
+            outputList = guessing_history_string.split(",")
+            outputList.insert(1, guessCount)
+            if LOGGING: print(outputList)
+            guessing_history_string = ",".join(map(str, outputList))
+            guessing = False
+        
+        # Print remaining items after guess
+        if LOGGING: print("REMAINING ITEMS: ")
+        if LOGGING: 
+            for item in remaining_items_list:
+                print(item["ITEM"])
+    
+    if LOGGING: print("Solved!")
+    guessing_history_string += "\n"
+    return guessing_history_string
+
+
+def simulateWithAllPossibleTargetItems_AllItems(items_list):
+    with open(GUESS_LOG_OUTPUT_FILE, "w") as file:
+        list_of_item_names = [item["ITEM"] for item in items_list]
+        
+        for target_item_name in list_of_item_names:
+            items_list = json_to_dict(ITEMS_JSON_FILE_PATH)
+            guessing_history = simulateWithTargetItem_AllItems(target_item_name, items_list)
+            if LOGGING: print(guessing_history)
+            file.write(guessing_history)
+            
 # -------- CALL FUNCTIONS HERE --------
 print("Version " + VERSION_NUMBER)
 
@@ -571,3 +744,5 @@ print("Version " + VERSION_NUMBER)
 # print(len(remaingingItems))
 # simulateWithAllPossibleTargetItems(ITEMS_LIST)
 # calculatePossibilityCorrelation(ITEMS_LIST)
+# guessItemWithTarget_AllItems(TARGET_ITEM, ITEMS_LIST)
+simulateWithAllPossibleTargetItems_AllItems(ITEMS_LIST)

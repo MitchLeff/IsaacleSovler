@@ -3,7 +3,7 @@ import json, pprint
 # -------- CONFIGURATION VARIBLES --------
 VERSION_NUMBER = "1.1.1"
 LOGGING = True              # Turn logging on or off
-TARGET_ITEM = "Bozo"        # Set target item
+TARGET_ITEM = "Dark Matter"        # Set target item
 FIRST_GUESS = None          # Set first guess for simulator (None for default)
 
 # -------- POPULATE ITEMS_LIST --------
@@ -385,7 +385,7 @@ def guessingInterfaceWithTarget(target_item, items_list):
             print("GUESS: ")
             pprint.pprint(guess)
             
-            items_list = guessItem(guess["ITEM"], target["ITEM"], items_list)
+            items_list = guessItemWithTarget(guess["ITEM"], target["ITEM"], items_list)
             
             print("REMAINING OPTIONS: ")
             for item in items_list:
@@ -695,9 +695,15 @@ def simulateWithTargetItem_AllItems(target_item_name, items_list):
         guessCount += 1
         
         # Find the item with the most popular count of the remaining items
-        guessed_item_name = categoryPossibilityPopularityCounter(remaining_items_list, items_list)
+        if len(remaining_items_list) != 1:
+            guessed_item_name = categoryPossibilityPopularityCounter(remaining_items_list, items_list)
+        else:
+            guessed_item_name = remaining_items_list[0]["ITEM"]
+
         print(guessed_item_name)
         remaining_items_list = guessItemWithTarget_AllItems(guessed_item_name, target_item_name, remaining_items_list, items_list)
+        # REMOVE THE GUESSED ITEM
+        items_list.remove(lookupItem(guessed_item_name,items_list))
 
         # Guess the item
         if LOGGING: print("GUESSING ITEM: " + guessed_item_name)
@@ -745,4 +751,5 @@ print("Version " + VERSION_NUMBER)
 # simulateWithAllPossibleTargetItems(ITEMS_LIST)
 # calculatePossibilityCorrelation(ITEMS_LIST)
 # guessItemWithTarget_AllItems(TARGET_ITEM, ITEMS_LIST)
+# simulateWithTargetItem_AllItems(TARGET_ITEM, ITEMS_LIST)
 simulateWithAllPossibleTargetItems_AllItems(ITEMS_LIST)
